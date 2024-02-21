@@ -253,6 +253,27 @@ button {
   opacity: .5;
 }
 
+/* Шаблон микс - Резина у карточек */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex: 0 1 234px;
+}
+.article {
+  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
+  display: flex;
+  flex-direction: column;
+  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
+}
+.text {
+  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
+  flex: 1 1 auto;
+  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
+}
+
 /* Продуктовые карточки product-card-1920px */
 .product-card {  
   position: relative;
@@ -333,6 +354,10 @@ button {
   background: url("../img/product/basket.svg") 12% / 19px 17px no-repeat;
 }
 
+.product-card__btn:hover {
+  background: url("../img/product/basket-black.svg") 12% / 19px 17px no-repeat var(--color-selectiveYellow);
+}
+
 .product-card:hover .product-card__svg, .product-card:hover .product-card__btn {
   display: block;
 }
@@ -391,24 +416,4 @@ button {
 
 
 
-/* Шаблон микс - Резина у карточек */
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25;
-}
-.item {
-  display: flex;
-  flex: 0 1 234px;
-}
-.article {
-  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
-  display: flex;
-  flex-direction: column;
-  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
-}
-.text {
-  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
-  flex: 1 1 auto;
-  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
-}
+
