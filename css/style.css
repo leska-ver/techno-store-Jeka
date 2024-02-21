@@ -1,0 +1,414 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'), url('../fonts/Poppins-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'), url('../fonts/Poppins-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Poppins-Bold.woff2') format('woff2'), url('../fonts/Poppins-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Poppins-Light.woff2') format('woff2'), url('../fonts/Poppins-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Poppins-Medium.woff2') format('woff2'), url('../fonts/Poppins-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Alef-Regular.woff2') format('woff2'), url('../fonts/Alef-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Alef-Regular.woff2') format('woff2'), url('../fonts/Alef-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+:root {
+  --transition-duration: .4s;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blueRibbon: #0156ff;
+  --color-selectiveYellow: #ffb800;
+  --color-chelseaCucumber: #78a962;
+  --color-doveGray: #666;
+  --color-ghost: #cacdd8;
+  --color-grayChateau: #a2a6b0;
+  --color-mojo: #c94d3f;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -o-box-sizing: inherit;
+  -ms-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  /*Для .wrapper Это будет нужно для footer*/
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: clamp(11px, 5vw, 14px);
+  line-height: 1;
+  color: var(--color-black);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+img, svg {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-blackSqueeze); /* Цвет посещенных ссылок */
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  /*перенос слов*/
+  word-wrap: break-word;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  background-color: transparent;  
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.wrapper {    
+  min-height: 100%;
+  overflow: hidden; /* не любить sticky */
+}
+
+/* Для семантики если нет заголовка h1 в вёрстке. Ставим скрытый заголовок. */
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+[class*="__container"] {
+  margin: 0 auto;
+  padding: 0 50px;
+  /*1498px = 1398px + 50px + 50px не менять*/
+  max-width: 1498px;
+}
+
+.h2 {
+  font-size: clamp(18px, 5vw, 22px);
+  font-weight: 600;
+}
+
+.h3 {
+  font-weight: 400;
+  font-size: clamp(11px, 5vw, 13px);
+  line-height: 1.5; 
+}
+
+.desc {
+  font-size: clamp(13px, 5vw, 18px);
+  color: var(--color-rgb83);
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 9px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  font-weight: 600;
+  font-size: clamp(13px, 5vw, 14px);  
+  text-align: center;	
+  color: var(--color-white);
+  background-color: var(--color-blueRibbon);
+  outline: none;
+  transition: all var(--transition-duration);
+  cursor: pointer;
+}
+
+.btn:focus, .btn_yellow {
+  border: 2px solid transparent;
+  color: var(--color-black);
+  background-color: var(--color-selectiveYellow);
+}
+
+.btn:hover, .btn_invisible {
+  border: 2px solid var(--color-blueRibbon);
+  color: var(--color-blueRibbon);
+  background-color: transparent;
+}
+
+.btn:active {
+  opacity: .7;
+}
+
+.btn_invisible:hover {
+  border: 2px solid transparent;
+  color: var(--color-black);
+  background-color: var(--color-selectiveYellow);
+}
+
+.btn_yellow:focus, .btn_invisible:focus {
+  color: var(--color-white);
+  background-color: var(--color-blueRibbon);
+}
+
+.btn:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* Лого */
+.logo {
+  border: 1px solid transparent;
+  width: 114px;
+  height: 75px;
+  cursor: pointer;
+  outline: none;
+  transition: all var(--transition-duration);
+}
+
+.logo:focus path {
+  fill: var(--color-black);
+}
+
+.logo:hover path {
+  fill: var(--color-selectiveYellow);
+}
+
+.logo:active {
+  opacity: .5;
+}
+
+/* Продуктовые карточки product-card-1920px */
+.product-card {  
+  position: relative;
+  padding: 0 24px
+}
+
+.product-card__span {
+  margin: -3px 0 7px 9px;
+  padding-left: 14px;
+  font-size: 10px;
+  color: var(--color-chelseaCucumber);
+  background: url("../img/product/jackdaw.png") left center / 10px 10px no-repeat;
+}
+
+.product-card__span_phone {
+  color: var(--color-mojo);
+  background: url("../img/product/phone.png") left center / 10px 10px no-repeat;
+}
+
+.product-card__svg {
+  position: absolute;
+  top: 4px;
+  right: 11px;
+  display: none;
+}
+
+.product-card__icone {
+  display: block;
+}
+
+.product-card__icone:not(:last-child) {
+  margin-bottom: 5px;
+} 
+
+.product-card__img {
+  margin: 0 auto 12px;
+}
+
+.product-card__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-card__spanSum {
+  font-size: clamp(10px, 5vw, 12px);
+  color: var(--color-grayChateau);
+}
+
+.product-card__text {
+  margin-bottom: 16px;
+}
+
+.product-card__title {
+  margin-bottom: 18px;
+  letter-spacing: .2px;
+}
+
+.product-card__priceDelete {
+  display: block;
+  margin-bottom: 8px;
+  font-size: clamp(12px, 5vw, 14px);
+  text-decoration: line-through;
+  color: var(--color-doveGray);
+}
+
+.product-card__price {
+  font-size: clamp(14px, 5vw, 18px);
+}
+
+.product-card__btn {
+  display: none;
+  margin: 0 auto;
+  padding-left: 31px;
+  width: 161px;
+  background: url("../img/product/basket.svg") 12% / 19px 17px no-repeat;
+}
+
+.product-card:hover .product-card__svg, .product-card:hover .product-card__btn {
+  display: block;
+}
+
+/* Шаблон микс -  Звездо лайков raiting-1920px */ 
+.raiting {
+  margin-right: 5px;
+} 
+
+.raiting__check {
+  display: none;
+}
+  
+.raiting__check:checked ~ .raiting__star {
+  background: url("../img/icon-stars/yellow-1.svg") center / cover no-repeat;
+  /* background: url("https://raw.githubusercontent.com/leska-ver/healthy-food-Jeka/78e006ddc08e36d911792bea2464321d05b34a46/img/icon-stars/yellow-1.svg") center / cover no-repeat; */
+}
+
+.raiting__star {
+  position: relative;
+  display: block;
+/*   float направляет загорание звезды */
+  float: right;
+  width: 14px;
+  height: 12px; 
+  font-size: 0;
+  line-height: 0;
+  background: url("../img/icon-stars/gray-1.svg") center / cover no-repeat;
+  /* background: url("https://raw.githubusercontent.com/leska-ver/healthy-food-Jeka/78e006ddc08e36d911792bea2464321d05b34a46/img/icon-stars/gray-1.svg") center / cover no-repeat; */
+  cursor: pointer;
+}
+
+.raiting__star:hover {
+  background: url("../img/icon-stars/yellow-0.5.svg") center / cover no-repeat;
+  /* background: url("https://raw.githubusercontent.com/leska-ver/healthy-food-Jeka/78e006ddc08e36d911792bea2464321d05b34a46/img/icon-stars/yellow-0.5.svg") center / cover no-repeat; */
+}
+
+.raiting__star:hover ~ .raiting__star {
+  background: url("../img/icon-stars/yellow-1.svg") center / cover no-repeat;
+  /* background: url("https://raw.githubusercontent.com/leska-ver/healthy-food-Jeka/78e006ddc08e36d911792bea2464321d05b34a46/img/icon-stars/yellow-1.svg") center / cover no-repeat; */
+}
+
+.raiting__star:not(:last-child) {
+  margin-right: 2px;
+}  
+/* // Шаблон микс -  Звездо лайков raiting-1440px */
+
+
+/* Шапка 1920px*/
+.header__top {
+  padding: 22px 0;
+  background-color: var(--color-black);
+}
+
+
+
+
+
+/* Шаблон микс - Резина у карточек */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25;
+}
+.item {
+  display: flex;
+  flex: 0 1 234px;
+}
+.article {
+  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
+  display: flex;
+  flex-direction: column;
+  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
+}
+.text {
+  /*Для резины, чтобы кнопка была всегда внизу vertical__btn */
+  flex: 1 1 auto;
+  /* // Для резины, чтобы кнопка была всегда внизу vertical__btn */
+}
