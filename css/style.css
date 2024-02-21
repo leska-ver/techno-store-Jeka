@@ -297,7 +297,7 @@ button {
   position: absolute;
   top: 4px;
   right: 11px;
-  display: none;
+  opacity: 0;
 }
 
 .product-card__icone {
@@ -347,11 +347,15 @@ button {
 }
 
 .product-card__btn {
-  display: none;
   margin: 0 auto;
   padding-left: 31px;
   width: 161px;
   background: url("../img/product/basket.svg") 12% / 19px 17px no-repeat;
+  opacity: 0;
+}
+
+.product-card__btn:focus {
+  background: url("../img/product/basket-white.svg") 12% / 19px 17px no-repeat var(--color-selectiveYellow);
 }
 
 .product-card__btn:hover {
@@ -359,7 +363,7 @@ button {
 }
 
 .product-card:hover .product-card__svg, .product-card:hover .product-card__btn {
-  display: block;
+  opacity: 1;
 }
 
 /* Шаблон микс -  Звездо лайков raiting-1920px */ 
