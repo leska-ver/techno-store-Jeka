@@ -15,6 +15,12 @@
 @media (max-width: 767.98px) {
 }
 
+[class*="__container"] {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 ```
 
 https://leska-ver.github.io/techno-store-Jeka/
