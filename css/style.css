@@ -563,7 +563,7 @@ button {
 }
 
 .header__time .choices[data-type*=select-one].is-open:after {
-  margin-top: 0;
+  margin-top: 2px;
   transform: rotate(180deg) translate(-50%, 2px);
 }
 
