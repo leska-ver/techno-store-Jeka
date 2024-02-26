@@ -21,11 +21,12 @@
   padding: 0 15px;
 }
 
-@media (max-width: 767.98px) and (min-width: 479.98) {  17ur.
-  .block__item {
-    background-color: #77608d;
-    padding: 20px;
-  }
+/* 2:10:27 */
+@media (min-width: 479.98px) and (max-width: 767.98px) {
+	.block__item {
+		background-color: #77608d;
+		padding: 20px;
+	}
 }
 
 ```
