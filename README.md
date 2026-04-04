@@ -4,7 +4,7 @@
 - https://www.figma.com/design/W8Q5NDaVbxCl8o8yu6qjJe/Tech-Online-Store-Design--%D0%96%D0%B5%D0%BA%D0%B8---Copy-?m=auto&t=RkxSh8RqtQ1nZPU2-6
 
 ## Ссылка на сайт
-- https://www.
+- https://leska-ver.github.io/techno-store-Jeka/
 
 ## Генератор дерева
 - https://yoksel.github.io/html-tree/
