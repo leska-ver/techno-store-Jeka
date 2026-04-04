@@ -7,9 +7,10 @@
 - https://leska-ver.github.io/techno-store-Jeka/
 
 ## Шаблоны в кодепене
-- Таб без jQuery data-target + JS в Техно -> https://codepen.io/tmeebphp-the-sans/pen/QwKxmLN?editors=1100
-- Переключение между сеткой и списком + слайдер -> https://codepen.io/tmeebphp-the-sans/pen/YPGLRPb
-- Переключение между сеткой и списком + слайдер (4 блока) -> https://codepen.io/tmeebphp-the-sans/pen/WbGyGqP
+1. Таб без jQuery data-target + JS -> https://codepen.io/tmeebphp-the-sans/pen/bNwKLbQ
+2. Таб без jQuery data-target + JS в Техно -> https://codepen.io/tmeebphp-the-sans/pen/QwKxmLN?editors=1100
+3. Переключение между сеткой и списком + слайдер -> https://codepen.io/tmeebphp-the-sans/pen/YPGLRPb
+4. Переключение между сеткой и списком + слайдер (4 блока) -> https://codepen.io/tmeebphp-the-sans/pen/WbGyGqP
 
 ## Генератор дерева
 - https://yoksel.github.io/html-tree/
