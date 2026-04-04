@@ -6,6 +6,9 @@
 ## Ссылка на сайт
 - https://leska-ver.github.io/techno-store-Jeka/
 
+## Шаблон таба в кодепене
+- https://codepen.io/tmeebphp-the-sans/pen/QwKxmLN?editors=1100
+
 ## Генератор дерева
 - https://yoksel.github.io/html-tree/
 
