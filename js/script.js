@@ -573,35 +573,92 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // ============================================
-  // 17. Таб(data-target) (laptops)
+  // 17. ТАБЫ ДЛЯ LAPTOPS И DESKTOPS (разные active)
   // ============================================  
-  function setCustomTabs () {
-    const customTabName = "js-custom-tab";
-    const tabs = Array.from(document.querySelectorAll(`.${customTabName}[data-path]`));
-    const content = Array.from(document.querySelectorAll(`.${customTabName}[data-target]`));
+  
+  // -- Табы для .laptops --
+  function initLaptopsTabs() {
+    const section = document.querySelector('.laptops');
+    if (!section) return;
     
-    content.forEach(function (el, i) {
-      if (i !== 0) {
-        el.classList.add('is-hidden');
-      }
+    const tabs = section.querySelectorAll('.js-custom-tab[data-path]');
+    const panels = section.querySelectorAll('.js-custom-tab[data-target]');
+    
+    if (tabs.length === 0 || panels.length === 0) return;
+    
+    // Скрыть все панели кроме первой
+    panels.forEach((panel, i) => {
+      if (i !== 0) panel.classList.add('is-hidden');
     });
     
-    tabs.forEach(function (el) {
-      el.addEventListener('click', function () {
-        const path = this.dataset.path;
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetPath = this.dataset.path;
         
-        content.forEach(function (el) {
-          if (path !== el.dataset.target) {
-            el.classList.add('is-hidden');
+        panels.forEach(panel => {
+          if (panel.dataset.target === targetPath) {
+            panel.classList.remove('is-hidden');
           } else {
-            el.classList.remove('is-hidden');
+            panel.classList.add('is-hidden');
+          }
+        });
+        
+        // Работаем только с классом active-laptops
+        tabs.forEach(t => {
+          if (t === this) {
+            t.classList.add('active-laptops');
+          } else {
+            t.classList.remove('active-laptops');
           }
         });
       });
     });
   }
-  
-  setCustomTabs();
+
+  // -- Табы для .desktops --
+  function initDesktopsTabs() {
+    const section = document.querySelector('.desktops');
+    if (!section) return;
+    
+    const tabs = section.querySelectorAll('.js-custom-tab[data-path]');
+    const panels = section.querySelectorAll('.js-custom-tab[data-target]');
+    
+    if (tabs.length === 0 || panels.length === 0) return;
+    
+    // Скрыть все панели кроме первой
+    panels.forEach((panel, i) => {
+      if (i !== 0) panel.classList.add('is-hidden');
+    });
+    
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetPath = this.dataset.path;
+        
+        panels.forEach(panel => {
+          if (panel.dataset.target === targetPath) {
+            panel.classList.remove('is-hidden');
+          } else {
+            panel.classList.add('is-hidden');
+          }
+        });
+        
+        // Работаем только с классом active-desktops
+        tabs.forEach(t => {
+          if (t === this) {
+            t.classList.add('active-desktops');
+          } else {
+            t.classList.remove('active-desktops');
+          }
+        });
+      });
+    });
+  }
+
+  // Запускаем
+  initLaptopsTabs();
+  initDesktopsTabs();
 
 
 
