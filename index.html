@@ -13,7 +13,7 @@
     <meta property="og:image" content="img/ogImage.jpg">
     <meta name="keywords" content="заказ, купить, компьютер, комп, техника, магазин, онлайн">
     <!-- //Для поиска в сети-->
-    <title>Home Page - 1</title>
+    <title>Главная(Home Page - 1)</title>
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Основные стили Choices для кодепена
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />-->
@@ -129,7 +129,7 @@
               <span></span>
             </button>
             <!-- Логотип (два варианта: для десктопа и планшета/мобилы) -->
-            <a href="#" class="header__logo logo">
+            <a class="header__logo logo" href="index.html">
               <!-- Узкий лого для ПК -->
               <svg class="logo__1920" width="34" height="41" viewBox="0 0 34 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.0331 0.945374L0.296875 10.8637V23.0708L17.0331 32.9891L30.4588 25.3596V28.9836L17.0331 36.9946L0.296875 26.8855V31.2725L17.0331 41L33.7693 31.2725V19.0653L20.3435 26.8855V23.0708L33.7693 15.0599V10.8637L17.0331 0.945374Z" fill="#0156FF"/>
@@ -207,20 +207,20 @@
             <!-- Иконки действий (юзер, корзина) -->
             <div class="header__actions">
               <!-- Корзина с счётчиком -->
-              <button class="header__cart" aria-label="Корзина">
+              <a class="header__cart" href="basket.html" aria-label="Корзина">
                 <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.5834 16.8334C12.1359 16.8334 12.6658 16.6139 13.0566 16.2232C13.4473 15.8325 13.6667 15.3026 13.6667 14.75C13.6667 14.1975 13.4473 13.6676 13.0566 13.2769C12.6658 12.8862 12.1359 12.6667 11.5834 12.6667C11.0309 12.6667 10.501 12.8862 10.1103 13.2769C9.71957 13.6676 9.50008 14.1975 9.50008 14.75C9.50008 15.3026 9.71957 15.8325 10.1103 16.2232C10.501 16.6139 11.0309 16.8334 11.5834 16.8334ZM4.29174 16.8334C4.84428 16.8334 5.37418 16.6139 5.76488 16.2232C6.15558 15.8325 6.37508 15.3026 6.37508 14.75C6.37508 14.1975 6.15558 13.6676 5.76488 13.2769C5.37418 12.8862 4.84428 12.6667 4.29174 12.6667C3.73921 12.6667 3.20931 12.8862 2.81861 13.2769C2.4279 13.6676 2.20841 14.1975 2.20841 14.75C2.20841 15.3026 2.4279 15.8325 2.81861 16.2232C3.20931 16.6139 3.73921 16.8334 4.29174 16.8334ZM17.873 2.16981C18.133 2.16142 18.3796 2.05223 18.5606 1.86531C18.7416 1.6784 18.8428 1.42842 18.8428 1.16825C18.8428 0.908074 18.7416 0.658098 18.5606 0.471184C18.3796 0.284271 18.133 0.175074 17.873 0.166687H16.674C15.7345 0.166687 14.922 0.81877 14.7178 1.73544L13.4126 7.61252C13.2084 8.52919 12.3959 9.18127 11.4563 9.18127H3.63133L2.12924 3.17085H11.8636C12.1212 3.1591 12.3644 3.0485 12.5425 2.86205C12.7206 2.67561 12.82 2.42767 12.82 2.16981C12.82 1.91195 12.7206 1.66401 12.5425 1.47757C12.3644 1.29113 12.1212 1.18052 11.8636 1.16877H2.12924C1.82473 1.16868 1.5242 1.23802 1.25051 1.37151C0.976816 1.50501 0.737162 1.69915 0.549763 1.93917C0.362364 2.17919 0.232155 2.45878 0.169035 2.75668C0.105913 3.05458 0.111544 3.36295 0.185495 3.65835L1.68758 9.66669C1.79586 10.1002 2.046 10.4851 2.39821 10.7601C2.75042 11.0351 3.18447 11.1845 3.63133 11.1844H11.4563C12.368 11.1845 13.2524 10.8737 13.9636 10.3032C14.6748 9.73281 15.1701 8.93687 15.3678 8.04689L16.674 2.16981H17.873Z" fill="black"/>
                 </svg>
                 <span class="header__cart-count">2</span>
-              </button>
+              </a>
               <!-- Иконка пользователя (человечек, т.к. неавторизован) -->
-              <button class="header__user" aria-label="Войти">
+              <a class="header__user" href="account.html" aria-label="Войти">
                 <!-- <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="16" cy="16" r="15" stroke="black" stroke-width="2"/>
                   <path d="M16 10C16.7956 10 17.5587 10.3161 18.1213 10.8787C18.6839 11.4413 19 12.2044 19 13C19 13.7956 18.6839 14.5587 18.1213 15.1213C17.5587 15.6839 16.7956 16 16 16C15.2044 16 14.4413 15.6839 13.8787 15.1213C13.3161 14.5587 13 13.7956 13 13C13 12.2044 13.3161 11.4413 13.8787 10.8787C14.4413 10.3161 15.2044 10 16 10ZM16 17.5C19.315 17.5 22 18.8425 22 20.5V22H10V20.5C10 18.8425 12.685 17.5 16 17.5Z" fill="black"/>
                 </svg> -->
                 <img class="header__account" src="./img/account.jpg" alt="аккаунт пользователя">
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -2553,13 +2553,13 @@
                   </button>
                   <div class="footer__acc accordion-content">
                     <ul class="footer__acc-list">
-                      <li class="footer__acc-item"><a href="" class="footer__acc-link">About Us</a></li>
+                      <li class="footer__acc-item"><a class="footer__acc-link" href="aboutUs.html">About Us</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">About Zip</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">Privacy Policy</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">Search</a></li>
-                      <li class="footer__acc-item"><a href="" class="footer__acc-link">Terms</a></li>
+                      <li class="footer__acc-item"><a class="footer__acc-link" href="faq.html">Terms</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">Orders and Returns</a></li>
-                      <li class="footer__acc-item"><a href="" class="footer__acc-link">Contact Us</a></li>
+                      <li class="footer__acc-item"><a class="footer__acc-link" href="contact.html">Contact Us</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">Advanced Search</a></li>
                       <li class="footer__acc-item"><a href="" class="footer__acc-link">Newsletter Subscription</a></li>
                     </ul>
