@@ -285,13 +285,13 @@ dynamicBullets: true, Уменьшает шарики
 
 ## Названия страниц для шаблона toolbar
 
-| HTML файл | Страница (H1) | Кому надо < Back | Кому надо Forward > |  Родня | Заголовок <h1> | 
-|-----------|-----------------------------------|-----------------------------------|
-| `index.html` | Главная | ❌ нет | `laptops.html` | Пра прадед | Home |
+| HTML файл | Страница (H1) | Кому надо < Back | Кому надо Forward > | Родня | Заголовок <h1> |
+|-----------|---------------|------------------|---------------------|-------|----------------|
+| `index.html` | Главная | ❌ нет | `laptops.html` | Прапрадед | Home |
 | `laptops.html` | Ноутбуки | `index.html` | `everyday-notebooks.html` | Прадед | Laptops |
-| `everyday-notebooks.html` | `laptops.html` | `msi-prestige.html` | Everyday Use Notebooks | Дед | Everyday Use Notebooks |
+| `everyday-notebooks.html` | Everyday Use Notebooks | `laptops.html` | `msi-prestige.html` | Дед | Everyday Use Notebooks |
 | `msi-prestige.html` | MSI Prestige Series | `everyday-notebooks.html` | `shop.html` | Отец | MSI Prestige Series |
-| `shop.html` | MSI WS Series | `msi-prestige.html` | ❌ нет | Сын(конечная страница) | Товары(Catalog - 1) |
+| `shop.html` | MSI WS Series | `msi-prestige.html` | ❌ нет | Сын (конечная страница) | Товары (Catalog - 1) |
 
 
 
