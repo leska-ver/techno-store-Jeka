@@ -26,7 +26,7 @@
 
 **К кому привязан (куда ведёт):**
 - → aboutUs.html (ссылка "About Us" в футере)
-- → about.html (страница товара MSI Trident 3)
+- → article.html (страница товара MSI Trident 3)
 - → faq.html (ссылка "Terms" в футере)
 - → contact.html (ссылка "Contact Us" в футере)
 - → account.html (через "My Account" в хедере)
@@ -41,7 +41,7 @@
 
 **К кому привязан:**
 - → index.html (логотип)
-- → about.html (страница товара MSI)
+- → article.html (страница товара MSI)
 - → faq.html (ссылка "Terms")
 - → contact.html (футер)
 - → account.html (блок "Personal Account")
@@ -56,7 +56,7 @@
 
 **К кому привязан:**
 - → index.html (логотип)
-- → about.html (страница товара MSI)
+- → article.html (страница товара MSI)
 - → faq.html (ссылка "Terms")
 - → contact.html (футер)
 - → account.html (блок "Personal Account")
@@ -64,7 +64,7 @@
 
 ---
 
-## 4. about.html (about-desktop-1920.png)
+## 4. article.html (about-desktop-1920.png)
 **Кто это:** Страница товара (MSI MPG Trident 3)
 
 **Откуда пришёл:** Можно прийти с index.html, aboutUs.html, shopping.html, details.html, specs.html
@@ -106,7 +106,7 @@
 ## 7. contact.html (contact-desktop-1920.png)
 **Кто это:** Страница товара (MSI MPG Trident 3) — ещё одна
 
-**Откуда пришёл:** Можно прийти с index.html, shopping.html, about.html, specs.html
+**Откуда пришёл:** Можно прийти с index.html, shopping.html, article.html, specs.html
 
 **К кому привязан:**
 - → faq.html (ссылка "Product Support" → "FAQ")
@@ -123,7 +123,7 @@
 
 **К кому привязан:**
 - → specs.html (вкладка "Specifications")
-- → about.html (через "Features")
+- → article.html (через "Features")
 - → contact.html (через "Features")
 - → shopping.html (через "Add to Cart" → basket.html)
 - → basket.html (иконка корзины)
@@ -133,7 +133,7 @@
 ## 9. faq.html (faq-desktop-1920.png)
 **Кто это:** Terms & Conditions (Правила и условия магазина), НЕ FAQ
 
-**Откуда пришёл:** Можно прийти с index.html (футер "Terms"), aboutUs.html, about.html, shopping.html
+**Откуда пришёл:** Можно прийти с index.html (футер "Terms"), aboutUs.html, article.html, shopping.html
 
 **К кому привязан:**
 - → index.html (логотип)
@@ -151,7 +151,7 @@
 
 **К кому привязан:**
 - → details.html (клик по товару)
-- → about.html (клик по товару MSI)
+- → article.html (клик по товару MSI)
 - → contact.html (клик по другому товару)
 - → basket.html (кнопка "Add to Cart")
 - → faq.html (ссылка "Product Support" → "FAQ")
@@ -162,7 +162,7 @@
 ## 11. basket.html (shopping-2-desktop-1920.png)
 **Кто это:** Корзина
 
-**Откуда пришёл:** Можно прийти с ЛЮБОЙ страницы через иконку корзины в шапке. А также с shopping.html (Add to Cart), с about.html, с contact.html, с details.html
+**Откуда пришёл:** Можно прийти с ЛЮБОЙ страницы через иконку корзины в шапке. А также с shopping.html (Add to Cart), с article.html, с contact.html, с details.html
 
 **К кому привязан:**
 - → checkout.html (кнопка "Proceed to Checkout")
@@ -178,7 +178,7 @@
 
 **К кому привязан:**
 - → details.html (вкладка "Features" / "Overview")
-- → about.html (ссылка "Have a Question? Contact Us")
+- → article.html (ссылка "Have a Question? Contact Us")
 - → contact.html (ссылка "Have a Question? Contact Us")
 - → basket.html (иконка корзины)
 
@@ -203,14 +203,14 @@
 | index.html | Стартовая, ниоткуда (или с любой по логотипу) |
 | shop.html | MSI Prestige Series |  
 | aboutUs.html | index.html, faq.html |
-| about.html | index.html, aboutUs.html, shopping.html, details.html, specs.html |
+| article.html | index.html, aboutUs.html, shopping.html, details.html, specs.html |
 | account.html | index.html, register.html, faq.html |
 | checkout.html | basket.html |
-| contact.html | index.html, shopping.html, about.html, specs.html |
+| contact.html | index.html, shopping.html, article.html, specs.html |
 | details.html | shopping.html |
-| faq.html | index.html, aboutUs.html, about.html, shopping.html |
+| faq.html | index.html, aboutUs.html, article.html, shopping.html |
 | shopping.html | index.html, basket.html |
-| basket.html | ЛЮБАЯ страница (иконка корзины), shopping.html, about.html, contact.html |
+| basket.html | ЛЮБАЯ страница (иконка корзины), shopping.html, article.html, contact.html |
 | specs.html | details.html |
 | register.html | index.html, checkout.html |
 
@@ -225,7 +225,7 @@
 | `index.html` | Главная | Home Page - 1 | 
 | `shop.html` | Товары | Catalog - 1 | 
 | `aboutUs.html` | О нас | About Us - 1 |
-| `about.html` | Товар MSI Trident 3 | Product - About Product - 1 |
+| `article.html` | Товар MSI Trident 3 | Product - About Product - 1 |
 | `account.html` | Личный кабинет | User Account - 1 |
 | `checkout.html` | Оформление заказа | Checkout - 1 |
 | `contact.html` | Товар MSI Trident 3 | Contact Us - 1 |
@@ -290,11 +290,13 @@ dynamicBullets: true, Уменьшает шарики
 | `index.html` | Главная | ❌ нет | `laptops.html` | Прапрадед | Home |
 | `laptops.html` | Ноутбуки | `index.html` | `everyday-notebooks.html` | Прадед | Laptops |
 | `everyday-notebooks.html` | Everyday Use Notebooks | `laptops.html` | `msi-prestige.html` | Дед | Everyday Use Notebooks |
-| `msi-prestige.html` | MSI Prestige Series | `everyday-notebooks.html` | `shop.html` | Отец | MSI Prestige Series |
+| `msi-prestige.html` | MSI Prestige Series | `everyday-notebooks.html` | `shop.html` | Отец | MSI Prestige Series(Отец) |
 | `shop.html` | MSI WS Series | `msi-prestige.html` | ❌ нет | Сын (конечная страница) | Товары (Catalog - 1) |
 
 
-
+## Названия шаблон страниц для Инфы о карточке товара
+- article.html
+- article.js
 
 
 

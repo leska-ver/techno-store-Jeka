@@ -68,6 +68,7 @@
   --color-portGore: #272560;
   --color-gray: #838383;
   --color-silverChalice-A3: #a3a3a3;
+  --color-fuelYellow: #E9A426;
 
 }
 
@@ -106,6 +107,18 @@ body {
   font-size: clamp(11px, 2vw, 14px);
   line-height: 1;
   color: var(--color-black);
+  /* Плавное появление контента при загрузке */
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Плавное появление контента при загрузке */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body.menu-open {
@@ -427,6 +440,10 @@ button.acc__link {
 /* // Шаблон стрелок слайдера */
 
 /* Шаблон карточек */
+.catalog {
+  gap: 3px;
+}
+
 .catalog__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,20 +456,47 @@ button.acc__link {
   display: -ms-flexbox;
   display: flex;/*Для выравнивание карточек catalog__block*/
   flex-direction: column;/*Для выравнивание карточек catalog__block*/
+  padding: 7px;/*Чтобы не обрезало*/
   width: 100%;
   /* height НЕ задаем - растягивается по контенту */
 }
 
+/* Карточка как ссылка */
+.catalog__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 24px;
+  transition: all 0.2s ease;
+}
+
+.catalog__link:focus-visible {
+  color: inherit;
+  outline: 2px solid #ffb800;
+  outline-offset: 4px;
+}
+
+.catalog__link:hover {
+  color: inherit;
+  box-shadow: 0 8px 8px rgb(1, 86, 255);
+}
+
+.catalog__link:active {
+  color: inherit;
+}
+
 .catalog__sub {
   position: relative;
-  padding: 45px 35px 0 43px;
+  padding: 41px 30px 0 38px;
   flex-shrink: 0; /* ← НЕ сжимается */
 }
 
 .catalog__available {
   position: absolute;
-  top: 24px;
-  left: 35px;
+  top: 18px;
+  left: 28px;
   font-size: 10px;
   line-height: 2.1;
   color: var(--color-chelseaCucumber);
@@ -468,7 +512,7 @@ button.acc__link {
 }
 
 .catalog__available.phone {
-  left: 34px;
+  left: 27px;
 }
 
 .catalog__available.phone::before {
@@ -488,7 +532,7 @@ button.acc__link {
   height: 100%;/*Для выравнивание карточек catalog__item*/
   flex-grow: 1; /* ← РАСТЯГИВАЕТСЯ вниз */
   margin-top: -4px;
-  padding: 0 4px 0 28px;
+  padding: 0 4px 0 20px;
 }
 
 /* Текстовый блок */
@@ -684,36 +728,112 @@ button.acc__link {
   align-items: center;
 }
 
-.toolbar__back {
+.toolbar__links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.toolbar__link {
   position: relative;
+}
+
+.toolbar__link-back {
   margin: 0 0 0 25px;
+}
+
+.toolbar__link-forward {
+  margin: 0 25px 0 0;
+}
+
+.toolbar__link::before {
+  position: absolute;
+  top: 1px;
+}
+
+.toolbar__link-back::before {
+  content: "<";
+  left: -10px;
+}
+
+.toolbar__link-forward::before {
+  content: ">";
+  right: -10px;
+}
+/* // Элементы управления (toolbar) */
+
+/* Шаблон инфо о карточки(article.html) */
+.article {
+  padding: 25px 0;
+}
+
+.article .catalog__article { 
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 10px;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.article .catalog__block {
+  margin: 0;
+  padding: 0;
+}
+
+.article .catalog__block > div:first-child {
+  justify-content: center;
+}
+
+.article .catalog__price {
+  margin: 0 0 25px;
+}
+
+.article__quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.article__qty-btn {
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #0156ff;
+  background-color: white;
+  color: #0156ff;
+  font-size: 20px;
+  font-weight: 600;
   -webkit-transition: all var(--transition-duration);
   -ms-transition: all var(--transition-duration);
   -moz-transition: all var(--transition-duration);
   -o-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
-  outline: none;
 }
 
-.toolbar__back:focus {
-  color: var(--color-blueRibbon);
+.article__qty-btn:not(:last-child) {
+  margin-bottom: 0;
 }
 
-.toolbar__back:hover {
-  color: var(--color-selectiveYellow);
+.article__qty-btn:focus, .article__btn:focus {
+  color: white;
 }
 
-.toolbar__back:active {
-  color: var(--color-doveGray);
+.article__qty-btn:hover, .article__btn:hover {
+  background-color: #0156ff;
+  color: white;
 }
 
-.toolbar__back::before {
-  content: "<";
-  position: absolute;
-  top: 2px;
-  left: -10px;
+.article__quantity {
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 30px;
+  text-align: center;
 }
-/* // Элементы управления (toolbar) */
+/* // Шаблон инфо о карточки(article.html) */
 
 
 /* ===== ШАПКА header ===== */
@@ -1581,7 +1701,7 @@ button.acc__link {
 }
 
 .products__swiper {
-  margin-bottom: 33px;
+  margin-bottom: 28px;
 }
 
 .products__zip {
@@ -2103,8 +2223,24 @@ button.acc__link {
 
 
 /* ===== shop-1920px ===== */
-.shop__container {
-  padding: 28px 24px 40px;
+.shop__asus-img {
+  margin-top: -3px;
+  padding: 0 0 19px;
+}
+
+.shop__breadcrumbs {
+  padding: 0 0 0 0;
+}
+
+.shop__h2 {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.54px;
+}
+
+.shop__right .swiper-button-prev, .shop__right .swiper-button-next {
+  display: none;
 }
 
 .shop__catalog {
@@ -2160,19 +2296,24 @@ button.acc__link {
 
 /* Карточки */
 .shop__grid-card {
-  border-radius: 24px;
-  border: 1px solid #eef2f8;
-  background: white;
-  overflow: hidden;
-  transition: all 0.25s ease;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-  
   /* Для одинаковой высоты */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
+  border-radius: 24px;
   height: 100%;
+  transition: all 0.25s ease; 
+  box-shadow: 0 8px 20px transparent;  
+  outline: none;
+}
+
+.shop__grid-card:focus {
+  border: 1px solid #eef2f8;  
+}
+
+.shop__grid-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);  
 }
 
 /* Картинки одинаковой высоты */
@@ -2223,7 +2364,7 @@ button.acc__link {
 }
 
 .shop__old {
-  margin-left: 8px;
+  display: block;
   font-weight: normal;
   font-size: 12px;
   color: #8c9aa8;
@@ -2233,7 +2374,7 @@ button.acc__link {
 .shop__rating {
   margin-bottom: 12px;
   font-size: 12px;
-  color: #ffb800;
+  color: var(--color-fuelYellow);
 }
 
 /* Кнопка прижата к низу */
@@ -3116,6 +3257,28 @@ input::placeholder {
     margin: 0 16px 16px 0;
   }
 
+  .article .catalog__article {
+    display: block;
+  }
+
+  .article .catalog__item {
+    width: 100%;
+  } 
+  
+  .article__image {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .article .catalog__sub {
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+
+  .article .catalog__block {
+    height: auto;
+  }  
 
   .header__container {
     padding: 0 22px;
