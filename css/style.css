@@ -46,7 +46,7 @@
   font-display: swap;
 }
 
-:root {
+:root {/* Название цвета https://chir.ag/projects/name-that-color/#EAE8EB */
   --transition-duration: .4s;
   --color-white: #fff;
   --color-black: #000;
@@ -69,7 +69,9 @@
   --color-gray: #838383;
   --color-silverChalice-A3: #a3a3a3;
   --color-fuelYellow: #E9A426;
-
+  --color-abbey: #4B4D4F;
+  --color-merino: #F2E9DC;
+  --color-mischka: #EAE8EB;
 }
 
 html {
@@ -487,6 +489,15 @@ button.acc__link {
   color: inherit;
 }
 
+.catalog__sub-colors {
+  position: relative;
+  width: 100%;
+}
+
+.catalog__sub-colors .catalog__sub {
+  width: 100%;
+}
+
 .catalog__sub {
   position: relative;
   padding: 41px 30px 0 38px;
@@ -767,9 +778,13 @@ button.acc__link {
   padding: 25px 0;
 }
 
+.article__container {
+  padding: 70px 0 0 171px;
+}
+
 .article .catalog__article { 
   display: grid;
-  grid-template-columns: 35% 1fr;
+  grid-template-columns: 1fr 56%;
   gap: 10px;
 }
 
@@ -786,54 +801,51 @@ button.acc__link {
   justify-content: center;
 }
 
-.article .catalog__price {
-  margin: 0 0 25px;
+.article__review-link {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: var(--color-blueRibbon);
 }
 
-.article__quantity-controls {
+.article__review-link:focus {
+  color: var(--color-silverChalice-A3);
+}
+
+.article__description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.article__descs {
   display: flex;
-  align-items: center;
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.article__qty-btn {
-  padding: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid #0156ff;
-  background-color: white;
-  color: #0156ff;
-  font-size: 20px;
-  font-weight: 600;
-  -webkit-transition: all var(--transition-duration);
-  -ms-transition: all var(--transition-duration);
-  -moz-transition: all var(--transition-duration);
-  -o-transition: all var(--transition-duration);
-  transition: all var(--transition-duration);
-}
-
-.article__qty-btn:not(:last-child) {
-  margin-bottom: 0;
-}
-
-.article__qty-btn:focus, .article__btn:focus {
-  color: white;
-}
-
-.article__qty-btn:hover, .article__btn:hover {
-  background-color: #0156ff;
-  color: white;
-}
-
-.article__quantity {
-  font-size: 20px;
-  font-weight: 600;
-  min-width: 30px;
-  text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 /* // Шаблон инфо о карточки(article.html) */
+
+
+/* Кнопки цветные Таба */
+.color__tab {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  width: 23px;
+  height: 23px;
+}
+
+.color__tab.abbey {
+  background-color: var(--color-abbey);
+}
+
+.color__tab.merino {
+  background-color: var(--color-merino);
+}
+
+.color__tab.mischka {
+  background-color: var(--color-mischka);
+}
+/* // Кнопки цветные Таба */
 
 
 /* ===== ШАПКА header ===== */
@@ -1505,14 +1517,15 @@ button.acc__link {
   -moz-grid-template-columns: 32px 50px;
   grid-template-columns: 32px 50px;
   align-items: center;
-  -webkit--gap: 26px;
-  -moz--gap: 26px;
-  gap: 26px;
+  -webkit--gap: 20px;
+  -moz--gap: 20px;
+  gap: 20px;
   margin: 0 -8px 0 100px;
 }
 
 .header__cart {
   position: relative;
+  top: 1px;
   outline: none;
 }
 
@@ -1534,8 +1547,8 @@ button.acc__link {
 
 .header__cart-count {
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -10px;
+  right: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1701,7 +1714,7 @@ button.acc__link {
 }
 
 .products__swiper {
-  margin-bottom: 28px;
+  margin-bottom: 27px;
 }
 
 .products__zip {
@@ -1766,23 +1779,32 @@ button.acc__link {
 }
 
 .customer__list .catalog__sub {
-  padding: 25px 55px 0 24px;
+  padding: 19px 50px 0 16px;
 }
 
 .customer__list .catalog__available {
-  top: 3px;
-  left: 15px;
+  top: -3px;
+  left: 7px;
 }
 
 .customer__list .catalog__block {
   margin-top: -5px;
-  padding: 0px 8px 0 7px;
+  padding: 0px 8px 0 1px;
+}
+
+.customer__list .catalog__h3 {
+  margin: -2px 0 0 0;
 }
 
 .customer__list .catalog__price {
   position: relative;
-  top: -20px;
+  top: -12px;
+  gap: 6px;
 }
+
+.customer__list .catalog__price-new {
+  margin-top: 0;
+}  
 
 .customer__decor {
   position: absolute;
@@ -1794,7 +1816,7 @@ button.acc__link {
 /* ===== laptops-1920px ===== */
 .laptops {
   position: relative;
-  padding: 21px 0;
+  padding: 21px 0 16px;
 }
 
 .laptops__display {
@@ -1822,17 +1844,21 @@ button.acc__link {
 }
 
 .laptops__list .catalog__sub {
-  padding: 25px 55px 0 24px;
+  padding: 21px 51px 0 19px;
 }
 
 .laptops__list .catalog__available {
-  top: 3px;
-  left: 15px;
+  top: -3px;
+  left: 8px;
 }
 
 .laptops__list .catalog__block {
-  margin-top: -5px;
-  padding: 0px 8px 0 7px;
+  margin-top: -4px;
+  padding: 0px 8px 0 0;
+}
+
+.laptops__list .catalog__h3 {
+  margin: -2px 0 24px 0;
 }
 
 .laptops__list .catalog__price {
@@ -1849,7 +1875,7 @@ button.acc__link {
 
 /* ===== desktops-1920px ===== */
 .desktops {
-  padding: 21px 0 15px;
+  padding: 17px 0 9px;
 }
 
 .desktops__display {
@@ -1872,7 +1898,7 @@ button.acc__link {
 }
 
 .desktops__content.baner__content {
-  padding: 140px 47px 36px 55px;
+  padding: 141px 47px 36px 55px;
 }
 
 .desktops__h2.baner__h2 {
@@ -1880,17 +1906,21 @@ button.acc__link {
 }
 
 .desktops__list .catalog__sub {
-  padding: 25px 55px 0 24px;
+  padding: 19px 46px 0 19px;
 }
 
 .desktops__list .catalog__available {
-  top: 3px;
-  left: 15px;
+  top: -2px;
+  left: 9px;
 }
 
 .desktops__list .catalog__block {
   margin-top: -5px;
-  padding: 0px 8px 0 7px;
+  padding: 0px 8px 0 1px;
+}
+
+.desktops__list .catalog__h3 {
+  margin: -2px 0 24px 0;
 }
 
 .desktops__list .catalog__price {
@@ -1907,7 +1937,7 @@ button.acc__link {
 
 /* ===== monitors-1920px ===== */
 .monitors {
-  padding: 15px 0 29px;
+  padding: 9px 0 25px;
 }
 
 .monitors__display {
@@ -1927,17 +1957,21 @@ button.acc__link {
 }
 
 .monitors__list .catalog__sub {
-  padding: 25px 55px 0 24px;
+  padding: 21px 51px 0 17px;
 }
 
 .monitors__list .catalog__available {
-  top: 3px;
-  left: 15px;
+  top: -3px;
+  left: 7px;
 }
 
 .monitors__list .catalog__block {
-  margin-top: -5px;
-  padding: 0px 8px 0 7px;
+  margin-top: -4px;
+  padding: 0px 8px 0 0;
+}
+
+.monitors__list .catalog__block > div:first-child {
+  margin-bottom: 34px;
 }
 
 .monitors__list .catalog__price {
@@ -1984,7 +2018,7 @@ button.acc__link {
 }
 
 .news__h2 {
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   font-size: clamp(18px, 2vw, 22.3px);
 }
 
@@ -2156,7 +2190,7 @@ button.acc__link {
 
 /* ===== portal-1920 ===== */
 .portal {
-  padding: 30px 0;
+  padding: 30px 0 28px;
 }
 
 .portal.fon-zircon {/*faq.html*/
@@ -2673,6 +2707,187 @@ button.acc__link {
 }
 /* ===== // delivery-1920px ===== */
 
+
+/* ===== payPal-1920px ===== */
+.payPal {
+  padding: 38px 0;
+}
+
+.payPal .payPal-tab {
+  padding-bottom: 2px;
+  font-size: 14px;
+}
+
+.payPal .acc__item:not(:last-child) {
+  margin: 0 30px 0 0;
+}
+
+.payPal .payPal__btn {
+  margin: 0;
+}
+
+.payPal .breadcrumbs__link {
+  font-size: 11px;
+}
+
+.payPal .catalog__article {
+  padding: 0;
+}
+
+.payPal .catalog__block > div:first-child {
+  flex-grow: 0;
+}
+
+.payPal .catalog__h3 {
+  margin: 0 0 16px 0;
+  font-size: 32px;
+}
+
+.payPal__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payPal__article {
+  position: relative;
+}
+
+.payPal__article::before {
+  content: "";
+  position: absolute;
+  width: 55.5%;
+  height: 100%;
+  background-color: var(--color-zircon);
+  z-index: -1;
+}
+
+.payPal__btns {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: -16px;
+}
+
+.payPal__desc {
+  margin-top: 17px;
+  margin-right: 6px;
+}
+
+.payPal__desc span {
+  font-weight: 600;
+}
+
+.payPal__acc {
+  padding: 0;
+}
+
+.payPal__controls {
+  display: grid;
+  grid-template-rows: 18px 18px;
+  gap: 6px 12px;
+  align-items: center;
+  grid-template-areas: "payPal__grid_one payPal__grid_two" "payPal__grid_one payPal__grid_three";
+  margin: 0 14px 0 0;
+  padding: 5px 8px 8px 16px;
+  background-color: var(--color-zircon);
+}
+
+.payPal__quantity {
+  padding-left: 4px;
+  min-width: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  grid-area: payPal__grid_one;
+}
+
+.payPal__qty-btn {
+  position: relative;
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  border-radius: 0;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-transition: all var(--transition-duration);
+  -ms-transition: all var(--transition-duration);
+  -moz-transition: all var(--transition-duration);
+  -o-transition: all var(--transition-duration);
+  transition: all var(--transition-duration);
+}
+
+.payPal__qty-btn:focus {
+  border-radius: 0;
+  border: 1px solid var(--color-blueRibbon);
+  background-color: transparent;
+}
+
+.payPal__qty-btn:hover {
+  border: 1px solid var(--color-fuelYellow);
+}
+
+.payPal__qty-btn:active {
+  opacity: .5;
+}
+
+.payPal__qty-btn--top {
+  grid-area: payPal__grid_two;
+  margin-top: 29px;
+}
+
+.payPal__qty-btn--bottom {
+  grid-area: payPal__grid_three;
+}
+
+.payPal__qty-btn--bottom:after, .payPal__qty-btn--top::before {
+  position: absolute;
+  content: "";
+  top: 32%;
+  right: 33%;
+  border: 0;
+  width: 6px;
+  height: 6px;
+  background: url("../img/arrow-gray.svg") center / contain no-repeat;
+  -webkit-transition: all var(--transition-duration);
+  -ms-transition: all var(--transition-duration);
+  -moz-transition: all var(--transition-duration);
+  -o-transition: all var(--transition-duration);
+  transition: all var(--transition-duration);
+  z-index: 15;
+}
+
+.payPal__qty-btn--top::before {
+  transform: rotate(180deg); /* Поворот на 45 градусов */
+}
+
+/* Кнопка Add to Cart */
+.payPal__btn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+
+.payPal__btn:nth-child(odd) {
+  margin-right: 4px;
+  padding: 0 32px 0 35px;
+} 
+
+.payPal__btn.btn--yellow {
+  display: inline-flex;
+  padding: 16px 33px 12px;
+}
+
+.payPal__btn.btn--yellow svg {
+  margin: -2px 7px 2px 0;
+}
+
+.payPal__btn span {
+  color: var(--color-azureRadiance);
+}
+/* ===== // payPal-1920px ===== */
+
+
 /* ===== faq-1920px ===== */
 .faq {
   padding: 18px 0 82px;
@@ -2819,7 +3034,7 @@ button.acc__link {
 
 /* ===== Подвал footer-1920 ===== */
 .footer {
-  padding: 22px 0 17px;
+  padding: 24px 0 17px;
   color: var(--color-white);
   background-color: var(--color-cinder);
 }
@@ -3184,6 +3399,10 @@ input::placeholder {
 
 /* ===== АДАПТИВ ===== */
 @media (max-width: 1024px) {
+  button.acc__link {
+    padding-bottom: 2px;
+  }
+
   .swiper-button-prev, .swiper-button-next {
     top: calc(50% + (12px / 2));
     width: 27px;
@@ -3212,15 +3431,18 @@ input::placeholder {
     margin: 0 19px 0 0;
   }
 
+  .catalog__article {
+    padding: 5px 7px 7px 0;
+  }
+
   .catalog__item {
     width: 180px; /* фиксированная ширина */
     flex-shrink: 0;
   }
 
   .catalog__sub {
-    top: -2px;
     left: -1px;
-    padding: 46px 39px 0px 40px;
+    padding: 40px 29px 0px 41px;
   }
 
   .catalog__available {
@@ -3232,7 +3454,7 @@ input::placeholder {
   }
 
   .catalog__block {
-    margin-top: -5px;
+    margin-top: -3px;
     padding: 0 13px 0 22px;
   }
 
@@ -3522,10 +3744,10 @@ input::placeholder {
 
   .products {
     padding: 4px 0;
-  }
+  } 
 
   .products__swiper {
-    margin-bottom: 33px;
+    margin-bottom: 26px;
     overflow: inherit;
   }
 
@@ -3573,22 +3795,28 @@ input::placeholder {
   }
 
   .customer__list .catalog__sub {
-    padding: 28px 55px 0 24px;
+    padding: 21px 45px 0 24px;
   }
 
   .customer__list .catalog__available {
-    top: 7px;
+    top: -1px;
+    left: 14px;
   }
 
   .customer__list .catalog__block {
-    margin-top: -7px;
+    margin-top: -5px;
     padding: 0px 8px 0 6px;
   }
 
   .customer__list .catalog__price {
-    top: -16px;
+    top: -9px;
+    gap: 4px;
   }
 
+
+  .laptops {
+    padding: 19px 0 12px;
+  }
   
   .laptops__acc .acc__item:not(:last-child) {
     margin: 0 16px 0 0;
@@ -3599,19 +3827,25 @@ input::placeholder {
   }
   
   .laptops__list {
-    gap: 4px;
+    gap: 7px;
   }
   
   .laptops__list .catalog__available {
-    top: 6px;
+    top: -1px;
+    left: 15px;
   }
   
   .laptops__list .catalog__sub {
-    padding: 28px 55px 0 24px;
+    padding: 21px 44px 0 25px;
   }
   
   .laptops__list .catalog__block {
     margin-top: -7px;
+    padding: 2px 8px 0 7px;
+  }
+
+  .laptops__list .catalog__h3 {
+    margin: -2px 0 19px 0;
   }
   
   .laptops__list .catalog__price {
@@ -3619,9 +3853,8 @@ input::placeholder {
   }
     
   
-  
   .desktops {
-    padding: 8px 0;
+    padding: 8px 0 4px;
   }
 
   .desktops__container {
@@ -3641,17 +3874,21 @@ input::placeholder {
   }
 
   .desktops__list {
-    gap: 4px;
+    gap: 7px;
   }
 
   .desktops__list .catalog__available {
-    top: 6px;
-    left: 16px;
+    top: -1px;
+    left: 17px;
   }
 
   .desktops__list .catalog__block {
-    margin-top: -4px;
+    margin-top: -7px;
     padding: 0px 8px;
+  }
+
+  .desktops__list .catalog__h3 {
+    margin: 0px 0 19px 0;
   }
 
   .desktops__list .catalog__price {
@@ -3660,7 +3897,7 @@ input::placeholder {
 
 
   .monitors {
-    padding: 7px 0;
+    padding: 4px 0 20px;
   }
 
   .monitors__container {
@@ -3681,26 +3918,26 @@ input::placeholder {
   }
 
   .monitors__list .catalog__available {
-    top: 6px;
+    top: -2px;
     left: 14px;
   }
 
   .monitors__list .catalog__sub {
-    padding: 28px 55px 0 24px;
+    padding: 20px 48px 0 24px;
   }
 
   .monitors__list .catalog__block {
-    margin-top: -7px;
+    margin-top: -5px;
     padding: 0px 8px 0 6px;
   }
 
   .monitors__list .catalog__price {
-    top: -23px;
+    top: -21px;
   }
 
 
   .partners {
-    padding: 40px 0 26px;
+    padding: 21px 0 26px;
   }
 
   .partners__container {
@@ -3746,7 +3983,7 @@ input::placeholder {
 
   .review__wrapper {
     gap: 19px;
-    padding: 21px 41px 10px 20px;
+    padding: 22px 41px 10px 20px;
   }
 
   .review__quote-icon {
@@ -3785,7 +4022,7 @@ input::placeholder {
 
 
   .portal {
-    padding: 20px 0 36px;
+    padding: 20px 0 37px;
   }
 
   .portal.fon-zircon {
@@ -4135,7 +4372,7 @@ input::placeholder {
 
 
   .footer {
-    padding: 24px 0 17px;
+    padding: 23px 0 17px;
   }  
 
   .footer__container {
@@ -4311,16 +4548,16 @@ input::placeholder {
   .catalog__sub {
     top: 0;
     left: 0;
-    padding: 45px 37px 0px 37px;
+    padding: 40px 24px 0px 37px;
   }  
 
   .catalog__available {
-    top: 22px;
+    top: 18px;
     left: 21px;
   }
 
   .catalog__available.phone {
-    left: 18px;
+    left: 21px;
   }
 
   .catalog__block {
@@ -4453,7 +4690,7 @@ input::placeholder {
   }
 
   .products__swiper {
-    margin-bottom: 23px;
+    margin-bottom: 16px;
   }
 
   .products__zip {
@@ -4500,12 +4737,12 @@ input::placeholder {
   }
 
   .customer__list .catalog__available {
-    top: 5px;
-    left: 31px;
+    top: 0;
+    left: 30px;
   }
 
   .customer__list .catalog__sub {
-    padding: 27px 33px 5px 40px;
+    padding: 22px 26px 3px 40px;
   }
 
   .customer__list .catalog__block {
@@ -4535,7 +4772,7 @@ input::placeholder {
   }
 
   .customer__list .catalog__h3 {
-    margin: 0 0 22px 0;
+    margin: 0 0 15px 0;
     font-size: 12.5px;
   }
 
@@ -4549,7 +4786,7 @@ input::placeholder {
 
 
   .laptops {
-    padding: 7px 0;
+    padding: 7px 0 3px;
   }
 
   .laptops__display {
@@ -4557,7 +4794,7 @@ input::placeholder {
   }
   
   .laptops__baner {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 
   .laptops__baner .laptops__h2 {
@@ -4577,12 +4814,12 @@ input::placeholder {
   }
 
   .laptops__list .catalog__available {
-    top: -2px;
-    left: 34px;
+    top: -10px;
+    left: 33px;
   }
 
   .laptops__list .catalog__sub {
-    padding: 20px 33px 8px 43px;
+    padding: 13px 22px 4px 43px;
   }
 
   .laptops__list .catalog__block {
@@ -4627,7 +4864,7 @@ input::placeholder {
 
 
   .desktops {
-    padding: 7px 0;
+    padding: 3px 0;
   }
 
   .desktops__display {
@@ -4663,12 +4900,12 @@ input::placeholder {
   }
 
   .desktops__list .catalog__available {
-    top: 0px;
-    left: 33px;
+    top: -7px;
+    left: 32px;
   }
 
   .desktops .catalog__sub {
-    padding: 20px 33px 6px 43px;
+    padding: 14px 24px 6px 43px;
   }
 
   .desktops .catalog__block {
@@ -4706,54 +4943,52 @@ input::placeholder {
     font-size: 14px;
   }
 
-  .monitors__list .catalog__price {
-    top: -20px;
-  }
-
+  
   .desktops__list .catalog__price-new {
     margin-top: -1px;
     font-size: 19px;
   }
-
-
+  
+  
   .monitors {
-    padding: 7px 0 17px;
+    padding: 4px 0 14px;
   }
-
+  
   .monitors__display {
     display: block;
   }
-
+  
   .monitors__baner {
     margin: 0 -6px;
   }
-
+  
   .monitors__content.baner__content {
     padding: 0 47px 16px 50px;
     width: 100%;
   }
-
+  
   .monitors__swiper {
     overflow: inherit;
   }
-
+  
   .monitors__list {
     gap: 11px;
   }
-
+  
   .monitors__list .catalog__item {
     padding-top: 12px;
   }
-
+  
   .monitors__list .catalog__available {
-    top: 7px;
+    top: 2px;
     left: 32px;
   }
-
+  
   .monitors__list .catalog__sub {
-    padding: 29px 30px 5px 42px;
+    padding: 24px 23px 2px 42px;
   }
-
+  
+  
   .monitors__list .catalog__block {
     padding: 0px 8px 0 24px;
   }
@@ -4781,9 +5016,13 @@ input::placeholder {
   }
 
   .monitors__list .catalog__h3 {
-    margin: 0 0 29px 0;
+    margin: 0 0 3px 0;
     font-size: 12.5px;
     line-height: 1.6;
+  }
+  
+  .monitors__list .catalog__price {
+    top: -20px;
   }
 
   .monitors__list .catalog__price-old {
@@ -4796,7 +5035,7 @@ input::placeholder {
 
 
   .partners {
-    padding: 18px 0;
+    padding: 13px 0 18px;
   }
 
   .partners__container {
@@ -5183,7 +5422,7 @@ input::placeholder {
   }
 
   .footer__text {
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     text-align: center;
   }
 

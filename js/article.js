@@ -7,391 +7,467 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: "product-1",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
-      price: "$499.00",
-      oldPrice: "$499.00",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "4",
-      available: "in stock",
+      link: "Be the first to review this product",
       img: "1-1920.png",
-      desc: "Мощный 15.6-дюймовый сенсорный моноблок MSI Pro 16 Flex. Идеален для работы и дома. Оснащен процессором Intel Celeron QC N3160, 4GB оперативной памяти и графикой Intel HD Graphics. Компактный дизайн и мультитач-экран для удобного управления. Отличное решение для повседневных задач."
+      sku: "D5515A1",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Мощный 15.6-дюймовый сенсорный моноблок MSI Pro 16 Flex. Идеален для работы и дома. Оснащен процессором Intel Celeron QC N3160, 4GB оперативной памяти и графикой Intel HD Graphics. Компактный дизайн и мультитач-экран для удобного управления. Отличное решение для повседневных задач.",
+      colors: {
+        abbey: { img: "1-1920.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+        merino: { img: "1-merino.png", imgTablet: "1-merino-1024.png", imgMobile: "1-merino-545.png" },
+        mischka: { img: "1-mischka.png", imgTablet: "1-mischka-1024.png", imgMobile: "1-mischka-545.png" }
+      }
     },
     {
       id: "product-2",
-      title: "Смартфон Galaxy S23",
-      price: "$349.00",
-      oldPrice: "$399.00",
-      rating: "★★★★★ 5.0",
-      ratingValue: "5.0",
-      reviews: "12",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",    
       img: "2-1920.png",
-      desc: "Флагманский смартфон Samsung Galaxy S23 с мощной камерой 50 МП, процессором Snapdragon 8 Gen 2 и ярким 120-герцовым Dynamic AMOLED 2X дисплеем. Обеспечивает потрясающую производительность для игр, фотосъемки и работы. Компактный и стильный дизайн."
+      sku: "S23-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Флагманский смартфон Samsung Galaxy S23 с мощной камерой 50 МП, процессором Snapdragon 8 Gen 2 и ярким 120-герцовым Dynamic AMOLED 2X дисплеем. Обеспечивает потрясающую производительность для игр, фотосъемки и работы. Компактный и стильный дизайн.",
+      colors: {
+        abbey: { img: "2-1920.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+        merino: { img: "2-merino.png", imgTablet: "2-merino-1024.png", imgMobile: "2-merino-545.png" },
+        mischka: { img: "2-mischka.png", imgTablet: "2-mischka-1024.png", imgMobile: "2-mischka-545.png" }
+      }
     },
     {
       id: "product-3",
-      title: "Наушники AirSound Pro",
-      price: "$89.00",
-      oldPrice: "$129.00",
-      rating: "★★★★☆ 4.6",
-      ratingValue: "4.6",
-      reviews: "8",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...", 
       img: "3-1920.png",
-      desc: "Беспроводные наушники AirSound Pro с активным шумоподавлением (ANC). Погрузитесь в чистый звук без помех. До 30 часов работы на одном заряде, эргономичный дизайн для длительного ношения. Идеальны для путешествий и работы."
+      sku: "ASP-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Беспроводные наушники AirSound Pro с активным шумоподавлением (ANC). Погрузитесь в чистый звук без помех. До 30 часов работы на одном заряде, эргономичный дизайн для длительного ношения. Идеальны для путешествий и работы.",
+      colors: {
+        abbey: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+        merino: { img: "3-merino.png", imgTablet: "3-merino-1024.png", imgMobile: "3-merino-545.png" },
+        mischka: { img: "3-mischka.png", imgTablet: "3-mischka-1024.png", imgMobile: "3-mischka-545.png" }
+      }
     },
     {
       id: "product-4",
-      title: "Механическая клавиатура",
-      price: "$59.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "15",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "4-1920.png",
-      desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту."
+      sku: "MK-004",
+      desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту.",
+      colors: {
+        abbey: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
+        merino: { img: "4-merino.png", imgTablet: "4-merino-1024.png", imgMobile: "4-merino-545.png" },
+        mischka: { img: "4-mischka.png", imgTablet: "4-mischka-1024.png", imgMobile: "4-mischka-545.png" }
+      }
     },
     {
       id: "product-5",
-      title: "Монитор 27\" 4K",
-      price: "$199.00",
-      oldPrice: "$279.00",
-      rating: "★★★★☆ 4.9",
-      ratingValue: "4.9",
-      reviews: "21",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "5-1920.png",
-      desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения."
+      sku: "MON-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения.",
+      colors: {
+        abbey: { img: "5-1920.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
+        merino: { img: "5-merino.png", imgTablet: "5-merino-1024.png", imgMobile: "5-merino-545.png" },
+        mischka: { img: "5-mischka.png", imgTablet: "5-mischka-1024.png", imgMobile: "5-mischka-545.png" }
+      }
     },
     {
       id: "product-6",
-      title: "Беспроводная мышь",
-      price: "$29.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.5",
-      ratingValue: "4.5",
-      reviews: "34",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "6-1920.png",
-      desc: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома."
+      sku: "MOU-006",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома.",
+      colors: {
+        abbey: { img: "6-1920.png", imgTablet: "6-1024.png", imgMobile: "6-545.png" },
+        merino: { img: "6-merino.png", imgTablet: "6-merino-1024.png", imgMobile: "6-merino-545.png" },
+        mischka: { img: "6-mischka.png", imgTablet: "6-mischka-1024.png", imgMobile: "6-mischka-545.png" }
+      }
     },
     {
-      id: "product-7",
-      title: "Планшет Tab Ultra",
-      price: "$299.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "9",
-      available: "in stock",
-      img: "7-1920.png",
-      desc: "Мощный планшет Tab Ultra с 11-дюймовым 2.5K дисплеем и стилусом в комплекте. Идеален для рисования, заметок и просмотра видео. Оснащен быстрым процессором и батареей на весь день."
-    },
-    {
-      id: "product-8",
-      title: "Фитнес-браслет Band 7",
-      price: "$49.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.4",
-      ratingValue: "4.4",
-      reviews: "27",
-      available: "in stock",
-      img: "8-1920.png",
-      desc: "Умный фитнес-браслет Band 7 с 1.6-дюймовым AMOLED-экраном. Отслеживает шаги, пульс, сон и более 100 видов тренировок. Водонепроницаемый, с функцией уведомлений и зарядом до 14 дней."
-    },
-    {
-      id: "product-9",
+      id: "product-1",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
-      price: "$499.00",
-      oldPrice: "$499.00",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "4",
-      available: "in stock",
-      img: "9-1920.png",
-      desc: "Второй экземпляр MSI Pro 16 Flex. Такой же мощный 15.6-дюймовый сенсорный моноблок. Отличный вариант для организации рабочего места с минималистичным дизайном."
+      img: "1-1920.png",
+      sku: "TAB-007",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Мощный планшет Tab Ultra с 11-дюймовым 2.5K дисплеем и стилусом в комплекте. Идеален для рисования, заметок и просмотра видео. Оснащен быстрым процессором и батареей на весь день.",
+      colors: {
+        abbey: { img: "1-1920.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+        merino: { img: "1-merino.png", imgTablet: "1-merino-1024.png", imgMobile: "1-merino-545.png" },
+        mischka: { img: "1-mischka.png", imgTablet: "1-mischka-1024.png", imgMobile: "1-mischka-545.png" }
+      }
     },
     {
-      id: "product-10",
+      id: "product-2",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
-      price: "$499.00",
-      oldPrice: "$499.00",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "4",
-      available: "in stock",
-      img: "10-1920.png",
-      desc: "Третий экземпляр MSI Pro 16 Flex. Надежный моноблок для офисных задач и учебы. Сенсорный экран делает взаимодействие с программами более интуитивным."
+      img: "2-1920.png",
+      sku: "BND-008",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Умный фитнес-браслет Band 7 с 1.6-дюймовым AMOLED-экраном. Отслеживает шаги, пульс, сон и более 100 видов тренировок. Водонепроницаемый, с функцией уведомлений и зарядом до 14 дней.",
+      colors: {
+        abbey: { img: "2-1920.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+        merino: { img: "2-merino.png", imgTablet: "2-merino-1024.png", imgMobile: "2-merino-545.png" },
+        mischka: { img: "2-mischka.png", imgTablet: "2-mischka-1024.png", imgMobile: "2-mischka-545.png" }
+      }
+    },
+    {
+      id: "product-3",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      img: "3-1920.png",
+      sku: "D5515A2",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Второй экземпляр MSI Pro 16 Flex. Такой же мощный 15.6-дюймовый сенсорный моноблок. Отличный вариант для организации рабочего места с минималистичным дизайном.",
+      colors: {
+        abbey: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+        merino: { img: "3-merino.png", imgTablet: "3-merino-1024.png", imgMobile: "3-merino-545.png" },
+        mischka: { img: "3-mischka.png", imgTablet: "3-mischka-1024.png", imgMobile: "3-mischka-545.png" }
+      }
+    },
+    {
+      id: "product-4",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      img: "4-1920.png",
+      sku: "D5515A3",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Третий экземпляр MSI Pro 16 Flex. Надежный моноблок для офисных задач и учебы. Сенсорный экран делает взаимодействие с программами более интуитивным.",
+      colors: {
+        abbey: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
+        merino: { img: "4-merino.png", imgTablet: "4-merino-1024.png", imgMobile: "4-merino-545.png" },
+        mischka: { img: "4-mischka.png", imgTablet: "4-mischka-1024.png", imgMobile: "4-mischka-545.png" }
+      }
     }
   ];
 
   // ============================================
   // 2. БАЗА ДАННЫХ ТОВАРОВ index.html(.customer)
-  // Картинки лежат в папке: ./img/customer/1.jpg, 2.jpg, 3.jpg ...
   // ============================================
   const customers = [
     {
       id: "customer-1",
-      title: "Ноутбук HP Business",
-      price: "$899.00",
-      oldPrice: "$1099.00",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "18",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "1.jpg",
-      desc: "Надёжный ноутбук для бизнеса HP с отличной производительностью и защитой данных."
+      sku: "HP-BS-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Надёжный ноутбук для бизнеса HP с отличной производительностью и защитой данных.",
+      colors: {
+        abbey: { img: "1.jpg", imgTablet: "1-1024.jpg", imgMobile: "1-545.jpg" },
+        merino: { img: "1-merino.jpg", imgTablet: "1-merino-1024.jpg", imgMobile: "1-merino-545.jpg" },
+        mischka: { img: "1-mischka.jpg", imgTablet: "1-mischka-1024.jpg", imgMobile: "1-mischka-545.jpg" }
+      }
     },
     {
       id: "customer-2",
-      title: "Монитор Dell UltraSharp",
-      price: "$499.00",
-      oldPrice: "",
-      rating: "★★★★★ 5.0",
-      ratingValue: "5.0",
-      reviews: "42",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "2.jpg",
-      desc: "27-дюймовый монитор Dell UltraSharp с 4K разрешением и отличной цветопередачей."
+      sku: "DELL-US-002",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "27-дюймовый монитор Dell UltraSharp с 4K разрешением и отличной цветопередачей.",
+      colors: {
+        abbey: { img: "2.jpg", imgTablet: "2-1024.jpg", imgMobile: "2-545.jpg" },
+        merino: { img: "1-merino.jpg", imgTablet: "2-merino-1024.jpg", imgMobile: "2-merino-545.jpg" },
+        mischka: { img: "2-mischka.jpg", imgTablet: "2-mischka-1024.jpg", imgMobile: "2-mischka-545.jpg" }
+      }
     },
     {
       id: "customer-3",
-      title: "Наушники Sony WH-1000XM5",
-      price: "$349.00",
-      oldPrice: "$399.00",
-      rating: "★★★★★ 4.9",
-      ratingValue: "4.9",
-      reviews: "56",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "3.jpg",
-      desc: "Лучшие беспроводные наушники с шумоподавлением. До 30 часов работы, превосходное качество звука."
+      sku: "SNY-WH-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Лучшие беспроводные наушники с шумоподавлением. До 30 часов работы, превосходное качество звука.",
+      colors: {
+        abbey: { img: "3.jpg", imgTablet: "3-1024.jpg", imgMobile: "3-545.jpg" },
+        merino: { img: "3-merino.jpg", imgTablet: "3-merino-1024.jpg", imgMobile: "3-merino-545.jpg" },
+        mischka: { img: "3-mischka.jpg", imgTablet: "3-mischka-1024.jpg", imgMobile: "3-mischka-545.jpg" }
+      }
     },
     {
       id: "customer-4",
-      title: "Механическая клавиатура",
-      price: "$59.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "15",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "4.jpg",
-      desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером."
+      sku: "MK-CUS-004",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером.",
+      colors: {
+        abbey: { img: "4.jpg", imgTablet: "4-1024.jpg", imgMobile: "4-545.jpg" },
+        merino: { img: "4-merino.jpg", imgTablet: "4-merino-1024.jpg", imgMobile: "4-merino-545.jpg" },
+        mischka: { img: "4-mischka.jpg", imgTablet: "4-mischka-1024.jpg", imgMobile: "4-mischka-545.jpg" }
+      }
     },
     {
       id: "customer-5",
-      title: "Монитор 27\" 4K",
-      price: "$199.00",
-      oldPrice: "$279.00",
-      rating: "★★★★☆ 4.9",
-      ratingValue: "4.9",
-      reviews: "21",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "5.jpg",
-      desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками."
+      sku: "MON-CUS-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками.",
+      colors: {
+        abbey: { img: "5.jpg", imgTablet: "5-1024.jpg", imgMobile: "5-545.jpg" },
+        merino: { img: "5-merino.jpg", imgTablet: "5-merino-1024.jpg", imgMobile: "5-merino-545.jpg" },
+        mischka: { img: "5-mischka.jpg", imgTablet: "5-mischka-1024.jpg", imgMobile: "5-mischka-545.jpg" }
+      }
     }
   ];
 
   // ============================================
   // 3. БАЗА ДАННЫХ ТОВАРОВ index.html(.laptops)
-  // Картинки лежат в папке: ./img/laptops/1.png, 2.png, 3.png ...
   // ============================================
   const laptops = [
     {
       id: "laptops-1",
-      title: "Ноутбук MSI GS Series",
-      price: "$1299.00",
-      oldPrice: "$1499.00",
-      rating: "★★★★★ 4.9",
-      ratingValue: "4.9",
-      reviews: "34",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "1.png",
-      desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD."
+      sku: "MSI-GS-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD.",
+      colors: {
+        abbey: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+        merino: { img: "1-merino.png", imgTablet: "1-merino-1024.png", imgMobile: "1-merino-545.png" },
+        mischka: { img: "1-mischka.png", imgTablet: "1-mischka-1024.png", imgMobile: "1-mischka-545.png" }
+      }
     },
     {
       id: "laptops-2",
-      title: "Ноутбук MSI GT Series",
-      price: "$1999.00",
-      oldPrice: "$2299.00",
-      rating: "★★★★★ 5.0",
-      ratingValue: "5.0",
-      reviews: "56",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "2.png",
-      desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM."
+      sku: "MSI-GT-002",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM.",
+      colors: {
+        abbey: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+        merino: { img: "2-merino.png", imgTablet: "2-merino-1024.png", imgMobile: "2-merino-545.png" },
+        mischka: { img: "2-mischka.png", imgTablet: "2-mischka-1024.png", imgMobile: "2-mischka-545.png" }
+      }
     },
     {
       id: "laptops-3",
-      title: "Ноутбук MSI GL Series",
-      price: "$899.00",
-      oldPrice: "$1099.00",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "23",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "3.png",
-      desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM."
+      sku: "MSI-GL-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM.",
+      colors: {
+        abbey: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+        merino: { img: "3-merino.png", imgTablet: "3-merino-1024.png", imgMobile: "3-merino-545.png" },
+        mischka: { img: "3-mischka.png", imgTablet: "3-mischka-1024.png", imgMobile: "3-mischka-545.png" }
+      }
     },
     {
       id: "laptops-4",
-      title: "Ноутбук MSI GE Series",
-      price: "$1599.00",
-      oldPrice: "$1799.00",
-      rating: "★★★★★ 4.8",
-      ratingValue: "4.8",
-      reviews: "45",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "4.png",
-      desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM."
+      sku: "MSI-GE-004",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM.",
+      colors: {
+        abbey: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
+        merino: { img: "4-merino.png", imgTablet: "4-merino-1024.png", imgMobile: "4-merino-545.png" },
+        mischka: { img: "4-mischka.png", imgTablet: "4-mischka-1024.png", imgMobile: "4-mischka-545.png" }
+      }
     },
     {
       id: "laptops-5",
-      title: "Ноутбук MSI Prestige Series",
-      price: "$1199.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "28",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "5.png",
-      desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD."
+      sku: "MSI-PR-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD.",
+      colors: {
+        abbey: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
+        merino: { img: "5-merino.png", imgTablet: "5-merino-1024.png", imgMobile: "5-merino-545.png" },
+        mischka: { img: "5-mischka.png", imgTablet: "5-mischka-1024.png", imgMobile: "5-mischka-545.png" }
+      }
     }    
   ];
 
   // ============================================
   // 4. БАЗА ДАННЫХ ТОВАРОВ index.html(.desktops)
-  // Картинки лежат в папке: ./img/desktops/1.png, 2.png, 3.png ...
   // ============================================
   const desktops = [
     {
       id: "desktops-1",
-      title: "Ноутбук MSI GS Series",
-      price: "$1299.00",
-      oldPrice: "$1499.00",
-      rating: "★★★★★ 4.9",
-      ratingValue: "4.9",
-      reviews: "34",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "1.png",
-      desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD."
+      sku: "MSI-TRI-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Игровой компактный ПК MSI MPG Trident 3...",
+      colors: {
+        abbey: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+        merino: { img: "1-merino.png", imgTablet: "1-merino-1024.png", imgMobile: "1-merino-545.png" },
+        mischka: { img: "1-mischka.png", imgTablet: "1-mischka-1024.png", imgMobile: "1-mischka-545.png" }
+      }
     },
     {
       id: "desktops-2",
-      title: "Ноутбук MSI GT Series",
-      price: "$1999.00",
-      oldPrice: "$2299.00",
-      rating: "★★★★★ 5.0",
-      ratingValue: "5.0",
-      reviews: "56",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "2.png",
-      desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM."
+      sku: "MSI-TRX-002",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Топовый игровой десктоп MSI Trident X...",
+      colors: {
+        abbey: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+        merino: { img: "2-merino.png", imgTablet: "2-merino-1024.png", imgMobile: "2-merino-545.png" },
+        mischka: { img: "2-mischka.png", imgTablet: "2-mischka-1024.png", imgMobile: "2-mischka-545.png" }
+      }
     },
     {
       id: "desktops-3",
-      title: "Ноутбук MSI GL Series",
-      price: "$899.00",
-      oldPrice: "$1099.00",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "23",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "3.png",
-      desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM."
+      sku: "MSI-INF-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Компактный игровой ПК MSI Infinite S3...",
+      colors: {
+        abbey: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+        merino: { img: "3-merino.png", imgTablet: "3-merino-1024.png", imgMobile: "3-merino-545.png" },
+        mischka: { img: "3-mischka.png", imgTablet: "3-mischka-1024.png", imgMobile: "3-mischka-545.png" }
+      }
     },
     {
       id: "desktops-4",
-      title: "Ноутбук MSI GE Series",
-      price: "$1599.00",
-      oldPrice: "$1799.00",
-      rating: "★★★★★ 4.8",
-      ratingValue: "4.8",
-      reviews: "45",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "4.png",
-      desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM."
+      sku: "MSI-CD-004",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
+      colors: {
+        abbey: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
+        merino: { img: "4-merino.png", imgTablet: "4-merino-1024.png", imgMobile: "4-merino-545.png" },
+        mischka: { img: "4-mischka.png", imgTablet: "4-mischka-1024.png", imgMobile: "4-mischka-545.png" }
+      }
     },
     {
       id: "desktops-5",
-      title: "Ноутбук MSI Prestige Series",
-      price: "$1199.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "28",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "5.png",
-      desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD."
-    }    
+      sku: "MSI-AEG-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
+      colors: {
+        abbey: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
+        merino: { img: "5-merino.png", imgTablet: "5-merino-1024.png", imgMobile: "5-merino-545.png" },
+        mischka: { img: "5-mischka.png", imgTablet: "5-mischka-1024.png", imgMobile: "5-mischka-545.png" }
+      }
+    }
   ];
 
   // ============================================
   // 5. БАЗА ДАННЫХ ТОВАРОВ index.html(.monitors)
-  // Картинки лежат в папке: ./img/monitors/1.png, 2.png, 3.png ...
   // ============================================
   const monitors = [
     {
       id: "monitors-1",
-      title: "Ноутбук MSI GS Series",
-      price: "$1299.00",
-      oldPrice: "$1499.00",
-      rating: "★★★★★ 4.9",
-      ratingValue: "4.9",
-      reviews: "34",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "1.png",
-      desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD."
+      sku: "MSI-OPT-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "27-дюймовый игровой монитор MSI Optix с разрешением 2K, 165Hz, 1ms.",
+      colors: {
+        abbey: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+        merino: { img: "1-merino.png", imgTablet: "1-merino-1024.png", imgMobile: "1-merino-545.png" },
+        mischka: { img: "1-mischka.png", imgTablet: "1-mischka-1024.png", imgMobile: "1-mischka-545.png" }
+      }
     },
     {
       id: "monitors-2",
-      title: "Ноутбук MSI GT Series",
-      price: "$1999.00",
-      oldPrice: "$2299.00",
-      rating: "★★★★★ 5.0",
-      ratingValue: "5.0",
-      reviews: "56",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "2.png",
-      desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM."
+      sku: "MSI-TRX-002",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Топовый игровой десктоп MSI Trident X...",
+      colors: {
+        abbey: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+        merino: { img: "2-merino.png", imgTablet: "2-merino-1024.png", imgMobile: "2-merino-545.png" },
+        mischka: { img: "2-mischka.png", imgTablet: "2-mischka-1024.png", imgMobile: "2-mischka-545.png" }
+      }
     },
     {
       id: "monitors-3",
-      title: "Ноутбук MSI GL Series",
-      price: "$899.00",
-      oldPrice: "$1099.00",
-      rating: "★★★★☆ 4.7",
-      ratingValue: "4.7",
-      reviews: "23",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "3.png",
-      desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM."
+      sku: "MSI-INF-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Компактный игровой ПК MSI Infinite S3...",
+      colors: {
+        abbey: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+        merino: { img: "3-merino.png", imgTablet: "3-merino-1024.png", imgMobile: "3-merino-545.png" },
+        mischka: { img: "3-mischka.png", imgTablet: "3-mischka-1024.png", imgMobile: "3-mischka-545.png" }
+      }
     },
     {
       id: "monitors-4",
-      title: "Ноутбук MSI GE Series",
-      price: "$1599.00",
-      oldPrice: "$1799.00",
-      rating: "★★★★★ 4.8",
-      ratingValue: "4.8",
-      reviews: "45",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "4.png",
-      desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM."
+      sku: "MSI-CD-004",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
+      colors: {
+        abbey: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
+        merino: { img: "4-merino.png", imgTablet: "4-merino-1024.png", imgMobile: "4-merino-545.png" },
+        mischka: { img: "4-mischka.png", imgTablet: "4-mischka-1024.png", imgMobile: "4-mischka-545.png" }
+      }
     },
     {
       id: "monitors-5",
-      title: "Ноутбук MSI Prestige Series",
-      price: "$1199.00",
-      oldPrice: "",
-      rating: "★★★★☆ 4.8",
-      ratingValue: "4.8",
-      reviews: "28",
-      available: "in stock",
+      title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      link: "Be the first to review this product",
       img: "5.png",
-      desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD."
-    }    
+      sku: "MSI-AEG-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
+      colors: {
+        abbey: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
+        merino: { img: "5-merino.png", imgTablet: "5-merino-1024.png", imgMobile: "5-merino-545.png" },
+        mischka: { img: "5-mischka.png", imgTablet: "5-mischka-1024.png", imgMobile: "5-mischka-545.png" }
+      }
+    }
   ];
 
   // ============================================
@@ -400,14 +476,76 @@ document.addEventListener('DOMContentLoaded', function() {
   const allGoods = [...products, ...customers, ...laptops, ...desktops, ...monitors];
 
   // ============================================
+  // ОПРЕДЕЛЕНИЕ СЕКЦИИ И ХЛЕБНЫХ КРОШЕК
+  // ============================================
+  function getBreadcrumbs(product) {
+    if (!product) return [];
+    
+    let parentUrl = '';
+    let parentName = '';
+    
+    if (product.id.startsWith('product')) {
+      parentUrl = 'index.html#products';
+      parentName = 'Product';
+    } 
+    else if (product.id.startsWith('customer')) {
+      parentUrl = 'index.html#customer';
+      parentName = 'Customer';
+    }
+    else if (product.id.startsWith('laptops')) {
+      parentUrl = 'index.html#laptops';
+      parentName = 'Laptops';
+    }
+    else if (product.id.startsWith('desktops')) {
+      parentUrl = 'index.html#desktops';
+      parentName = 'Desktops';
+    }
+    else if (product.id.startsWith('monitors')) {
+      parentUrl = 'index.html#monitors';
+      parentName = 'Monitors';
+    }
+    
+    return [
+      { name: 'Home', url: 'index.html' },
+      { name: parentName, url: parentUrl },
+      { name: product.title, url: null }
+    ];
+  }
+
+  function renderBreadcrumbs(breadcrumbs) {
+    const breadcrumbsContainer = document.querySelector('.breadcrumbs__list');
+    if (!breadcrumbsContainer) return;
+    
+    breadcrumbsContainer.innerHTML = '';
+    
+    breadcrumbs.forEach((crumb, index) => {
+      const li = document.createElement('li');
+      li.className = 'breadcrumbs__item';
+      
+      if (crumb.url && index < breadcrumbs.length - 1) {
+        const a = document.createElement('a');
+        a.className = 'breadcrumbs__link';
+        a.href = crumb.url;
+        a.textContent = crumb.name;
+        li.appendChild(a);
+      } else {
+        const span = document.createElement('span');
+        span.className = 'breadcrumbs__link';
+        span.setAttribute('aria-current', 'location');
+        span.textContent = crumb.name;
+        li.appendChild(span);
+      }
+      
+      breadcrumbsContainer.appendChild(li);
+    });
+  }
+
+  // ============================================
   // КОРЗИНА (localStorage)
   // ============================================
   
-  // Получаем ID товара из URL
   const urlParams = new URLSearchParams(window.location.search);
   const id = urlParams.get('id');
-  
-  // Ищем товар в ОБЩЕМ массиве
   const product = allGoods.find(item => item.id == id);
   
   let localQuantity = 0;
@@ -427,7 +565,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function updateLocalQuantityDisplay() {
-    const qtySpan = document.getElementById('article-quantity');
+    const qtySpan = document.getElementById('payPal-quantity');
     if (qtySpan) qtySpan.textContent = localQuantity;
   }
 
@@ -471,7 +609,11 @@ document.addEventListener('DOMContentLoaded', function() {
   // ОТОБРАЖЕНИЕ ДАННЫХ ТОВАРА НА СТРАНИЦЕ
   // ============================================  
   if (product) {
-    // КАРТИНКА (определяем папку по id)
+    // ХЛЕБНЫЕ КРОШКИ
+    const breadcrumbs = getBreadcrumbs(product);
+    renderBreadcrumbs(breadcrumbs);
+    
+    // КАРТИНКА
     let imgFolder;
     if (product.id.startsWith('product')) imgFolder = 'catalog/products';
     else if (product.id.startsWith('customer')) imgFolder = 'customer';
@@ -493,44 +635,30 @@ document.addEventListener('DOMContentLoaded', function() {
     const descElement = document.getElementById('article-desc');
     if (descElement) descElement.textContent = product.desc;
     
-    // НАЛИЧИЕ
-    const availableElement = document.getElementById('article-available');
-    if (availableElement) availableElement.textContent = product.available;
-    
-    // ЦЕНА
-    const oldPriceSpan = document.getElementById('article-old-price');
-    const newPriceSpan = document.getElementById('article-new-price');
-    if (oldPriceSpan && newPriceSpan) {
-      if (product.oldPrice && product.oldPrice !== "") {
-        oldPriceSpan.textContent = product.oldPrice;
-        oldPriceSpan.style.display = 'inline';
-      } else {
-        oldPriceSpan.style.display = 'none';
-      }
-      newPriceSpan.textContent = product.price;
+    // ССЫЛКИ (статический текст, не из массива)
+    const reviewLink = document.querySelector('.article__review-link');
+    if (reviewLink) reviewLink.textContent = 'Be the first to review this product';
+
+    // Текст ссылки
+    const contactLinkElement = document.getElementById('article-contact-link');
+    if (contactLinkElement && product.contactText) {
+      contactLinkElement.textContent = product.contactText;
     }
+
+    // Добавляем текст "Have a Question? " перед ссылкой
+    const questionTextParagraph = document.querySelector('.article__question-text');
+    if (questionTextParagraph && !questionTextParagraph.textContent.includes('Have a Question?')) {
+    questionTextParagraph.insertAdjacentHTML('afterbegin', 'Have a Question? ');
+  }
     
-    // КОЛИЧЕСТВО ОТЗЫВОВ
-    const reviewsElement = document.getElementById('article-reviews');
-    if (reviewsElement) reviewsElement.textContent = `Reviews (${product.reviews})`;
-    
-    // ЗВЁЗДЫ (картинками)
-    const starsContainer = document.getElementById('article-stars');
-    if (starsContainer) {
-      starsContainer.innerHTML = '';
-      const yellowCount = (product.rating.match(/★/g) || []).length;
-      for (let i = 0; i < 5; i++) {
-        const starImg = document.createElement('img');
-        starImg.className = i < yellowCount ? 'catalog__rating-yellow-svg' : 'catalog__rating-gray-svg';
-        starImg.src = i < yellowCount ? './img/catalog/svg/star.svg' : './img/catalog/svg/star-grey.svg';
-        starImg.alt = '';
-        starsContainer.appendChild(starImg);
-      }
+    // SKU (из массива)
+    const skuElement = document.getElementById('article-sku');
+    if (skuElement && product.sku) {
+      skuElement.textContent = product.sku;
     }
     
     syncLocalQuantityWithCart();
   } else {
-    // Если товар не найден
     const titleElement = document.getElementById('article-title');
     if (titleElement) titleElement.textContent = "Товар не найден";
   }
@@ -539,15 +667,130 @@ document.addEventListener('DOMContentLoaded', function() {
   // НАВЕШИВАЕМ КНОПКИ
   // ============================================
   
-  const addBtn = document.getElementById('add-to-cart');
+  const addBtn = document.getElementById('payPal__to-cart');
   if (addBtn) addBtn.addEventListener('click', localAdd);
   
-  const removeBtn = document.getElementById('remove-from-cart');
+  const removeBtn = document.getElementById('payPal__qty');
   if (removeBtn) removeBtn.addEventListener('click', localRemove);
   
-  const cartBtn = document.getElementById('article__btn');
+  const cartBtn = document.getElementById('payPal__btn');
   if (cartBtn) cartBtn.addEventListener('click', applyToCart);
   
   updateCartCount();
+
+
+
+  // ============================================
+  // 1. ТАБЫ ДЛЯ payPal 
+  // ============================================ 
+  function initPayPalTabs() {
+    const tabs = document.querySelectorAll('[data-path]');
+    const panels = document.querySelectorAll('[data-target]');
+    
+    // Скрыть все панели
+    panels.forEach(panel => panel.classList.add('is-hidden'));
+    
+    // Показать активную
+    const activeTab = document.querySelector('[data-path].active');
+    if (activeTab) {
+        const target = activeTab.dataset.path;
+        const activePanel = document.querySelector(`[data-target="${target}"]`);
+        if (activePanel) activePanel.classList.remove('is-hidden');
+    } else {
+        panels[0]?.classList.remove('is-hidden');
+    }
+    
+    // Обработчики
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetPath = this.dataset.path;
+            
+            tabs.forEach(t => {
+                t.classList.remove('active', 'active-laptops');
+            });
+            this.classList.add('active', 'active-laptops');
+            
+            panels.forEach(panel => panel.classList.add('is-hidden'));
+            
+            const targetPanel = document.querySelector(`[data-target="${targetPath}"]`);
+            if (targetPanel) targetPanel.classList.remove('is-hidden');
+        });
+    });
+  }
+
+  initPayPalTabs();
+
+
+  // ============================================
+  // 2. ТАБЫ ДЛЯ ЦВЕТОВ (Чёрный / Бежевый / Белый)
+  // ============================================
+  function initColorTabs() {
+    const colorTabs = document.querySelectorAll('.color__tab');
+    const colorPanels = document.querySelectorAll('[data-target-color]');
+    
+    if (colorTabs.length === 0) return;
+    if (!product || !product.colors) return;  // если нет цветов — выходим
+    
+    function changeColorImage(color) {
+      const colorData = product.colors[color];
+      if (!colorData) return;
+      
+      const imgElement = document.getElementById('article-img');
+      const imgMobile = document.getElementById('article-img-mobile');
+      const imgTablet = document.getElementById('article-img-tablet');
+      
+      let imgFolder = 'catalog/products';
+      if (product.id.startsWith('customer')) imgFolder = 'customer';
+      else if (product.id.startsWith('laptops')) imgFolder = 'laptops';
+      else if (product.id.startsWith('desktops')) imgFolder = 'desktops';
+      else if (product.id.startsWith('monitors')) imgFolder = 'monitors';
+      
+      if (imgElement) imgElement.src = `./img/${imgFolder}/${colorData.img}`;
+      if (imgMobile) imgMobile.srcset = `./img/${imgFolder}/${colorData.imgMobile}`;
+      if (imgTablet) imgTablet.srcset = `./img/${imgFolder}/${colorData.imgTablet}`;
+    }
+    
+    function hideAllColorPanels() {
+      colorPanels.forEach(panel => panel.classList.add('is-hidden'));
+    }
+    
+    function showColorPanel(color) {
+      const targetPanel = document.querySelector(`[data-target-color="${color}"]`);
+      if (targetPanel) targetPanel.classList.remove('is-hidden');
+    }
+    
+    hideAllColorPanels();
+    
+    const activeColorTab = document.querySelector('.color__tab.active');
+    if (activeColorTab) {
+      const activeColor = activeColorTab.dataset.pathColor;
+      changeColorImage(activeColor);
+      showColorPanel(activeColor);
+    } else {
+      if (colorPanels.length > 0) {
+        colorPanels[0].classList.remove('is-hidden');
+        changeColorImage('abbey');
+      }
+    }
+    
+    colorTabs.forEach(tab => {
+      tab.addEventListener('click', function(e) {
+        const targetColor = this.dataset.pathColor;
+        
+        colorTabs.forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+        
+        changeColorImage(targetColor);
+        hideAllColorPanels();
+        showColorPanel(targetColor);
+      });
+    });
+}
   
-});
+  
+  
+  // Запускаем цветные табы
+  initColorTabs();
+  
+}); 

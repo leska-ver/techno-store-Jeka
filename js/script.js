@@ -316,11 +316,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     slides.forEach(slide => {
       if (width <= 545) {
-        slide.style.width = '174px';
+        slide.style.width = '168px';
       } else if (width <= 768) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1024) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1424) {
         slide.style.width = '234px';
       } else {
@@ -371,9 +371,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (width <= 545) {
         slide.style.width = '222px';
       } else if (width <= 768) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1024) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1424) {
         slide.style.width = '234px';
       } else {
@@ -424,9 +424,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (width <= 545) {
         slide.style.width = '222px';
       } else if (width <= 768) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1024) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1424) {
         slide.style.width = '234px';
       } else {
@@ -491,9 +491,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (width <= 545) {
         slide.style.width = '222px';
       } else if (width <= 768) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1024) {
-        slide.style.width = '229px';
+        slide.style.width = '226px';
       } else if (width <= 1424) {
         slide.style.width = '234px';
       } else {
