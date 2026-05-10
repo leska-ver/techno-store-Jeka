@@ -18,6 +18,8 @@
     <!-- <link rel="stylesheet" href="css/choices.min.css"> -->
     <!-- Основные стили Choices для кодепена-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -300,31 +302,67 @@
                       </div>                      
                     </div>                    
                   </div>
-                  <div class="catalog__sub-colors">
-                    <div class="catalog__sub" data-target-color="abbey">
-                      <picture>
-                        <source id="article-img-mobile" media="(max-width: 545px)">
-                        <source id="article-img-tablet" media="(max-width: 1024px)">
-                        <img id="article-img" class="article__image" src="" alt="Товар">
-                      </picture>
-                    </div>
-                    <div class="catalog__sub" data-target-color="merino">
-                      <p>Бежевый компьютер</p>
-                      <picture>
-                        <source id="article-img-mobile" media="(max-width: 545px)">
-                        <source id="article-img-tablet" media="(max-width: 1024px)">
-                        <img class="article__image" src="./img/catalog/products/merino-computer.png" alt="Бежевый компьютер">
-                      </picture>
-                    </div>
-                    <div class="catalog__sub" data-target-color="mischka">
-                      <p>Белый компьютер</p>
-                      <picture>
-                        <source id="article-img-mobile" media="(max-width: 545px)">
-                        <source id="article-img-tablet" media="(max-width: 1024px)">
-                        <img class="article__image" src="./img/catalog/products/mischka-computer.png" alt="Белый компьютер">
-                      </picture>
-                    </div>
-                  </div>
+                  <!-- Swiper -->
+                  <div class="article__swiper">
+                    <ul class="article__wrapper">
+                      <!-- Слайд 1: передняя часть -->
+                      <!-- <li class="article__slide catalog__sub-colors">
+                        <div class="catalog__sub" data-target-color="abbey">
+                          <picture>
+                            <source id="article-img-mobile" media="(max-width: 545px)">
+                            <source id="article-img-tablet" media="(max-width: 1024px)">
+                            <img id="article-img" class="article__image" src="" alt="Товар">
+                          </picture>
+                        </div>
+                        <div class="catalog__sub" data-target-color="merino">
+                          <p>Бежевый компьютер</p>
+                          <picture>
+                            <source id="article-img-mobile" media="(max-width: 545px)">
+                            <source id="article-img-tablet" media="(max-width: 1024px)">
+                            <img class="article__image" src="./img/catalog/products/merino-computer.png" alt="Бежевый компьютер">
+                          </picture>
+                        </div>
+                        <div class="catalog__sub" data-target-color="mischka">
+                          <p>Белый компьютер</p>
+                          <picture>
+                            <source id="article-img-mobile" media="(max-width: 545px)">
+                            <source id="article-img-tablet" media="(max-width: 1024px)">
+                            <img class="article__image" src="./img/catalog/products/mischka-computer.png" alt="Белый компьютер">
+                          </picture>
+                        </div>
+                      </li> -->
+                      <li class="article__slide">
+                        <div class="catalog__sub">
+                          <picture>
+                            <source id="front-mobile" media="(max-width: 545px)">
+                            <source id="front-tablet" media="(max-width: 1024px)">
+                            <img id="front-img" class="article__image" src="" alt="Перед">
+                          </picture>
+                        </div>
+                      </li>
+                      <!-- Слайд 2: боковая часть -->
+                      <li class="article__slide">
+                        <div class="catalog__sub">
+                          <picture>
+                            <source id="side-mobile" media="(max-width: 545px)">
+                            <source id="side-tablet" media="(max-width: 1024px)">
+                            <img id="side-img" class="article__image" src="" alt="Бок">
+                          </picture>
+                        </div>
+                      </li>
+                      <!-- Слайд 3: задняя часть -->
+                      <li class="article__slide">
+                        <div class="catalog__sub">
+                          <picture>
+                            <source id="back-mobile" media="(max-width: 545px)">
+                            <source id="back-tablet" media="(max-width: 1024px)">
+                            <img id="back-img" class="article__image" src="" alt="Зад">
+                          </picture>
+                        </div>
+                      </li>                     
+                    </ul>
+                    <div class="article__pagination"></div>
+                  </div>    
                 </article>
               </div>
             </div>
@@ -629,6 +667,8 @@
     <script src="js/choices.min.js"></script>-->
     <!-- Скрипт Choices для кодепена-->
     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <!-- Мой js: дропдаун Contact Us, бургер, инициализация Choices (без логики для лупы, т.к. она всегда видна) -->
     <script src="js/script.js"></script>
