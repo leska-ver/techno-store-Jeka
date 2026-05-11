@@ -773,12 +773,12 @@ button.acc__link {
 }
 
 .article__container {
-  padding: 70px 0 0 171px;
+  padding: 63px 0 0 171px;
 }
 
 .article .catalog__article { 
   display: grid;
-  grid-template-columns: 1fr 56%;
+  grid-template-columns: 1fr 46.8%;
   gap: 10px;
 }
 
@@ -792,7 +792,7 @@ button.acc__link {
 
 .article .catalog__block {
   margin: 0;
-  padding: 0;
+  padding: 0 131px 0 0;
 }
 
 .article .catalog__block > div:first-child {
@@ -810,9 +810,17 @@ button.acc__link {
 }
 
 .article__description {
+  margin-bottom: 42px;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.article__colors {
+  display: flex;
+  gap: 12px;
+  margin-left: -3px;
+  margin-bottom: 16px;
 }
 
 .article__descs {
@@ -821,6 +829,113 @@ button.acc__link {
   flex-wrap: wrap;
   gap: 25px;
 }
+
+.article__question-text {
+  margin-left: -3px;
+  font-size: 12px;
+}
+
+.article__contact-link {
+  margin-left: 7px;
+}
+
+.article__sku {
+  font-size: 12px;
+}
+
+/*-- Слайдер --*/
+.article__swiper {
+  position: relative;
+  margin-top: -10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.article__wrapper {
+  display: flex;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.article__slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+/* Пагинация (точки) */
+.article__pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.article__pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  background: #ccc;
+  border-radius: 50%;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.article__pagination .swiper-pagination-bullet-active {
+  background: #0156FF;
+  opacity: 1;
+}
+/*-- // Слайдер --*/
+
+.article__Interaction {
+  display: grid;
+  gap: 6px;
+  width: 45px;
+}
+
+.article__zip {
+  display: -ms-grid;
+  display: grid;
+  -webkit-grid-template-columns: 76px 2px max-content;
+  -o-grid-grid-template-columns: 76px 2px max-content;
+  -moz-grid-template-columns: 76px 2px max-content;
+  -ms-grid-template-columns: 76px 2px max-content;
+  grid-template-columns: 76px 2px max-content;
+  -webkit--gap: 3px;
+  -moz--gap: 3px;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0 6px;
+}
+
+.article__logo-zip {
+  display: block;
+  margin-left: -19px;
+  width: 76px;
+  height: 27px;
+}
+
+.article__divider {
+  display: inline-block;
+  margin-left: -13px;
+  width: 2px;         
+  height: 22px;       
+  background-color: #00AEB8;
+}
+
+.article__promo-text {
+  width: 242px;
+  font-size: clamp(12px, 1.88vw, 18px);
+  color: var(--color-portGore);
+}
+
+.article__learn-more {
+  font-size: 14px; /* Не меняется! */
+  text-decoration: underline; /* Добавляет подчеркивание */
+}
 /* // Шаблон инфо о карточки(article.html) */
 
 
@@ -828,8 +943,23 @@ button.acc__link {
 .color__tab {
   border-radius: 50%;
   border: 1px solid transparent;
-  width: 23px;
-  height: 23px;
+  width: 39px;
+  height: 39px;
+}
+
+.color__tab:focus {
+  outline-offset: 2px;
+  outline: 2px solid var(--color-blueRibbon);
+}
+
+.color__tab:hover {
+  outline-offset: 2px;
+  outline: 2px solid var(--color-selectiveYellow);
+}
+
+.color__tab:active {
+  outline-offset: 2px;
+  outline: 2px solid var(--color-doveGray);
 }
 
 .color__tab.abbey {
@@ -2725,7 +2855,7 @@ button.acc__link {
 }
 
 .payPal .breadcrumbs__link {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .payPal .catalog__article {
@@ -2757,6 +2887,11 @@ button.acc__link {
   height: 100%;
   background-color: var(--color-zircon);
   z-index: -1;
+}
+
+.payPal .breadcrumbs__link::before {
+  top: 3px;
+  right: -12px;
 }
 
 .payPal__btns {
@@ -5495,51 +5630,3 @@ input::placeholder {
 
 
 
-
-
-
-
-
-/* Слайдер */
-.article__swiper {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-.article__wrapper {
-  display: flex;
-  width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.article__slide {
-  flex-shrink: 0;
-  width: 100%;
-}
-
-/* Пагинация (точки) */
-.article__pagination {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-}
-
-.article__pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  margin: 0 5px;
-  background: #ccc;
-  border-radius: 50%;
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.article__pagination .swiper-pagination-bullet-active {
-  background: #0156FF;
-  opacity: 1;
-}

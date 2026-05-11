@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
       id: "product-3",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...", 
       img: "3-1920.png",
-      sku: "ASP-003",
+      sku: "D5515AI",
       questionText: "Have a Question?",
       contactText: "Contact Us",
       desc: "Беспроводные наушники AirSound Pro с активным шумоподавлением (ANC). Погрузитесь в чистый звук без помех. До 30 часов работы на одном заряде, эргономичный дизайн для длительного ношения. Идеальны для путешествий и работы.",

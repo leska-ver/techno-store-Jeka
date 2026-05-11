@@ -278,8 +278,7 @@
                     <span class="breadcrumbs__link" aria-current="location">MSI WS Series</span><!-- Фокус не нужен, потому что это не ссылка -->
                   </li>
                 </ul>
-              </div>
-                    
+              </div>                    
               <!-- Та же самая карточка, что и в каталоге -->
               <div class="catalog__item">
                 <article class="catalog__article">
@@ -297,40 +296,38 @@
                       </div>
                       <div class="article__descs">
                         <!-- Ссылка "Have a Question? Contact Us" -->
-                        <p class="article__question-text"><a class="article__contact-link" href="#" id="article-contact-link"></a></p>
-                        <p class="article__sku">SKU <span id="article-sku"></span></p>
+                        <p class="article__question-text desc"><a class="article__contact-link" href="#" id="article-contact-link"></a></p>
+                        <p class="article__sku desc">SKU <span id="article-sku"></span></p>
                       </div>                      
                     </div>                    
                   </div>
                   <!-- Swiper -->
                   <div class="article__swiper">
+                    <div class="article__Interaction">
+                      <div class="article__like">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="15" cy="15" r="14" stroke="#A2A6B0" stroke-width="2"/>
+                          <path d="M18.8926 10.375C19.9608 10.3751 20.8024 10.7311 21.3711 11.2783C21.937 11.8228 22.2939 12.6141 22.2939 13.6094C22.2939 14.6804 21.8645 15.593 21.1289 16.4766C20.5628 17.1566 19.8484 17.7808 19.0605 18.4189L18.251 19.0645C17.3067 19.8098 16.2536 20.6415 15.3955 21.5713C14.5382 20.6414 13.4841 19.8093 12.542 19.0645L11.7324 18.4189C10.9443 17.7805 10.2301 17.1557 9.66406 16.4756C8.92889 15.5921 8.5 14.68 8.5 13.6094C8.50002 12.6143 8.85605 11.8228 9.42188 11.2783C9.99073 10.7311 10.8335 10.375 11.9023 10.375C12.9793 10.3751 14.0116 11.1453 14.6855 11.8252L15.3955 12.542L16.1055 11.8252C16.7787 11.146 17.8143 10.375 18.8926 10.375Z" stroke="#A2A6B0" stroke-width="2"/>
+                        </svg>
+                      </div>
+                      <div class="article__statistics">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="15" cy="15" r="14" stroke="#A2A6B0" stroke-width="2"/>
+                          <path d="M10.379 21.0884V16.6028" stroke="#A2A6B0" stroke-width="2.2" stroke-linecap="round"/>
+                          <path d="M14.9585 21.0884L14.9585 7.69238" stroke="#A2A6B0" stroke-width="2.2" stroke-linecap="round"/>
+                          <path d="M19.6202 21.0884L19.6202 12.2468" stroke="#A2A6B0" stroke-width="2.2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div class="article__messages">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="15" cy="15" r="14" stroke="#A2A6B0" stroke-width="2"/>
+                          <path d="M21.6667 9.83423H8.33333C7.8731 9.83423 7.5 10.2073 7.5 10.6676V20.6676C7.5 21.1278 7.8731 21.5009 8.33333 21.5009H21.6667C22.1269 21.5009 22.5 21.1278 22.5 20.6676V10.6676C22.5 10.2073 22.1269 9.83423 21.6667 9.83423Z" stroke="#A2A6B0" stroke-width="1.7" stroke-linecap="round"/>
+                          <path d="M7.5 11.0842L15 15.6676L22.5 11.0842" stroke="#A2A6B0" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>                          
+                      </div>
+                    </div>
                     <ul class="article__wrapper">
                       <!-- Слайд 1: передняя часть -->
-                      <!-- <li class="article__slide catalog__sub-colors">
-                        <div class="catalog__sub" data-target-color="abbey">
-                          <picture>
-                            <source id="article-img-mobile" media="(max-width: 545px)">
-                            <source id="article-img-tablet" media="(max-width: 1024px)">
-                            <img id="article-img" class="article__image" src="" alt="Товар">
-                          </picture>
-                        </div>
-                        <div class="catalog__sub" data-target-color="merino">
-                          <p>Бежевый компьютер</p>
-                          <picture>
-                            <source id="article-img-mobile" media="(max-width: 545px)">
-                            <source id="article-img-tablet" media="(max-width: 1024px)">
-                            <img class="article__image" src="./img/catalog/products/merino-computer.png" alt="Бежевый компьютер">
-                          </picture>
-                        </div>
-                        <div class="catalog__sub" data-target-color="mischka">
-                          <p>Белый компьютер</p>
-                          <picture>
-                            <source id="article-img-mobile" media="(max-width: 545px)">
-                            <source id="article-img-tablet" media="(max-width: 1024px)">
-                            <img class="article__image" src="./img/catalog/products/mischka-computer.png" alt="Белый компьютер">
-                          </picture>
-                        </div>
-                      </li> -->
                       <li class="article__slide">
                         <div class="catalog__sub">
                           <picture>
@@ -361,7 +358,18 @@
                         </div>
                       </li>                     
                     </ul>
-                    <div class="article__pagination"></div>
+                    <div class="article__zip">
+                      <img class="article__logo-zip" src="./img/logo-zip.svg" alt="Zip logo">
+                      <!-- Линия-разделитель -->
+                      <span class="article__divider"></span>
+                      <!-- Текстовый блок -->
+                      <p class="article__promo-text desc">
+                        <span class="article__bold-text">own it now,</span> 
+                        up to 6 months interest free 
+                        <a class="article__learn-more a" href="#">learn more</a>
+                      </p>
+                    </div>
+                    <div class="article__pagination"></div>                    
                   </div>    
                 </article>
               </div>
