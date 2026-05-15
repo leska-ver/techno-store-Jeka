@@ -491,9 +491,6 @@ button.acc__link {
 
 .catalog__sub {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-shrink: 0; /* ← НЕ сжимается */
   padding: 41px 30px 0 38px;
 }
@@ -525,8 +522,13 @@ button.acc__link {
 }
 
 .catalog__img {
-  display: block;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100px;  /* чтобы не вылезала за пределы */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
 }  
 
 /* Контентный блок - РАСТЯГИВАЕТСЯ */
@@ -783,8 +785,9 @@ button.acc__link {
 }
 
 .article__image {
+  margin: 0 auto;
   max-width: 100%;
-  max-height: 150px;
+  max-height: 100%;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -892,7 +895,9 @@ button.acc__link {
 .article__Interaction {
   display: grid;
   gap: 6px;
+  position: absolute;
   width: 45px;
+  z-index: 1;
 }
 
 .article__zip {
@@ -936,6 +941,10 @@ button.acc__link {
   font-size: 14px; /* Не меняется! */
   text-decoration: underline; /* Добавляет подчеркивание */
 }
+
+.article .catalog__sub {
+  height: 350px;
+}
 /* // Шаблон инфо о карточки(article.html) */
 
 
@@ -947,7 +956,7 @@ button.acc__link {
   height: 39px;
 }
 
-.color__tab:focus {
+.color__tab:focus, .color__tab.active {
   outline-offset: 2px;
   outline: 2px solid var(--color-blueRibbon);
 }

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Мощный 15.6-дюймовый сенсорный моноблок MSI Pro 16 Flex. Идеален для работы и дома. Оснащен процессором Intel Celeron QC N3160, 4GB оперативной памяти и графикой Intel HD Graphics. Компактный дизайн и мультитач-экран для удобного управления. Отличное решение для повседневных задач.",
       colors: {
-        abbey: {
+        abbey: {//чёрный планшет
           front: { img: "1-1920.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
         //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
         // },
-        mischka: {
+        mischka: {//белый планшет
           front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
@@ -41,17 +41,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Флагманский смартфон Samsung Galaxy S23 с мощной камерой 50 МП, процессором Snapdragon 8 Gen 2 и ярким 120-герцовым Dynamic AMOLED 2X дисплеем. Обеспечивает потрясающую производительность для игр, фотосъемки и работы. Компактный и стильный дизайн.",
       colors: {
-        abbey: {
+        mischka: {//белый комп        
           front: { img: "2-1920.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
-        },
-        merino: {
-          front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
-          side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
-          back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
-        },
-        mischka: {
+        },        
+        // merino: { Этой марки бежевого планшета нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        abbey: {//чёрный комп  
           front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
@@ -1154,19 +1154,25 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     hideAllColorPanels();
+
+    // ========== УНИВЕРСАЛЬНАЯ ЛОГИКА: берём ПЕРВЫЙ цвет из объекта colors ==========
+    const firstColorInData = Object.keys(product.colors)[0];
     
-    const activeColorTab = document.querySelector('.color__tab.active');
-    if (activeColorTab) {
-      const activeColor = activeColorTab.dataset.pathColor;
-      changeColorImage(activeColor);
-      showColorPanel(activeColor);
-    } else {
-      if (colorPanels.length > 0) {
-        colorPanels[0].classList.remove('is-hidden');
-        changeColorImage('abbey');
-      }
-    }
+    // Ищем кнопку с этим цветом и делаем её активной (ВИЗУАЛЬНО)
+    const activeTab = document.querySelector(`.color__tab[data-path-color="${firstColorInData}"]`);
     
+    if (activeTab) {
+      // Убираем active у всех кнопок
+      colorTabs.forEach(t => t.classList.remove('active'));
+      // Добавляем active нужной кнопке
+      activeTab.classList.add('active');
+      // Меняем картинку
+      changeColorImage(firstColorInData);
+      // Показываем панель
+      showColorPanel(firstColorInData);
+    }    
+    
+    // Обработчики кликов
     colorTabs.forEach(tab => {
       tab.addEventListener('click', function(e) {
         const targetColor = this.dataset.pathColor;
@@ -1178,7 +1184,7 @@ document.addEventListener('DOMContentLoaded', function() {
         hideAllColorPanels();
         showColorPanel(targetColor);
 
-        // Сброс слайдера на первый слайд. Если мы чьюто спинку смотрели, то при нажатие на другой цвет, товар будет лицом встречать нас.
+        // Сброс слайдера на первый слайд. Если мы чью-то спинку смотрели, то при нажатие на другой цвет, товар будет лицом встречать нас.
         const swiperContainer = document.querySelector('.article__swiper');
         if (swiperContainer && swiperContainer.swiper) {
           swiperContainer.swiper.slideTo(0);
