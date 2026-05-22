@@ -67,21 +67,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Беспроводные наушники AirSound Pro с активным шумоподавлением (ANC). Погрузитесь в чистый звук без помех. До 30 часов работы на одном заряде, эргономичный дизайн для длительного ношения. Идеальны для путешествий и работы.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {
-          front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
-          side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
-          back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
-        },
-        mischka: {
-          front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
-          side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
-          back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
-        }
+        //merino: {Этой марки бежевого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+          // side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+          // back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        //},
+        //mischka: {Этой марки белого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+          // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+          // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        //}
       }
     },
     {
@@ -91,17 +91,17 @@ document.addEventListener('DOMContentLoaded', function() {
       sku: "MK-004",
       desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту.",
       colors: {
-        abbey: {
-          front: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
-          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
+        abbey: {//чёрный
+          front: { img: "4-front-1920.png", imgTablet: "4-front-1024.png", imgMobile: "4-front-545.png" },
+          side: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
         },
-        merino: {
-          front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
-          side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
-          back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
-        },
-        mischka: {
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
+        //   side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
+        //   back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
+        // },
+        mischka: {//белый
           front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
@@ -117,21 +117,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "5-1920.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
           side: { img: "5-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
           back: { img: "5-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
-        },
-        merino: {
-          front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
-          side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
-          back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
-        },
-        mischka: {
-          front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
-          side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
-          back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
+        //   side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
+        //   back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
+        //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
+        //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -143,21 +143,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "6-1920.png", imgTablet: "6-1024.png", imgMobile: "6-545.png" },
           side: { img: "6-side-1920.png", imgTablet: "6-side-1024.png", imgMobile: "6-side-545.png" },
           back: { img: "6-back-1920.png", imgTablet: "6-back-1024.png", imgMobile: "6-back-545.png" }
-        },
-        merino: {
-          front: { img: "6-merino-front.png", imgTablet: "6-merino-front-1024.png", imgMobile: "6-merino-front-545.png" },
-          side: { img: "6-merino-side.png", imgTablet: "6-merino-side-1024.png", imgMobile: "6-merino-side-545.png" },
-          back: { img: "6-merino-back.png", imgTablet: "6-merino-back-1024.png", imgMobile: "6-merino-back-545.png" }
-        },
-        mischka: {
-          front: { img: "6-mischka-front.png", imgTablet: "6-mischka-front-1024.png", imgMobile: "6-mischka-front-545.png" },
-          side: { img: "6-mischka-side.png", imgTablet: "6-mischka-side-1024.png", imgMobile: "6-mischka-side-545.png" },
-          back: { img: "6-mischka-back.png", imgTablet: "6-mischka-back-1024.png", imgMobile: "6-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "6-merino-front.png", imgTablet: "6-merino-front-1024.png", imgMobile: "6-merino-front-545.png" },
+        //   side: { img: "6-merino-side.png", imgTablet: "6-merino-side-1024.png", imgMobile: "6-merino-side-545.png" },
+        //   back: { img: "6-merino-back.png", imgTablet: "6-merino-back-1024.png", imgMobile: "6-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "6-mischka-front.png", imgTablet: "6-mischka-front-1024.png", imgMobile: "6-mischka-front-545.png" },
+        //   side: { img: "6-mischka-side.png", imgTablet: "6-mischka-side-1024.png", imgMobile: "6-mischka-side-545.png" },
+        //   back: { img: "6-mischka-back.png", imgTablet: "6-mischka-back-1024.png", imgMobile: "6-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -169,17 +169,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Мощный планшет Tab Ultra с 11-дюймовым 2.5K дисплеем и стилусом в комплекте. Идеален для рисования, заметок и просмотра видео. Оснащен быстрым процессором и батареей на весь день.",
       colors: {
-        abbey: {
+        abbey: {//чёрный планшет
           front: { img: "1-1920.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
         },
-        merino: {
-          front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
-          side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
-          back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
-        },
-        mischka: {
+        // merino: { Этой марки бежевого планшета нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+        //   front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
+        //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
+        //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
+        // },
+        mischka: {//белый планшет
           front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
@@ -195,17 +195,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Умный фитнес-браслет Band 7 с 1.6-дюймовым AMOLED-экраном. Отслеживает шаги, пульс, сон и более 100 видов тренировок. Водонепроницаемый, с функцией уведомлений и зарядом до 14 дней.",
       colors: {
-        abbey: {
+        mischka: {//белый комп        
           front: { img: "2-1920.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
-        },
-        merino: {
-          front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
-          side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
-          back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
-        },
-        mischka: {
+        },        
+        // merino: { Этой марки бежевого планшета нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        abbey: {//чёрный комп  
           front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
@@ -221,21 +221,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Второй экземпляр MSI Pro 16 Flex. Такой же мощный 15.6-дюймовый сенсорный моноблок. Отличный вариант для организации рабочего места с минималистичным дизайном.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {
-          front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
-          side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
-          back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
-        },
-        mischka: {
-          front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
-          side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
-          back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
-        }
+        //merino: {Этой марки бежевого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+          // side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+          // back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        //},
+        //mischka: {Этой марки белого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+          // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+          // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        //}
       }
     },
     {
@@ -247,17 +247,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Третий экземпляр MSI Pro 16 Flex. Надежный моноблок для офисных задач и учебы. Сенсорный экран делает взаимодействие с программами более интуитивным.",
       colors: {
-        abbey: {
-          front: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
-          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
+        abbey: {//чёрный
+          front: { img: "4-front-1920.png", imgTablet: "4-front-1024.png", imgMobile: "4-front-545.png" },
+          side: { img: "4-1920.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
         },
-        merino: {
-          front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
-          side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
-          back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
-        },
-        mischka: {
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
+        //   side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
+        //   back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
+        // },
+        mischka: {//белый
           front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
@@ -280,21 +280,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Надёжный ноутбук для бизнеса HP с отличной производительностью и защитой данных.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "1.jpg", imgTablet: "1-1024.jpg", imgMobile: "1-545.jpg" },
-          side: { img: "1-side-1920.jpg", imgTablet: "1-side-1024.jpg", imgMobile: "1-side-545.jpg" },
-          back: { img: "1-back-1920.jpg", imgTablet: "1-back-1024.jpg", imgMobile: "1-back-545.jpg" }
-        },
-        merino: {
-          front: { img: "1-merino-front.jpg", imgTablet: "1-merino-front-1024.jpg", imgMobile: "1-merino-front-545.jpg" },
-          side: { img: "1-merino-side.jpg", imgTablet: "1-merino-side-1024.jpg", imgMobile: "1-merino-side-545.jpg" },
-          back: { img: "1-merino-back.jpg", imgTablet: "1-merino-back-1024.jpg", imgMobile: "1-merino-back-545.jpg" }
-        },
-        mischka: {
-          front: { img: "1-mischka-front.jpg", imgTablet: "1-mischka-front-1024.jpg", imgMobile: "1-mischka-front-545.jpg" },
-          side: { img: "1-mischka-side.jpg", imgTablet: "1-mischka-side-1024.jpg", imgMobile: "1-mischka-side-545.jpg" },
-          back: { img: "1-mischka-back.jpg", imgTablet: "1-mischka-back-1024.jpg", imgMobile: "1-mischka-back-545.jpg" }
-        }
+          side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
+          back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "1-merino-front.jpg", imgTablet: "1-merino-front-1024.jpg", imgMobile: "1-merino-front-545.jpg" },
+        //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
+        //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "1-mischka-front.jpg", imgTablet: "1-mischka-front-1024.jpg", imgMobile: "1-mischka-front-545.jpg" },
+        //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
+        //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -307,21 +307,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "27-дюймовый монитор Dell UltraSharp с 4K разрешением и отличной цветопередачей.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "2.jpg", imgTablet: "2-1024.jpg", imgMobile: "2-545.jpg" },
-          side: { img: "2-side-1920.jpg", imgTablet: "2-side-1024.jpg", imgMobile: "2-side-545.jpg" },
-          back: { img: "2-back-1920.jpg", imgTablet: "2-back-1024.jpg", imgMobile: "2-back-545.jpg" }
-        },
-        merino: {
-          front: { img: "2-merino-front.jpg", imgTablet: "2-merino-front-1024.jpg", imgMobile: "2-merino-front-545.jpg" },
-          side: { img: "2-merino-side.jpg", imgTablet: "2-merino-side-1024.jpg", imgMobile: "2-merino-side-545.jpg" },
-          back: { img: "2-merino-back.jpg", imgTablet: "2-merino-back-1024.jpg", imgMobile: "2-merino-back-545.jpg" }
-        },
-        mischka: {
-          front: { img: "2-mischka-front.jpg", imgTablet: "2-mischka-front-1024.jpg", imgMobile: "2-mischka-front-545.jpg" },
-          side: { img: "2-mischka-side.jpg", imgTablet: "2-mischka-side-1024.jpg", imgMobile: "2-mischka-side-545.jpg" },
-          back: { img: "2-mischka-back.jpg", imgTablet: "2-mischka-back-1024.jpg", imgMobile: "2-mischka-back-545.jpg" }
-        }
+          side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
+          back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "2-merino-front.jpg", imgTablet: "2-merino-front-1024.jpg", imgMobile: "2-merino-front-545.jpg" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "2-mischka-front.jpg", imgTablet: "2-mischka-front-1024.jpg", imgMobile: "2-mischka-front-545.jpg" },
+        //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
+        //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -334,21 +334,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Лучшие беспроводные наушники с шумоподавлением. До 30 часов работы, превосходное качество звука.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3.jpg", imgTablet: "3-1024.jpg", imgMobile: "3-545.jpg" },
-          side: { img: "3-side-1920.jpg", imgTablet: "3-side-1024.jpg", imgMobile: "3-side-545.jpg" },
-          back: { img: "3-back-1920.jpg", imgTablet: "3-back-1024.jpg", imgMobile: "3-back-545.jpg" }
-        },
-        merino: {
-          front: { img: "3-merino-front.jpg", imgTablet: "3-merino-front-1024.jpg", imgMobile: "3-merino-front-545.jpg" },
-          side: { img: "3-merino-side.jpg", imgTablet: "3-merino-side-1024.jpg", imgMobile: "3-merino-side-545.jpg" },
-          back: { img: "3-merino-back.jpg", imgTablet: "3-merino-back-1024.jpg", imgMobile: "3-merino-back-545.jpg" }
-        },
-        mischka: {
-          front: { img: "3-mischka-front.jpg", imgTablet: "3-mischka-front-1024.jpg", imgMobile: "3-mischka-front-545.jpg" },
-          side: { img: "3-mischka-side.jpg", imgTablet: "3-mischka-side-1024.jpg", imgMobile: "3-mischka-side-545.jpg" },
-          back: { img: "3-mischka-back.jpg", imgTablet: "3-mischka-back-1024.jpg", imgMobile: "3-mischka-back-545.jpg" }
-        }
+          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.jpg", imgTablet: "3-merino-front-1024.jpg", imgMobile: "3-merino-front-545.jpg" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.jpg", imgTablet: "3-mischka-front-1024.jpg", imgMobile: "3-mischka-front-545.jpg" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -361,21 +361,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "4.jpg", imgTablet: "4-1024.jpg", imgMobile: "4-545.jpg" },
-          side: { img: "4-side-1920.jpg", imgTablet: "4-side-1024.jpg", imgMobile: "4-side-545.jpg" },
-          back: { img: "4-back-1920.jpg", imgTablet: "4-back-1024.jpg", imgMobile: "4-back-545.jpg" }
-        },
-        merino: {
-          front: { img: "4-merino-front.jpg", imgTablet: "4-merino-front-1024.jpg", imgMobile: "4-merino-front-545.jpg" },
-          side: { img: "4-merino-side.jpg", imgTablet: "4-merino-side-1024.jpg", imgMobile: "4-merino-side-545.jpg" },
-          back: { img: "4-merino-back.jpg", imgTablet: "4-merino-back-1024.jpg", imgMobile: "4-merino-back-545.jpg" }
-        },
-        mischka: {
-          front: { img: "4-mischka-front.jpg", imgTablet: "4-mischka-front-1024.jpg", imgMobile: "4-mischka-front-545.jpg" },
-          side: { img: "4-mischka-side.jpg", imgTablet: "4-mischka-side-1024.jpg", imgMobile: "4-mischka-side-545.jpg" },
-          back: { img: "4-mischka-back.jpg", imgTablet: "4-mischka-back-1024.jpg", imgMobile: "4-mischka-back-545.jpg" }
-        }
+          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
+          back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "4-merino-front.jpg", imgTablet: "4-merino-front-1024.jpg", imgMobile: "4-merino-front-545.jpg" },
+        //   side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
+        //   back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.jpg", imgMobile: "4-mischka-front-545.jpg" },
+        //   side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
+        //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -388,21 +388,21 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "5.jpg", imgTablet: "5-1024.jpg", imgMobile: "5-545.jpg" },
-          side: { img: "5-side-1920.jpg", imgTablet: "5-side-1024.jpg", imgMobile: "5-side-545.jpg" },
-          back: { img: "5-back-1920.jpg", imgTablet: "5-back-1024.jpg", imgMobile: "5-back-545.jpg" }
-        },
-        merino: {
-          front: { img: "5-merino-front.jpg", imgTablet: "5-merino-front-1024.jpg", imgMobile: "5-merino-front-545.jpg" },
-          side: { img: "5-merino-side.jpg", imgTablet: "5-merino-side-1024.jpg", imgMobile: "5-merino-side-545.jpg" },
-          back: { img: "5-merino-back.jpg", imgTablet: "5-merino-back-1024.jpg", imgMobile: "5-merino-back-545.jpg" }
-        },
-        mischka: {
-          front: { img: "5-mischka-front.jpg", imgTablet: "5-mischka-front-1024.jpg", imgMobile: "5-mischka-front-545.jpg" },
-          side: { img: "5-mischka-side.jpg", imgTablet: "5-mischka-side-1024.jpg", imgMobile: "5-mischka-side-545.jpg" },
-          back: { img: "5-mischka-back.jpg", imgTablet: "5-mischka-back-1024.jpg", imgMobile: "5-mischka-back-545.jpg" }
-        }
+          side: { img: "5-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
+          back: { img: "5-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "5-merino-front.jpg", imgTablet: "5-merino-front-1024.jpg", imgMobile: "5-merino-front-545.jpg" },
+        //   side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
+        //   back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "5-mischka-front.jpg", imgTablet: "5-mischka-front-1024.jpg", imgMobile: "5-mischka-front-545.jpg" },
+        //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
+        //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
+        // }
       }
     }
   ];
@@ -421,17 +421,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
           side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
           back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
@@ -448,17 +448,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
           side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
           back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
@@ -475,17 +475,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
           side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
           back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
           side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
@@ -502,17 +502,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
           side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
           back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
@@ -529,17 +529,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
           side: { img: "5-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
           back: { img: "5-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
           side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
           back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
           side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
           back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
@@ -562,17 +562,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Игровой компактный ПК MSI MPG Trident 3...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
           side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
           back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
@@ -589,17 +589,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Топовый игровой десктоп MSI Trident X...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
           side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
           back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
@@ -616,17 +616,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Компактный игровой ПК MSI Infinite S3...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
           side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
           back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
           side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
@@ -643,17 +643,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
           side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
           back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
@@ -670,17 +670,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
           side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
           back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
           side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
           back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
@@ -703,17 +703,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "27-дюймовый игровой монитор MSI Optix с разрешением 2K, 165Hz, 1ms.",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
           side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
           back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
@@ -730,17 +730,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Топовый игровой десктоп MSI Trident X...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
           side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
           back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
@@ -757,17 +757,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Компактный игровой ПК MSI Infinite S3...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
           side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
           back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
           side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
@@ -784,17 +784,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
           side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
           back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
@@ -811,17 +811,17 @@ document.addEventListener('DOMContentLoaded', function() {
       contactText: "Contact Us",
       desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
       colors: {
-        abbey: {
+        abbey: {//чёрный
           front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
         },
-        merino: {
+        merino: {//бежевый
           front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
           side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
           back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
         },
-        mischka: {
+        mischka: {//белый
           front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
           side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
           back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
@@ -1191,10 +1191,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
-}
-  
-  
-  
+  }
+    
   // Запускаем цветные табы
   initColorTabs();
 
@@ -1214,6 +1212,9 @@ document.addEventListener('DOMContentLoaded', function() {
       wrapperClass: 'article__wrapper',   // ← вместо swiper-wrapper
       slideClass: 'article__slide',       // ← вместо swiper-slide
     });
-  }
+  };
   
+
+
+
 }); 
