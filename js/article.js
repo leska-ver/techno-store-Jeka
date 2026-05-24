@@ -118,20 +118,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения.",
       colors: {
         abbey: {//чёрный
-          front: { img: "5-1920.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
-          side: { img: "5-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
-          back: { img: "5-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
-        }//,
-        //merino: {бежевый нет такого цвета
-        //   front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
-        //   side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
-        //   back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
-        // },
-        //mischka: {белый нет такого цвета
-        //   front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
-        //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
-        //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
-        // }
+          front: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
+        },
+        //merino: {Этой марки бежевого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+          // side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+          // back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        //},
+        //mischka: {Этой марки белого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+          // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+          // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        //}
       }
     },
     {
@@ -144,20 +144,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома.",
       colors: {
         abbey: {//чёрный
-          front: { img: "6-1920.png", imgTablet: "6-1024.png", imgMobile: "6-545.png" },
-          side: { img: "6-side-1920.png", imgTablet: "6-side-1024.png", imgMobile: "6-side-545.png" },
-          back: { img: "6-back-1920.png", imgTablet: "6-back-1024.png", imgMobile: "6-back-545.png" }
-        }//,
-        //merino: {бежевый нет такого цвета
-        //   front: { img: "6-merino-front.png", imgTablet: "6-merino-front-1024.png", imgMobile: "6-merino-front-545.png" },
-        //   side: { img: "6-merino-side.png", imgTablet: "6-merino-side-1024.png", imgMobile: "6-merino-side-545.png" },
-        //   back: { img: "6-merino-back.png", imgTablet: "6-merino-back-1024.png", imgMobile: "6-merino-back-545.png" }
-        // },
-        //mischka: {белый нет такого цвета
-        //   front: { img: "6-mischka-front.png", imgTablet: "6-mischka-front-1024.png", imgMobile: "6-mischka-front-545.png" },
-        //   side: { img: "6-mischka-side.png", imgTablet: "6-mischka-side-1024.png", imgMobile: "6-mischka-side-545.png" },
-        //   back: { img: "6-mischka-back.png", imgTablet: "6-mischka-back-1024.png", imgMobile: "6-mischka-back-545.png" }
-        // }
+          front: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
+        },
+        //merino: {Этой марки бежевого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+          // side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+          // back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        //},
+        //mischka: {Этой марки белого нет. Продолжение кода в коде УНИВЕРСАЛЬНАЯ ПРОВЕРКА.
+          // front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+          // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+          // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        //}
       }
     },
     {
@@ -422,20 +422,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, RTX 4060, 16GB RAM, 1TB SSD.",
       colors: {
         abbey: {//чёрный
-          front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
-          side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
+          front: { img: "1-front-1920.png", imgTablet: "1-front-1024.png", imgMobile: "1-front-545.png" },
+          side: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
-          side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
-          back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
-          side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
-          back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
-        }
+        }//,
+        //merino: { бежевый нет такого цвета
+        //   front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
+        //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
+        //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
+        // },
+        //mischka: { белый нет такого цвета
+        //   front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
+        //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
+        //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -449,20 +449,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Топовый игровой ноутбук MSI GT Series с RTX 4080, Intel Core i9, 32GB RAM.",
       colors: {
         abbey: {//чёрный
-          front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
-          side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
+          front: { img: "2-front-1920.png", imgTablet: "2-front-1024.png", imgMobile: "2-front-545.png" },
+          side: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
-          side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
-          back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
-          side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
-          back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
+        //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
+        //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -476,20 +476,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, Intel Core i5, 8GB RAM.",
       colors: {
         abbey: {//чёрный
-          front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
-          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          front: { img: "3-front-1920.png", imgTablet: "3-front-1024.png", imgMobile: "3-front-545.png" },
+          side: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
-          side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
-          back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
-          side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
-          back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -503,20 +503,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Мощный игровой ноутбук MSI GE Series с RTX 4070, Intel Core i7, 16GB RAM.",
       colors: {
         abbey: {//чёрный
-          front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
-          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
-          back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
+          front: { img: "3-front-1920.png", imgTablet: "3-front-1024.png", imgMobile: "3-front-545.png" },
+          side: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
-          side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
-          back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
-          side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
-          back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -530,20 +530,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Ультрабук MSI Prestige Series для работы и бизнеса, Intel Core i7, 16GB RAM, 512GB SSD.",
       colors: {
         abbey: {//чёрный
-          front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
-          side: { img: "5-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
+          front: { img: "5-front-1920.png", imgTablet: "5-front-1024.png", imgMobile: "5-front-545.png" },
+          side: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
           back: { img: "5-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
-          side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
-          back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
-          side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
-          back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
-        }
+        }//,
+        //merino: { бежевый нет такого цвета
+        //   front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
+        //   side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
+        //   back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
+        // },
+        //mischka: { белый нет такого цвета
+        //   front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
+        //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
+        //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
+        // }
       }
     }    
   ];
@@ -563,20 +563,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Игровой компактный ПК MSI MPG Trident 3...",
       colors: {
         abbey: {//чёрный
-          front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
+          front: { img: "1-front.png", imgTablet: "1-front-1024.png", imgMobile: "1-front-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
-          side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
-          back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
-          side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
-          back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
+        //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
+        //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
+        //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
+        //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -590,20 +590,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Топовый игровой десктоп MSI Trident X...",
       colors: {
         abbey: {//чёрный
-          front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
-          side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
+          front: { img: "2-front.png", imgTablet: "2-front-1024.png", imgMobile: "2-front-545.png" },
+          side: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
-          side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
-          back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
-          side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
-          back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
+        //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
+        //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -617,20 +617,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Компактный игровой ПК MSI Infinite S3...",
       colors: {
         abbey: {//чёрный
-          front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
+          front: { img: "3-front.png", imgTablet: "3-front-1024.png", imgMobile: "3-front-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
-          side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
-          back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
-          side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
-          back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -644,20 +644,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
       colors: {
         abbey: {//чёрный
-          front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
-          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
-          back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
+          front: { img: "3-front.png", imgTablet: "3-front-1024.png", imgMobile: "3-front-545.png" },
+          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
-          side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
-          back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
-          side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
-          back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -671,20 +671,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
       colors: {
         abbey: {//чёрный
-          front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
-          side: { img: "1-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
-          back: { img: "1-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
+          front: { img: "3-front.png", imgTablet: "3-front-1024.png", imgMobile: "3-front-545.png" },
+          side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
+          back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
         },
-        merino: {//бежевый
-          front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
-          side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
-          back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
-          side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
-          back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
-        }
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     }
   ];
@@ -707,17 +707,17 @@ document.addEventListener('DOMContentLoaded', function() {
           front: { img: "1.png", imgTablet: "1-1024.png", imgMobile: "1-545.png" },
           side: { img: "1-side-1920.png", imgTablet: "1-side-1024.png", imgMobile: "1-side-545.png" },
           back: { img: "1-back-1920.png", imgTablet: "1-back-1024.png", imgMobile: "1-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
-          side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
-          back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
-          side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
-          back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "1-merino-front.png", imgTablet: "1-merino-front-1024.png", imgMobile: "1-merino-front-545.png" },
+        //   side: { img: "1-merino-side.png", imgTablet: "1-merino-side-1024.png", imgMobile: "1-merino-side-545.png" },
+        //   back: { img: "1-merino-back.png", imgTablet: "1-merino-back-1024.png", imgMobile: "1-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "1-mischka-front.png", imgTablet: "1-mischka-front-1024.png", imgMobile: "1-mischka-front-545.png" },
+        //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
+        //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -732,19 +732,19 @@ document.addEventListener('DOMContentLoaded', function() {
       colors: {
         abbey: {//чёрный
           front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
-          side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
+          // side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
           back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
-          side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
-          back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
-          side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
-          back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        //mischka: {белый
+        //   front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
+        //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
+        //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -761,17 +761,17 @@ document.addEventListener('DOMContentLoaded', function() {
           front: { img: "3.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
           side: { img: "3-side-1920.png", imgTablet: "3-side-1024.png", imgMobile: "3-side-545.png" },
           back: { img: "3-back-1920.png", imgTablet: "3-back-1024.png", imgMobile: "3-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
-          side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
-          back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
-          side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
-          back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "3-merino-front.png", imgTablet: "3-merino-front-1024.png", imgMobile: "3-merino-front-545.png" },
+        //   side: { img: "3-merino-side.png", imgTablet: "3-merino-side-1024.png", imgMobile: "3-merino-side-545.png" },
+        //   back: { img: "3-merino-back.png", imgTablet: "3-merino-back-1024.png", imgMobile: "3-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "3-mischka-front.png", imgTablet: "3-mischka-front-1024.png", imgMobile: "3-mischka-front-545.png" },
+        //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
+        //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -785,20 +785,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Мощный игровой ПК MSI Codex X с RTX 4070...",
       colors: {
         abbey: {//чёрный
-          front: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
-          side: { img: "4-side-1920.png", imgTablet: "4-side-1024.png", imgMobile: "4-side-545.png" },
+          front: { img: "4-front-1920.png", imgTablet: "4-front-1024.png", imgMobile: "4-front-545.png" },
+          side: { img: "4.png", imgTablet: "4-1024.png", imgMobile: "4-545.png" },
           back: { img: "4-back-1920.png", imgTablet: "4-back-1024.png", imgMobile: "4-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
-          side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
-          back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
-          side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
-          back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
-        }
+        }//,
+        //merino: {бежевый нет такого цвета
+        //   front: { img: "4-merino-front.png", imgTablet: "4-merino-front-1024.png", imgMobile: "4-merino-front-545.png" },
+        //   side: { img: "4-merino-side.png", imgTablet: "4-merino-side-1024.png", imgMobile: "4-merino-side-545.png" },
+        //   back: { img: "4-merino-back.png", imgTablet: "4-merino-back-1024.png", imgMobile: "4-merino-back-545.png" }
+        // },
+        //mischka: {белый нет такого цвета
+        //   front: { img: "4-mischka-front.png", imgTablet: "4-mischka-front-1024.png", imgMobile: "4-mischka-front-545.png" },
+        //   side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
+        //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
+        // }
       }
     },
     {
@@ -812,20 +812,20 @@ document.addEventListener('DOMContentLoaded', function() {
       desc: "Игровой ПК MSI Aegis RS с водяным охлаждением...",
       colors: {
         abbey: {//чёрный
-          front: { img: "5.png", imgTablet: "5-1024.png", imgMobile: "5-545.png" },
-          side: { img: "1-side-1920.png", imgTablet: "5-side-1024.png", imgMobile: "5-side-545.png" },
-          back: { img: "1-back-1920.png", imgTablet: "5-back-1024.png", imgMobile: "5-back-545.png" }
-        },
-        merino: {//бежевый
-          front: { img: "5-merino-front.png", imgTablet: "5-merino-front-1024.png", imgMobile: "5-merino-front-545.png" },
-          side: { img: "5-merino-side.png", imgTablet: "5-merino-side-1024.png", imgMobile: "5-merino-side-545.png" },
-          back: { img: "5-merino-back.png", imgTablet: "5-merino-back-1024.png", imgMobile: "5-merino-back-545.png" }
-        },
-        mischka: {//белый
-          front: { img: "5-mischka-front.png", imgTablet: "5-mischka-front-1024.png", imgMobile: "5-mischka-front-545.png" },
-          side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
-          back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
-        }
+          front: { img: "2.png", imgTablet: "2-1024.png", imgMobile: "2-545.png" },
+          // side: { img: "2-side-1920.png", imgTablet: "2-side-1024.png", imgMobile: "2-side-545.png" },
+          back: { img: "2-back-1920.png", imgTablet: "2-back-1024.png", imgMobile: "2-back-545.png" }
+        }//,
+        //merino: {бежевый
+        //   front: { img: "2-merino-front.png", imgTablet: "2-merino-front-1024.png", imgMobile: "2-merino-front-545.png" },
+        //   side: { img: "2-merino-side.png", imgTablet: "2-merino-side-1024.png", imgMobile: "2-merino-side-545.png" },
+        //   back: { img: "2-merino-back.png", imgTablet: "2-merino-back-1024.png", imgMobile: "2-merino-back-545.png" }
+        // },
+        //mischka: {белый
+        //   front: { img: "2-mischka-front.png", imgTablet: "2-mischka-front-1024.png", imgMobile: "2-mischka-front-545.png" },
+        //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
+        //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
+        // }
       }
     }
   ];
