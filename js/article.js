@@ -1103,6 +1103,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     // ========== КОНЕЦ ПРОВЕРКИ ==========
     
+    // ==========================================================
+    //   ИЗМЕНЕНИЯ ТОЛЬКО ВНУТРИ ЭТОЙ ФУНКЦИИ. Добавлены ракурсы картинок. Если закоменчен какой-то ракурс, слайд работает front: { ... },
+          // side: { ... }, back: { ... } (visibleCount)
+    // ==========================================================
     function changeColorImage(color) {
       const colorData = product.colors[color];
       if (!colorData) return;
@@ -1128,21 +1132,77 @@ document.addEventListener('DOMContentLoaded', function() {
       else if (product.id.startsWith('desktops')) imgFolder = 'desktops';
       else if (product.id.startsWith('monitors')) imgFolder = 'monitors';
       
-      // Передняя часть
-      if (frontImg) frontImg.src = `./img/${imgFolder}/${colorData.front.img}`;
-      if (frontMobile) frontMobile.srcset = `./img/${imgFolder}/${colorData.front.imgMobile}`;
-      if (frontTablet) frontTablet.srcset = `./img/${imgFolder}/${colorData.front.imgTablet}`;
+      // ========== СЧИТАЕМ КОЛИЧЕСТВО ДОСТУПНЫХ РАКУРСОВ ==========
+      let visibleCount = 0;
       
-      // Боковая часть
-      if (sideImg) sideImg.src = `./img/${imgFolder}/${colorData.side.img}`;
-      if (sideMobile) sideMobile.srcset = `./img/${imgFolder}/${colorData.side.imgMobile}`;
-      if (sideTablet) sideTablet.srcset = `./img/${imgFolder}/${colorData.side.imgTablet}`;
+      // ========== ПЕРЕДНЯЯ ЧАСТЬ (front) ==========
+      if (colorData.front) {
+        visibleCount++;
+        if (frontImg) {
+          frontImg.src = `./img/${imgFolder}/${colorData.front.img}`;
+          frontImg.closest('.article__slide').style.display = '';
+        }
+        if (frontMobile) frontMobile.srcset = `./img/${imgFolder}/${colorData.front.imgMobile}`;
+        if (frontTablet) frontTablet.srcset = `./img/${imgFolder}/${colorData.front.imgTablet}`;
+      } else {
+        if (frontImg) frontImg.closest('.article__slide').style.display = 'none';
+      }
       
-      // Задняя часть
-      if (backImg) backImg.src = `./img/${imgFolder}/${colorData.back.img}`;
-      if (backMobile) backMobile.srcset = `./img/${imgFolder}/${colorData.back.imgMobile}`;
-      if (backTablet) backTablet.srcset = `./img/${imgFolder}/${colorData.back.imgTablet}`;
+      // ========== БОКОВАЯ ЧАСТЬ (side) ==========
+      if (colorData.side) {
+        visibleCount++;
+        if (sideImg) {
+          sideImg.src = `./img/${imgFolder}/${colorData.side.img}`;
+          sideImg.closest('.article__slide').style.display = '';
+        }
+        if (sideMobile) sideMobile.srcset = `./img/${imgFolder}/${colorData.side.imgMobile}`;
+        if (sideTablet) sideTablet.srcset = `./img/${imgFolder}/${colorData.side.imgTablet}`;
+      } else {
+        if (sideImg) sideImg.closest('.article__slide').style.display = 'none';
+      }
+      
+      // ========== ЗАДНЯЯ ЧАСТЬ (back) ==========
+      if (colorData.back) {
+        visibleCount++;
+        if (backImg) {
+          backImg.src = `./img/${imgFolder}/${colorData.back.img}`;
+          backImg.closest('.article__slide').style.display = '';
+        }
+        if (backMobile) backMobile.srcset = `./img/${imgFolder}/${colorData.back.imgMobile}`;
+        if (backTablet) backTablet.srcset = `./img/${imgFolder}/${colorData.back.imgTablet}`;
+      } else {
+        if (backImg) backImg.closest('.article__slide').style.display = 'none';
+      }
+      
+      // ========== УПРАВЛЕНИЕ СЛАЙДЕРОМ ==========
+      const swiperEl = document.querySelector('.article__swiper');
+      const pagination = document.querySelector('.article__pagination');
+      
+      if (visibleCount >= 2) {
+        if (swiperEl) swiperEl.style.display = '';
+        if (pagination) pagination.style.display = '';
+        
+        if (swiperEl && !swiperEl.swiper && typeof Swiper !== 'undefined') {
+          new Swiper('.article__swiper', {
+            pagination: { el: '.article__pagination', clickable: true },
+            slidesPerView: 1,
+            spaceBetween: 0,
+            wrapperClass: 'article__wrapper',
+            slideClass: 'article__slide',
+          });
+        }
+      } else {
+        if (swiperEl) swiperEl.style.display = 'none';
+        if (pagination) pagination.style.display = 'none';
+        
+        if (swiperEl && swiperEl.swiper) {
+          swiperEl.swiper.destroy(true, true);
+        }
+      }
     }
+    // ==========================================================
+    //   КОНЕЦ ИЗМЕНЕНИЙ
+    // ==========================================================    
     
     function hideAllColorPanels() {
       colorPanels.forEach(panel => panel.classList.add('is-hidden'));
