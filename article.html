@@ -263,7 +263,7 @@
             </div>            
           </div>
           <!-- Шаблон карточек в товарах и переход в табе -->
-          <div class="payPal__article article payPal-tab" data-target="payPal-1">
+          <div class="payPal__article article payPal-tab">
             <div class="article__container">
               <!-- Шаблон переходов хлебные -->
               <div class="article__breadcrumbs breadcrumbs">
@@ -287,19 +287,22 @@
                     <div>
                       <h3 class="catalog__h3 h3">MSI MPG Trident 3</h3> <!--  id="article-title"-->
                       <a class="article__review-link" href="#" id="article-review-link"></a>
-                      <!-- ДОБАВЛЯЕМ ОПИСАНИЕ -->
-                      <p class="article__description" id="article-desc"></p>
-                      <div class="article__colors color">
-                        <button class="color__tab abbey active" data-path-color="abbey"><!-- Чёрный --></button>
-                        <button class="color__tab merino" data-path-color="merino"><!-- Бежевый --></button>
-                        <button class="color__tab mischka" data-path-color="mischka"><!-- Белый --></button>
+                      <div class="article__infoTab" data-target="payPal-1">
+                        <!-- ДОБАВЛЯЕМ ОПИСАНИЕ -->
+                        <p class="article__description" id="article-desc"></p>
+                        <div class="article__colors color">
+                          <button class="color__tab abbey active" data-path-color="abbey"><!-- Чёрный --></button>
+                          <button class="color__tab merino" data-path-color="merino"><!-- Бежевый --></button>
+                          <button class="color__tab mischka" data-path-color="mischka"><!-- Белый --></button>
+                        </div>
                       </div>
                       <div class="article__descs">
                         <!-- Ссылка "Have a Question? Contact Us" -->
                         <p class="article__question-text desc"><a class="article__contact-link" href="#" id="article-contact-link"></a></p>
                         <p class="article__sku desc">SKU <span id="article-sku"></span></p>
                       </div>                      
-                    </div>                    
+                    </div> 
+                    <a href="#" class="article__more-link">More information</a>                   
                   </div>
                   <!-- Swiper -->
                   <div class="article__swiper">
@@ -364,8 +367,7 @@
                       <span class="article__divider"></span>
                       <!-- Текстовый блок -->
                       <p class="article__promo-text desc">
-                        <span class="article__bold-text">own it now,</span> 
-                        up to 6 months interest free 
+                        <span class="article__bold-text">own it now, up to 6 months interest free </span>                         
                         <a class="article__learn-more a" href="#">learn more</a>
                       </p>
                     </div>

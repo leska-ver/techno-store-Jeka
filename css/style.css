@@ -775,7 +775,7 @@ button.acc__link {
 }
 
 .article__container {
-  padding: 63px 0 0 171px;
+  padding: 67px 0 40px 171px;
 }
 
 .article .catalog__article { 
@@ -796,6 +796,10 @@ button.acc__link {
 .article .catalog__block {
   margin: 0;
   padding: 0 131px 0 0;
+}
+
+.article .catalog__block > div {
+  margin-bottom: 160px;
 }
 
 .article .catalog__block > div:first-child {
@@ -843,7 +847,20 @@ button.acc__link {
 }
 
 .article__sku {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.article__more-link {
+  margin-left: -119px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(12px, 1.4vw, 14px);
+  color: var(--color-black);
+}
+
+.article__more-link::before {
+  content: "+";
+  padding-right: 6px;
 }
 
 /*-- Слайдер --*/
@@ -856,6 +873,7 @@ button.acc__link {
 
 .article__wrapper {
   display: flex;
+  margin-bottom: 15px;
   width: 100%;
   transition: transform 0.3s ease;
 }
@@ -913,7 +931,8 @@ button.acc__link {
   gap: 3px;
   justify-content: center;
   align-items: center;
-  padding: 7px 0 6px;
+  margin-left: -92px;
+  padding: 15px 0 6px;
 }
 
 .article__logo-zip {
@@ -925,25 +944,38 @@ button.acc__link {
 
 .article__divider {
   display: inline-block;
-  margin-left: -13px;
+  margin-left: -11px;
   width: 2px;         
   height: 22px;       
   background-color: #00AEB8;
 }
 
 .article__promo-text {
-  width: 242px;
+  width: 207px;
   font-size: clamp(12px, 1.88vw, 18px);
+  line-height: 12px;
   color: var(--color-portGore);
 }
 
+.article__bold-text {
+  font-size: 12px;
+}
+
 .article__learn-more {
-  font-size: 14px; /* Не меняется! */
+  font-size: 12px; /* Не меняется! */
   text-decoration: underline; /* Добавляет подчеркивание */
 }
 
 .article .catalog__sub {
-  height: 350px;
+  margin-left: -166px;
+  padding: 0;
+  height: 404px;
+}
+
+.article__pagination.swiper-pagination-bullets {
+  padding-right: 65px;
+  bottom: -1px;
+  text-align: end;
 }
 /* // Шаблон инфо о карточки(article.html) */
 
@@ -2929,7 +2961,7 @@ button.acc__link {
   align-items: center;
   grid-template-areas: "payPal__grid_one payPal__grid_two" "payPal__grid_one payPal__grid_three";
   margin: 0 14px 0 0;
-  padding: 5px 8px 8px 16px;
+  padding: 5px 8px 5px 16px;
   background-color: var(--color-zircon);
 }
 
