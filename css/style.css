@@ -798,10 +798,6 @@ button.acc__link {
   padding: 0 131px 0 0;
 }
 
-.article .catalog__block > div {
-  margin-bottom: 160px;
-}
-
 .article .catalog__block > div:first-child {
   justify-content: center;
 }
@@ -816,6 +812,11 @@ button.acc__link {
   color: var(--color-silverChalice-A3);
 }
 
+.article__infoTab {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 .article__description {
   margin-bottom: 42px;
   font-size: 18px;
@@ -828,6 +829,19 @@ button.acc__link {
   gap: 12px;
   margin-left: -3px;
   margin-bottom: 16px;
+}
+
+.article__ul {
+  margin-bottom: 32px;
+  padding: 25px 0 0 15px;
+  list-style: disc;  /* кружочки (точки) */
+}
+
+.article__ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  list-style: disc;
 }
 
 .article__descs {
@@ -974,7 +988,7 @@ button.acc__link {
 
 .article__pagination.swiper-pagination-bullets {
   padding-right: 65px;
-  bottom: -1px;
+  bottom: -2px;
   text-align: end;
 }
 /* // Шаблон инфо о карточки(article.html) */

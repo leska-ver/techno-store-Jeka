@@ -29,7 +29,37 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Мощный 15.6-дюймовый сенсорный моноблок MSI Pro 16 Flex. Идеален для работы и дома. Оснащен процессором Intel Celeron QC N3160, 4GB оперативной памяти и графикой Intel HD Graphics. Компактный дизайн и мультитач-экран для удобного управления. Отличное решение для повседневных задач."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
       }
+      // ============================
     },
     {
       id: "product-2",
@@ -56,7 +86,37 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Флагманский смартфон Samsung Galaxy S23 с мощной камерой 50 МП, процессором Snapdragon 8 Gen 2 и ярким 120-герцовым Dynamic AMOLED 2X дисплеем. Обеспечивает потрясающую производительность для игр, фотосъемки и работы. Компактный и стильный дизайн."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Snapdragon 8 Gen 2",
+          "Камера: 50 МП (основная)",
+          "Экран: 6.1 дюймов, 120 Гц",
+          "ОЗУ: 8GB",
+          "Память: 256GB UFS 4.0",
+          "Батарея: 3900 мАч",
+          "ОС: Android 13"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Snapdragon 8 Gen 2" },
+          { label: "Камера", value: "50 МП" },
+          { label: "Экран", value: "6.1 дюймов, 120 Гц" },
+          { label: "ОЗУ", value: "8GB" },
+          { label: "Память", value: "256GB" },
+          { label: "Батарея", value: "3900 мАч" },
+          { label: "ОС", value: "Android 13" }
+        ]
       }
+      // ============================
     },
     {
       id: "product-3",
@@ -65,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
       sku: "D5515AI",
       questionText: "Have a Question?",
       contactText: "Contact Us",
-      desc: "Беспроводные наушники AirSound Pro с активным шумоподавлением (ANC). Погрузитесь в чистый звук без помех. До 30 часов работы на одном заряде, эргономичный дизайн для длительного ношения. Идеальны для путешествий и работы.",
+      desc: "MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
       colors: {
         abbey: {//чёрный
           front: { img: "3-1920.png", imgTablet: "3-1024.png", imgMobile: "3-545.png" },
@@ -82,7 +142,49 @@ document.addEventListener('DOMContentLoaded', function() {
           // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop"
+      },
+      details: {
+        type: "list",
+        content: [
+          "Intel Core i7-10700F",
+          "Intel H410",
+          "WHITE",
+          "NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6",
+          "SO-DIMM 16GB (16GB x 1) DDR4 2666MHz",
+          "2 total slots (64GB Max)",
+          "512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM",
+          "Gaming Keyboard GK30 + Gaming Mouse GM11",
+          "3.5 HDD (0/0), 2.5 HDD/SSD(1/0), M.2 (1/0)",
+          "Intel WGI219Vethernet (10/100/1000M)",
+          "AX200 (WIFI 6)+BT5.1",
+          "PSU 330W",
+          "Fan Cooler"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7-10700F" },
+          { label: "Чипсет", value: "Intel H410" },
+          { label: "Цвет", value: "WHITE" },
+          { label: "Видеокарта", value: "NVIDIA MSI GeForce RTX 2060 SUPER 8GB" },
+          { label: "Оперативная память", value: "16GB (16GB x 1) DDR4 2666MHz" },
+          { label: "Слоты ОЗУ", value: "2 total slots (64GB Max)" },
+          { label: "SSD", value: "512GB M.2 NVMe PCIe GEN3x4" },
+          { label: "HDD", value: "2TB (2.5) 5400RPM" },
+          { label: "Клавиатура/Мышь", value: "Gaming Keyboard GK30 + Gaming Mouse GM11" },
+          { label: "Сеть", value: "Intel WGI219Vethernet (10/100/1000M)" },
+          { label: "WiFi", value: "AX200 (WiFi 6) + BT5.1" },
+          { label: "Блок питания", value: "PSU 330W" },
+          { label: "Охлаждение", value: "Fan Cooler" }
+        ]
       }
+      // ============================
     },
     {
       id: "product-4",
@@ -106,7 +208,37 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Тип переключателей: Red/Blue (механические)",
+          "Подсветка: RGB (настраиваемая)",
+          "N-Key ролловер: да",
+          "Подключение: USB",
+          "Ресурс переключателей: 50 млн нажатий",
+          "Совместимость: Windows, Mac",
+          "Длина кабеля: 1.8 м"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Тип", value: "Механическая" },
+          { label: "Переключатели", value: "Red/Blue" },
+          { label: "Подсветка", value: "RGB" },
+          { label: "N-Key ролловер", value: "Да" },
+          { label: "Подключение", value: "USB" },
+          { label: "Ресурс", value: "50 млн нажатий" },
+          { label: "Совместимость", value: "Windows, Mac" }
+        ]
       }
+      // ============================
     },
     {
       id: "product-5",
@@ -132,7 +264,37 @@ document.addEventListener('DOMContentLoaded', function() {
           // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 4K UHD (3840×2160)",
+          "Матрица: IPS",
+          "HDR: HDR400",
+          "Углы обзора: 178°",
+          "Частота: 60 Гц",
+          "Интерфейсы: HDMI, DisplayPort"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "4K UHD (3840×2160)" },
+          { label: "Матрица", value: "IPS" },
+          { label: "HDR", value: "HDR400" },
+          { label: "Углы обзора", value: "178°" },
+          { label: "Частота", value: "60 Гц" },
+          { label: "Интерфейсы", value: "HDMI, DisplayPort" }
+        ]
       }
+      // ============================
     },
     {
       id: "product-6",
@@ -158,10 +320,38 @@ document.addEventListener('DOMContentLoaded', function() {
           // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Тип: беспроводная (2.4 ГГц)",
+          "Сенсор: оптический 1600 DPI",
+          "Тихие клики: да",
+          "Время работы: до 12 месяцев",
+          "Питание: 1 батарейка АА",
+          "Совместимость: Windows, Mac, Linux"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Тип", value: "Беспроводная" },
+          { label: "Сенсор", value: "Оптический 1600 DPI" },
+          { label: "Тихие клики", value: "Да" },
+          { label: "Время работы", value: "До 12 месяцев" },
+          { label: "Питание", value: "1 батарейка АА" },
+          { label: "Совместимость", value: "Windows, Mac, Linux" }
+        ]
       }
+      // ============================
     },
     {
-      id: "product-1",
+      id: "product-7",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "1-1920.png",
       sku: "TAB-007",
@@ -184,10 +374,40 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Мощный планшет Tab Ultra с 11-дюймовым 2.5K дисплеем и стилусом в комплекте. Идеален для рисования, заметок и просмотра видео. Оснащен быстрым процессором и батареей на весь день."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Экран: 11 дюймов, 2.5K (2560×1600)",
+          "Процессор: 8-ядерный",
+          "ОЗУ: 8GB LPDDR5",
+          "Память: 256GB UFS 3.1",
+          "Батарея: 8000 мАч",
+          "Стилус: в комплекте",
+          "ОС: Android 13"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Экран", value: "11 дюймов, 2.5K" },
+          { label: "Процессор", value: "8-ядерный" },
+          { label: "ОЗУ", value: "8GB LPDDR5" },
+          { label: "Память", value: "256GB UFS 3.1" },
+          { label: "Батарея", value: "8000 мАч" },
+          { label: "Стилус", value: "В комплекте" },
+          { label: "ОС", value: "Android 13" }
+        ]
       }
+      // ============================
     },
     {
-      id: "product-2",
+      id: "product-8",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "2-1920.png",
       sku: "BND-008",
@@ -210,10 +430,38 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Умный фитнес-браслет Band 7 с 1.6-дюймовым AMOLED-экраном. Отслеживает шаги, пульс, сон и более 100 видов тренировок. Водонепроницаемый, с функцией уведомлений и зарядом до 14 дней."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Экран: 1.6 дюймов, AMOLED",
+          "Датчики: пульс, оксиметр, сон",
+          "Тренировки: 100+ видов",
+          "Водонепроницаемость: 5 ATM",
+          "Время работы: до 14 дней",
+          "Уведомления: звонки, сообщения"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Экран", value: "1.6 дюймов, AMOLED" },
+          { label: "Датчики", value: "пульс, оксиметр, сон" },
+          { label: "Тренировки", value: "100+ видов" },
+          { label: "Водозащита", value: "5 ATM" },
+          { label: "Время работы", value: "До 14 дней" },
+          { label: "Уведомления", value: "Да" }
+        ]
       }
+      // ============================
     },
     {
-      id: "product-3",
+      id: "product-9",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "3-1920.png",
       sku: "D5515A2",
@@ -236,10 +484,38 @@ document.addEventListener('DOMContentLoaded', function() {
           // side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Второй экземпляр MSI Pro 16 Flex. Такой же мощный 15.6-дюймовый сенсорный моноблок. Отличный вариант для организации рабочего места с минималистичным дизайном."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "ОЗУ: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "ОС: Windows 10"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" }
+        ]
       }
+      // ============================
     },
     {
-      id: "product-4",
+      id: "product-10",
       title: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
       img: "4-1920.png",
       sku: "D5515A3",
@@ -262,7 +538,35 @@ document.addEventListener('DOMContentLoaded', function() {
           side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Третий экземпляр MSI Pro 16 Flex. Надежный моноблок для офисных задач и учебы. Сенсорный экран делает взаимодействие с программами более интуитивным."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "ОЗУ: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "ОС: Windows 10"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" }
+        ]
       }
+      // ============================
     }
   ];
 
@@ -295,7 +599,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Надёжный ноутбук для бизнеса HP с отличной производительностью и защитой данных. Оснащен процессором Intel Core i5, 8GB оперативной памяти и быстрым SSD на 256GB. Идеален для офисной работы и ведения документов."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i5",
+          "ОЗУ: 8GB DDR4",
+          "SSD: 256GB",
+          "Экран: 15.6 дюймов",
+          "ОС: Windows 11 Pro",
+          "Защита: TPM 2.0"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i5" },
+          { label: "ОЗУ", value: "8GB DDR4" },
+          { label: "SSD", value: "256GB" },
+          { label: "Экран", value: "15.6 дюймов" },
+          { label: "ОС", value: "Windows 11 Pro" },
+          { label: "Защита", value: "TPM 2.0" }
+        ]
       }
+      // ============================
     },
     {
       id: "customer-2",
@@ -322,7 +654,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "27-дюймовый монитор Dell UltraSharp с 4K разрешением и отличной цветопередачей. IPS-матрица обеспечивает широкие углы обзора и точную передачу цветов. Идеальный выбор для дизайнеров и видеомонтажёров."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 4K (3840×2160)",
+          "Матрица: IPS",
+          "Частота: 60 Гц",
+          "Интерфейсы: HDMI, DisplayPort, USB-C",
+          "Регулировка высоты: да"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "4K (3840×2160)" },
+          { label: "Матрица", value: "IPS" },
+          { label: "Частота", value: "60 Гц" },
+          { label: "Интерфейсы", value: "HDMI, DP, USB-C" },
+          { label: "Регулировка", value: "Высота" }
+        ]
       }
+      // ============================
     },
     {
       id: "customer-3",
@@ -349,7 +709,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Лучшие беспроводные наушники с шумоподавлением. До 30 часов работы, превосходное качество звука и эргономичный дизайн. Идеальны для путешествий, работы и повседневного использования."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Тип: беспроводные",
+          "Шумоподавление: активное (ANC)",
+          "Время работы: до 30 часов",
+          "Зарядка: USB-C",
+          "Совместимость: iOS, Android, Windows",
+          "Диапазон: до 10 метров"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Тип", value: "Беспроводные" },
+          { label: "Шумоподавление", value: "ANC" },
+          { label: "Время работы", value: "До 30 часов" },
+          { label: "Зарядка", value: "USB-C" },
+          { label: "Совместимость", value: "iOS, Android, Windows" },
+          { label: "Диапазон", value: "До 10 метров" }
+        ]
       }
+      // ============================
     },
     {
       id: "customer-4",
@@ -376,7 +764,36 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
         //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Тип: механическая",
+          "Переключатели: Red/Blue",
+          "Подсветка: RGB",
+          "N-Key ролловер: да",
+          "Подключение: USB",
+          "Ресурс: 50 млн нажатий",
+          "Совместимость: Windows, Mac"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Тип", value: "Механическая" },
+          { label: "Переключатели", value: "Red/Blue" },
+          { label: "Подсветка", value: "RGB" },
+          { label: "N-Key ролловер", value: "Да" },
+          { label: "Подключение", value: "USB" },
+          { label: "Ресурс", value: "50 млн нажатий" }
+        ]
       }
+      // ============================
     },
     {
       id: "customer-5",
@@ -403,7 +820,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
         //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров и видеомонтажёров."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 4K UHD",
+          "Матрица: IPS",
+          "HDR: HDR400",
+          "Углы обзора: 178°",
+          "Интерфейсы: HDMI, DisplayPort"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "4K UHD" },
+          { label: "Матрица", value: "IPS" },
+          { label: "HDR", value: "HDR400" },
+          { label: "Углы обзора", value: "178°" },
+          { label: "Интерфейсы", value: "HDMI, DP" }
+        ]
       }
+      // ============================
     }
   ];
 
@@ -436,7 +881,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, видеокартой RTX 4060, 16GB RAM и 1TB SSD. Мощное решение для игр и работы с графикой. Тонкий и лёгкий корпус с отличной системой охлаждения."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "Видеокарта: RTX 4060",
+          "ОЗУ: 16GB DDR5",
+          "SSD: 1TB NVMe",
+          "Экран: 15.6 дюймов, 144 Гц",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "Видеокарта", value: "RTX 4060" },
+          { label: "ОЗУ", value: "16GB DDR5" },
+          { label: "SSD", value: "1TB NVMe" },
+          { label: "Экран", value: "15.6 дюймов, 144 Гц" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "laptops-2",
@@ -463,7 +936,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Топовый игровой ноутбук MSI GT Series с RTX 4080, процессором Intel Core i9 и 32GB RAM. Максимальная производительность для самых требовательных игр и профессиональных задач. Превосходная система охлаждения."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i9",
+          "Видеокарта: RTX 4080",
+          "ОЗУ: 32GB DDR5",
+          "SSD: 1TB NVMe",
+          "Экран: 17.3 дюймов, 240 Гц",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i9" },
+          { label: "Видеокарта", value: "RTX 4080" },
+          { label: "ОЗУ", value: "32GB DDR5" },
+          { label: "SSD", value: "1TB NVMe" },
+          { label: "Экран", value: "17.3 дюймов, 240 Гц" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "laptops-3",
@@ -490,7 +991,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, процессором Intel Core i5 и 8GB RAM. Отличный выбор для новичков в игровом мире и повседневных задач. Стильный дизайн и хорошая цена."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i5",
+          "Видеокарта: RTX 3050",
+          "ОЗУ: 8GB DDR4",
+          "SSD: 512GB NVMe",
+          "Экран: 15.6 дюймов, 120 Гц",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i5" },
+          { label: "Видеокарта", value: "RTX 3050" },
+          { label: "ОЗУ", value: "8GB DDR4" },
+          { label: "SSD", value: "512GB NVMe" },
+          { label: "Экран", value: "15.6 дюймов, 120 Гц" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "laptops-4",
@@ -517,7 +1046,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Мощный игровой ноутбук MSI GE Series с RTX 4070, процессором Intel Core i7 и 16GB RAM. Сочетание высокой производительности и стильного дизайна. Отличное решение для игр и работы."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "Видеокарта: RTX 4070",
+          "ОЗУ: 16GB DDR5",
+          "SSD: 1TB NVMe",
+          "Экран: 16 дюймов, 165 Гц",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "Видеокарта", value: "RTX 4070" },
+          { label: "ОЗУ", value: "16GB DDR5" },
+          { label: "SSD", value: "1TB NVMe" },
+          { label: "Экран", value: "16 дюймов, 165 Гц" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "laptops-5",
@@ -544,7 +1101,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "5-mischka-side.png", imgTablet: "5-mischka-side-1024.png", imgMobile: "5-mischka-side-545.png" },
         //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Ультрабук MSI Prestige Series для работы и бизнеса. Процессор Intel Core i7, 16GB RAM, 512GB SSD. Тонкий, лёгкий и стильный ноутбук с отличной автономностью. Идеален для профессионалов."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "ОЗУ: 16GB DDR5",
+          "SSD: 512GB NVMe",
+          "Экран: 14 дюймов, OLED",
+          "Вес: 1.3 кг",
+          "ОС: Windows 11 Pro"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "ОЗУ", value: "16GB DDR5" },
+          { label: "SSD", value: "512GB NVMe" },
+          { label: "Экран", value: "14 дюймов, OLED" },
+          { label: "Вес", value: "1.3 кг" },
+          { label: "ОС", value: "Windows 11 Pro" }
+        ]
       }
+      // ============================
     }    
   ];
 
@@ -577,7 +1162,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровой компактный ПК MSI MPG Trident 3. Оснащен процессором Intel Core i7, видеокартой RTX 2060 SUPER, 16GB RAM и 1TB SSD. Компактный корпус с мощным железом."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "Видеокарта: RTX 2060 SUPER",
+          "ОЗУ: 16GB DDR4",
+          "SSD: 1TB NVMe",
+          "ОС: Windows 11",
+          "Габариты: компактный корпус"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "Видеокарта", value: "RTX 2060 SUPER" },
+          { label: "ОЗУ", value: "16GB DDR4" },
+          { label: "SSD", value: "1TB NVMe" },
+          { label: "ОС", value: "Windows 11" },
+          { label: "Корпус", value: "Компактный" }
+        ]
       }
+      // ============================
     },
     {
       id: "desktops-2",
@@ -604,7 +1217,33 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Топовый игровой десктоп MSI Trident X с процессором Intel Core i9, видеокартой RTX 4090, 32GB RAM и 2TB SSD. Максимальная мощность для любых игр и задач."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i9",
+          "Видеокарта: RTX 4090",
+          "ОЗУ: 32GB DDR5",
+          "SSD: 2TB NVMe",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i9" },
+          { label: "Видеокарта", value: "RTX 4090" },
+          { label: "ОЗУ", value: "32GB DDR5" },
+          { label: "SSD", value: "2TB NVMe" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "desktops-3",
@@ -631,7 +1270,33 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Компактный игровой ПК MSI Infinite S3. Процессор Intel Core i5, видеокарта RTX 4060, 16GB RAM, 512GB SSD. Отличный выбор для игр и работы в компактном корпусе."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i5",
+          "Видеокарта: RTX 4060",
+          "ОЗУ: 16GB DDR4",
+          "SSD: 512GB NVMe",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i5" },
+          { label: "Видеокарта", value: "RTX 4060" },
+          { label: "ОЗУ", value: "16GB DDR4" },
+          { label: "SSD", value: "512GB NVMe" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "desktops-4",
@@ -658,7 +1323,33 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Мощный игровой ПК MSI Codex X с процессором Intel Core i7, видеокартой RTX 4070, 32GB RAM и 1TB SSD. Современный дизайн и отличная производительность."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "Видеокарта: RTX 4070",
+          "ОЗУ: 32GB DDR5",
+          "SSD: 1TB NVMe",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "Видеокарта", value: "RTX 4070" },
+          { label: "ОЗУ", value: "32GB DDR5" },
+          { label: "SSD", value: "1TB NVMe" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     },
     {
       id: "desktops-5",
@@ -685,7 +1376,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровой ПК MSI Aegis RS с водяным охлаждением. Процессор Intel Core i7, RTX 4080, 32GB RAM, 2TB SSD. Высокая производительность и эффективное охлаждение."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Core i7",
+          "Видеокарта: RTX 4080",
+          "ОЗУ: 32GB DDR5",
+          "SSD: 2TB NVMe",
+          "Охлаждение: водяное",
+          "ОС: Windows 11"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Core i7" },
+          { label: "Видеокарта", value: "RTX 4080" },
+          { label: "ОЗУ", value: "32GB DDR5" },
+          { label: "SSD", value: "2TB NVMe" },
+          { label: "Охлаждение", value: "Водяное" },
+          { label: "ОС", value: "Windows 11" }
+        ]
       }
+      // ============================
     }
   ];
 
@@ -718,7 +1437,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "1-mischka-side.png", imgTablet: "1-mischka-side-1024.png", imgMobile: "1-mischka-side-545.png" },
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "27-дюймовый игровой монитор MSI Optix с разрешением 2K, частотой 165Hz и временем отклика 1ms. Идеален для динамичных игр и профессиональной работы."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 2K (2560×1440)",
+          "Частота: 165 Гц",
+          "Отклик: 1 мс",
+          "Матрица: VA",
+          "Интерфейсы: HDMI, DP"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "2K (2560×1440)" },
+          { label: "Частота", value: "165 Гц" },
+          { label: "Отклик", value: "1 мс" },
+          { label: "Матрица", value: "VA" },
+          { label: "Интерфейсы", value: "HDMI, DP" }
+        ]
       }
+      // ============================
     },
     {
       id: "monitors-2",
@@ -745,7 +1492,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Топовый игровой монитор MSI Optix с 4K разрешением, частотой 144Hz и временем отклика 1ms. Превосходное качество изображения для игр и работы."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 32 дюйма",
+          "Разрешение: 4K (3840×2160)",
+          "Частота: 144 Гц",
+          "Отклик: 1 мс",
+          "Матрица: IPS",
+          "Интерфейсы: HDMI 2.1, DP 1.4"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "32 дюйма" },
+          { label: "Разрешение", value: "4K (3840×2160)" },
+          { label: "Частота", value: "144 Гц" },
+          { label: "Отклик", value: "1 мс" },
+          { label: "Матрица", value: "IPS" },
+          { label: "Интерфейсы", value: "HDMI 2.1, DP 1.4" }
+        ]
       }
+      // ============================
     },
     {
       id: "monitors-3",
@@ -772,7 +1547,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "3-mischka-side.png", imgTablet: "3-mischka-side-1024.png", imgMobile: "3-mischka-side-545.png" },
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Компактный игровой монитор MSI Optix с Full HD разрешением, частотой 144Hz и временем отклика 1ms. Отличный выбор для киберспорта."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 24 дюйма",
+          "Разрешение: Full HD (1920×1080)",
+          "Частота: 144 Гц",
+          "Отклик: 1 мс",
+          "Матрица: TN",
+          "Интерфейсы: HDMI, DP"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "24 дюйма" },
+          { label: "Разрешение", value: "Full HD" },
+          { label: "Частота", value: "144 Гц" },
+          { label: "Отклик", value: "1 мс" },
+          { label: "Матрица", value: "TN" },
+          { label: "Интерфейсы", value: "HDMI, DP" }
+        ]
       }
+      // ============================
     },
     {
       id: "monitors-4",
@@ -799,7 +1602,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "4-mischka-side.png", imgTablet: "4-mischka-side-1024.png", imgMobile: "4-mischka-side-545.png" },
         //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Мощный игровой монитор MSI Optix с 2K разрешением, частотой 165Hz и временем отклика 1ms. Идеален для игр и работы с графикой."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 2K (2560×1440)",
+          "Частота: 165 Гц",
+          "Отклик: 1 мс",
+          "Матрица: IPS",
+          "Интерфейсы: HDMI, DP"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "2K" },
+          { label: "Частота", value: "165 Гц" },
+          { label: "Отклик", value: "1 мс" },
+          { label: "Матрица", value: "IPS" },
+          { label: "Интерфейсы", value: "HDMI, DP" }
+        ]
       }
+      // ============================
     },
     {
       id: "monitors-5",
@@ -826,7 +1657,35 @@ document.addEventListener('DOMContentLoaded', function() {
         //   side: { img: "2-mischka-side.png", imgTablet: "2-mischka-side-1024.png", imgMobile: "2-mischka-side-545.png" },
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
+      }, 
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      about: {
+        type: "text",
+        content: "Игровой монитор MSI Optix с 2K разрешением, частотой 165Hz и временем отклика 1ms. Отличное соотношение цена-качество для игр и работы."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Диагональ: 27 дюймов",
+          "Разрешение: 2K (2560×1440)",
+          "Частота: 165 Гц",
+          "Отклик: 1 мс",
+          "Матрица: VA",
+          "Интерфейсы: HDMI, DP"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Диагональ", value: "27 дюймов" },
+          { label: "Разрешение", value: "2K" },
+          { label: "Частота", value: "165 Гц" },
+          { label: "Отклик", value: "1 мс" },
+          { label: "Матрица", value: "VA" },
+          { label: "Интерфейсы", value: "HDMI, DP" }
+        ]
       }
+      // ============================
     }
   ];
 
@@ -834,6 +1693,92 @@ document.addEventListener('DOMContentLoaded', function() {
   // ОБЪЕДИНЯЕМ ВСЕ ТОВАРЫ В ОДИН МАССИВ
   // ============================================
   const allGoods = [...products, ...customers, ...laptops, ...desktops, ...monitors];
+
+  // ============================================================
+  // 6. ДОБАВЛЯЕМ ДАННЫЕ ДЛЯ ТАБОВ (payPal-1, payPal-2, payPal-3)
+  // ============================================================
+  function renderTabs(product) {
+    if (!product) return;
+    if (!product.about && !product.details && !product.specs) return;
+
+    let container = document.querySelector('#tabs-container');
+    if (!container) {
+      const parent = document.querySelector('.catalog__block > div');
+      if (!parent) return;
+      container = document.createElement('div');
+      container.id = 'tabs-container';
+      parent.insertBefore(container, document.querySelector('.article__descs'));
+    }
+
+    container.innerHTML = '';
+
+    // payPal-1
+    const tab1 = document.createElement('div');
+    tab1.className = 'article__infoTab';
+    tab1.dataset.target = 'payPal-1';
+    if (product.about) {
+      const p = document.createElement('p');
+      p.className = 'article__description';
+      p.textContent = product.about.content;
+      tab1.appendChild(p);
+    }
+
+    // ===== ЦВЕТА (ДОБАВЛЯЕМ!) =====
+    if (product.colors) {
+      const colorsDiv = document.createElement('div');
+      colorsDiv.className = 'article__colors color';
+      
+      Object.keys(product.colors).forEach((colorName, index) => {
+        const btn = document.createElement('button');
+        btn.className = `color__tab ${colorName}`;
+        btn.dataset.pathColor = colorName;
+        if (index === 0) btn.classList.add('active');
+        colorsDiv.appendChild(btn);
+      });
+      
+      tab1.appendChild(colorsDiv);
+    }
+
+    container.appendChild(tab1);
+
+    // payPal-2
+    const tab2 = document.createElement('div');
+    tab2.className = 'article__infoTab is-hidden';
+    tab2.dataset.target = 'payPal-2';
+    if (product.details) {
+      const ul = document.createElement('ul');
+      ul.className = 'article__ul';
+      product.details.content.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        ul.appendChild(li);
+      });
+      tab2.appendChild(ul);
+    }
+    container.appendChild(tab2);
+
+    // payPal-3
+    const tab3 = document.createElement('div');
+    tab3.className = 'article__infoTab is-hidden';
+    tab3.dataset.target = 'payPal-3';
+    if (product.specs) {
+      const table = document.createElement('table');
+      table.className = 'article__specs-table';
+      product.specs.content.forEach(row => {
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td');
+        td1.textContent = row.label;
+        const td2 = document.createElement('td');
+        td2.textContent = row.value;
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        table.appendChild(tr);
+      });
+      tab3.appendChild(table);
+    }
+    container.appendChild(tab3);
+  }
+  
 
   // ============================================
   // ОПРЕДЕЛЕНИЕ СЕКЦИИ И ХЛЕБНЫХ КРОШЕК
@@ -1016,6 +1961,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (skuElement && product.sku) {
       skuElement.textContent = product.sku;
     }
+
+    // ===== РЕНДЕРИМ ТАБЫ. ДЛЯ ЛЮБОГО ТОВАРА (payPal-1, payPal-2, payPal-3) =====
+    renderTabs(product);
     
     syncLocalQuantityWithCart();
   } else {
@@ -1276,5 +2224,47 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
+  // ============================================
+  // УСТАНОВКА РАЗНЫХ ОТСТУПОВ ДЛЯ РАЗНЫХ ТАБОВ Не удалять!!! Дизайн рукоЖопа.
+  // ============================================
+  // При переключении таба
+  function setDescsMargin(target) {
+    const descs = document.querySelector('.article__descs');
+    if (!descs) return;
+    
+    if (target === 'payPal-1') {
+      descs.style.marginBottom = '146px';
+    } else if (target === 'payPal-2') {
+      descs.style.marginBottom = '63px';
+    } else if (target === 'payPal-3') {
+      descs.style.marginBottom = '120px';
+    }
+  }
+
+  function setPaginationMargin(target) {
+    const pagination = document.querySelector('.article__pagination.swiper-pagination-bullets');
+    if (!pagination) return;
+    
+    if (target === 'payPal-1') {
+      pagination.style.bottom = '-2px';
+    } else if (target === 'payPal-2') {
+      pagination.style.bottom = '71px';
+    } else if (target === 'payPal-3') {
+      pagination.style.bottom = '60px';
+    }
+  }
+
+  // Вызываем при клике на таб
+  document.querySelectorAll('.payPal-tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      const target = this.dataset.path;
+      setDescsMargin(target);
+      setPaginationMargin(target); // 👈 ДОБАВЛЕНО!
+    });
+  });
+
+  // И при загрузке страницы
+  setDescsMargin('payPal-1');
+  setPaginationMargin('payPal-1'); // 👈 ДОБАВЛЕНО!
 
 }); 
