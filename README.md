@@ -303,7 +303,8 @@ dynamicBullets: true, Уменьшает шарики
 - article.html
 - article.js
 
-
+## Удалить?
+<!-- `details.html` | Детали товара | Product - Details - 1 | -->
 
 
 
