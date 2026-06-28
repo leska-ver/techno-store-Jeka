@@ -304,7 +304,7 @@ dynamicBullets: true, Уменьшает шарики
 - article.js
 
 ## Удалить?
-<!-- `details.html` | Детали товара | Product - Details - 1 | -->
+`details.html` | Детали товара | Product - Details - 1 |
 
 
 
