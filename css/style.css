@@ -901,6 +901,8 @@ button.acc__link {
 .article__pagination {
   position: absolute;
   bottom: 10px;
+  position: relative;
+  bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
@@ -2891,51 +2893,51 @@ button.acc__link {
 /* ===== // delivery-1920px ===== */
 
 
-/* ===== payPal-1920px ===== */
-.payPal {
+/* ===== material-1920px ===== */
+.material {
   padding: 38px 0;
 }
 
-.payPal .payPal-tab {
+.material .material-tab {
   padding-bottom: 2px;
   font-size: 14px;
 }
 
-.payPal .acc__item:not(:last-child) {
+.material .acc__item:not(:last-child) {
   margin: 0 30px 0 0;
 }
 
-.payPal .payPal__btn {
+.material .material__btn {
   margin: 0;
 }
 
-.payPal .breadcrumbs__link {
+.material .breadcrumbs__link {
   font-size: 12px;
 }
 
-.payPal .catalog__article {
+.material .catalog__article {
   padding: 0;
 }
 
-.payPal .catalog__block > div:first-child {
+.material .catalog__block > div:first-child {
   flex-grow: 0;
 }
 
-.payPal .catalog__h3 {
+.material .catalog__h3 {
   margin: 0 0 16px 0;
   font-size: 32px;
 }
 
-.payPal__container {
+.material__container {
   display: flex;
   justify-content: space-between;
 }
 
-.payPal__article {
+.material__article {
   position: relative;
 }
 
-.payPal__article::before {
+.material__article::before {
   content: "";
   position: absolute;
   width: 55.5%;
@@ -2944,51 +2946,51 @@ button.acc__link {
   z-index: -1;
 }
 
-.payPal .breadcrumbs__link::before {
+.material .breadcrumbs__link::before {
   top: 3px;
   right: -12px;
 }
 
-.payPal__btns {
+.material__btns {
   display: inline-flex;
   gap: 8px;
   margin-top: -16px;
 }
 
-.payPal__desc {
+.material__desc {
   margin-top: 17px;
   margin-right: 6px;
 }
 
-.payPal__desc span {
+.material__desc span {
   font-weight: 600;
 }
 
-.payPal__acc {
+.material__acc {
   padding: 0;
 }
 
-.payPal__controls {
+.material__controls {
   display: grid;
   grid-template-rows: 18px 18px;
   gap: 6px 12px;
   align-items: center;
-  grid-template-areas: "payPal__grid_one payPal__grid_two" "payPal__grid_one payPal__grid_three";
+  grid-template-areas: "material__grid_one material__grid_two" "material__grid_one material__grid_three";
   margin: 0 14px 0 0;
   padding: 5px 8px 5px 16px;
   background-color: var(--color-zircon);
 }
 
-.payPal__quantity {
+.material__quantity {
   padding-left: 4px;
   min-width: 10px;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
-  grid-area: payPal__grid_one;
+  grid-area: material__grid_one;
 }
 
-.payPal__qty-btn {
+.material__qty-btn {
   position: relative;
   margin-bottom: 5px;
   padding: 6px 10px;
@@ -3004,30 +3006,30 @@ button.acc__link {
   transition: all var(--transition-duration);
 }
 
-.payPal__qty-btn:focus {
+.material__qty-btn:focus {
   border-radius: 0;
   border: 1px solid var(--color-blueRibbon);
   background-color: transparent;
 }
 
-.payPal__qty-btn:hover {
+.material__qty-btn:hover {
   border: 1px solid var(--color-fuelYellow);
 }
 
-.payPal__qty-btn:active {
+.material__qty-btn:active {
   opacity: .5;
 }
 
-.payPal__qty-btn--top {
-  grid-area: payPal__grid_two;
+.material__qty-btn--top {
+  grid-area: material__grid_two;
   margin-top: 29px;
 }
 
-.payPal__qty-btn--bottom {
-  grid-area: payPal__grid_three;
+.material__qty-btn--bottom {
+  grid-area: material__grid_three;
 }
 
-.payPal__qty-btn--bottom:after, .payPal__qty-btn--top::before {
+.material__qty-btn--bottom:after, .material__qty-btn--top::before {
   position: absolute;
   content: "";
   top: 32%;
@@ -3044,36 +3046,36 @@ button.acc__link {
   z-index: 15;
 }
 
-.payPal__qty-btn--top::before {
+.material__qty-btn--top::before {
   transform: rotate(180deg); /* Поворот на 45 градусов */
 }
 
 /* Кнопка Add to Cart */
-.payPal__btn {
+.material__btn {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 30px;
 }
 
-.payPal__btn:nth-child(odd) {
+.material__btn:nth-child(odd) {
   margin-right: 4px;
   padding: 0 32px 0 35px;
 } 
 
-.payPal__btn.btn--yellow {
+.material__btn.btn--yellow {
   display: inline-flex;
   padding: 16px 33px 12px;
 }
 
-.payPal__btn.btn--yellow svg {
+.material__btn.btn--yellow svg {
   margin: -2px 7px 2px 0;
 }
 
-.payPal__btn span {
+.material__btn span {
   color: var(--color-azureRadiance);
 }
-/* ===== // payPal-1920px ===== */
+/* ===== // material-1920px ===== */
 
 
 /* ===== faq-1920px ===== */

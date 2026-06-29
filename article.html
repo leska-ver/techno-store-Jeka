@@ -226,33 +226,33 @@
         </div>
       </header>
       <main>
-        <section class="payPal">
-          <div class="payPal__container">
+        <section class="material">
+          <div class="material__container">
             <!-- Шаблон меню в товарах  -->
-            <div class="payPal__acc acc">
+            <div class="material__acc acc">
               <ul class="acc__list">
                 <li class="acc__item">
-                  <button class="acc__link payPal-tab active active-laptops" data-path="payPal-1">About Product</button>
+                  <button class="acc__link material-tab active active-laptops" data-path="material-1">About Product</button>
                 </li>
                 <li class="acc__item">
-                  <button class="acc__link payPal-tab" data-path="payPal-2">Details</button>
+                  <button class="acc__link material-tab" data-path="material-2">Details</button>
                 </li>
                 <li class="acc__item">
-                  <button class="acc__link payPal-tab" data-path="payPal-3">Specs</button>
+                  <button class="acc__link material-tab" data-path="material-3">Specs</button>
                 </li>
               </ul>
             </div>
-            <div class="payPal__btns">
-              <p class="payPal__desc">On Sale from <span>$3,299.00</span></p>
+            <div class="material__btns">
+              <p class="material__desc">On Sale from <span>$3,299.00</span></p>
               <!-- Контрол количества (+ / -) -->
-              <div class="payPal__controls">
-                <span class="payPal__quantity" id="payPal-quantity">0</span>
-                <button class="payPal__qty-btn payPal__qty-btn--top btn" id="payPal__to-cart"></button>
-                <button class="payPal__qty-btn payPal__qty-btn--bottom btn" id="payPal__qty"></button>
+              <div class="material__controls">
+                <span class="material__quantity" id="material-quantity">0</span>
+                <button class="material__qty-btn material__qty-btn--top btn" id="material__to-cart"></button>
+                <button class="material__qty-btn material__qty-btn--bottom btn" id="material__qty"></button>
               </div>
               <!-- Кнопка «В корзину» (подтверждение) -->
-              <button class="payPal__btn btn" id="payPal__btn">Add to Cart</button>
-              <button class="payPal__btn btn btn--yellow">
+              <button class="material__btn btn" id="material__btn">Add to Cart</button>
+              <button class="material__btn btn btn--yellow">
                 <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.0638 1.35211C12.2686 0.450703 10.7918 0 8.74706 0H3.06715C2.72636 0 2.38556 0.338026 2.27196 0.676055L0 15.4366C0 15.7746 0.227196 16 0.454393 16H3.97594L4.88472 10.4789V10.7042C4.99832 10.3662 5.33911 10.0282 5.67991 10.0282H7.38388C10.6782 10.0282 13.1774 8.67605 13.9726 4.95775C13.9726 4.84507 13.9726 4.73239 13.9726 4.61972C13.859 4.61972 13.859 4.61972 13.9726 4.61972C14.0862 3.15493 13.859 2.25352 13.0638 1.35211Z" fill="#263B80"/>
                   <path d="M13.712 4C13.712 4.11765 13.712 4.2353 13.712 4.35294C12.9566 8.35294 10.5826 9.64706 7.45314 9.64706H5.83448C5.51075 9.64706 5.18702 10 5.07911 10.3529L4 17.5294C4 17.7647 4.10791 18 4.43164 18H7.23732C7.56105 18 7.88479 17.7647 7.88479 17.4118V17.2941L8.42434 13.6471V13.4118C8.42434 13.0588 8.74807 12.8235 9.07181 12.8235H9.50345C12.2012 12.8235 14.3594 11.6471 14.899 8.11765C15.1148 6.70588 15.0069 5.41176 14.3594 4.58824C14.2515 4.35294 14.0357 4.11765 13.712 4Z" fill="#139AD6"/>
@@ -263,7 +263,7 @@
             </div>            
           </div>
           <!-- Шаблон карточек в товарах и переход в табе -->
-          <div class="payPal__article article payPal-tab">
+          <div class="material__article article material-tab">
             <div class="article__container">
               <!-- Шаблон переходов хлебные -->
               <div class="article__breadcrumbs breadcrumbs">
@@ -285,16 +285,16 @@
                   <!-- БЕЗ ССЫЛКИ! Убрали <a> -->
                   <div class="catalog__block">
                     <div>
-                      <!--<h3 class="catalog__h3 h3">MSI MPG Trident 3</h3> Для PerfectPixel -->
-                      <h3 class="catalog__h3 h3" id="article-title"></h3>
+                      <h3 class="catalog__h3 h3">MSI MPG Trident 3</h3><!-- Для PerfectPixel -->
+                      <!-- <h3 class="catalog__h3 h3" id="article-title"></h3> -->
                       <a class="article__review-link" href="#" id="article-review-link"></a>
 
                       <!-- ===== КОНТЕЙНЕР ДЛЯ ВСЕХ ТАБОВ ===== -->
                       <div id="tabs-container">
                         <!-- Сюда JS вставит:
-                            - payPal-1 (текст + цвета)
-                            - payPal-2 (список)
-                            - payPal-3 (таблица)
+                            - material-1 (текст + цвета)
+                            - material-2 (список)
+                            - material-3 (таблица)
                         -->
                       </div>
 

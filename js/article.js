@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Мощный 15.6-дюймовый сенсорный моноблок MSI Pro 16 Flex. Идеален для работы и дома. Оснащен процессором Intel Celeron QC N3160, 4GB оперативной памяти и графикой Intel HD Graphics. Компактный дизайн и мультитач-экран для удобного управления. Отличное решение для повседневных задач."
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Флагманский смартфон Samsung Galaxy S23 с мощной камерой 50 МП, процессором Snapdragon 8 Gen 2 и ярким 120-герцовым Dynamic AMOLED 2X дисплеем. Обеспечивает потрясающую производительность для игр, фотосъемки и работы. Компактный и стильный дизайн."
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop"
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту."
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров, видеомонтажеров и ценителей высокого качества изображения."
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Эргономичная беспроводная мышь с тихими кликами и оптическим сенсором 1600 DPI. Работает до 12 месяцев от одной батарейки. Универсальный помощник для работы и дома."
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Мощный планшет Tab Ultra с 11-дюймовым 2.5K дисплеем и стилусом в комплекте. Идеален для рисования, заметок и просмотра видео. Оснащен быстрым процессором и батареей на весь день."
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Умный фитнес-браслет Band 7 с 1.6-дюймовым AMOLED-экраном. Отслеживает шаги, пульс, сон и более 100 видов тренировок. Водонепроницаемый, с функцией уведомлений и зарядом до 14 дней."
@@ -485,7 +485,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         //}
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Второй экземпляр MSI Pro 16 Flex. Такой же мощный 15.6-дюймовый сенсорный моноблок. Отличный вариант для организации рабочего места с минималистичным дизайном."
@@ -539,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function() {
           back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Третий экземпляр MSI Pro 16 Flex. Надежный моноблок для офисных задач и учебы. Сенсорный экран делает взаимодействие с программами более интуитивным."
@@ -600,7 +600,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Надёжный ноутбук для бизнеса HP с отличной производительностью и защитой данных. Оснащен процессором Intel Core i5, 8GB оперативной памяти и быстрым SSD на 256GB. Идеален для офисной работы и ведения документов."
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "27-дюймовый монитор Dell UltraSharp с 4K разрешением и отличной цветопередачей. IPS-матрица обеспечивает широкие углы обзора и точную передачу цветов. Идеальный выбор для дизайнеров и видеомонтажёров."
@@ -710,7 +710,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Лучшие беспроводные наушники с шумоподавлением. До 30 часов работы, превосходное качество звука и эргономичный дизайн. Идеальны для путешествий, работы и повседневного использования."
@@ -765,7 +765,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровая механическая клавиатура с механическими переключателями (Red/Blue). Характеризуется тактильной отдачей, долгим сроком службы и полной N-Key ролловером. Настраиваемая RGB-подсветка добавит стиля вашему рабочему месту."
@@ -821,7 +821,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "27-дюймовый 4K UHD монитор с отличной цветопередачей (IPS матрица) и тонкими рамками. Поддерживает HDR400 и широкие углы обзора. Идеальный выбор для дизайнеров и видеомонтажёров."
@@ -882,7 +882,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровой ноутбук MSI GS Series с процессором Intel Core i7, видеокартой RTX 4060, 16GB RAM и 1TB SSD. Мощное решение для игр и работы с графикой. Тонкий и лёгкий корпус с отличной системой охлаждения."
@@ -937,7 +937,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Топовый игровой ноутбук MSI GT Series с RTX 4080, процессором Intel Core i9 и 32GB RAM. Максимальная производительность для самых требовательных игр и профессиональных задач. Превосходная система охлаждения."
@@ -992,7 +992,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Бюджетный игровой ноутбук MSI GL Series с RTX 3050, процессором Intel Core i5 и 8GB RAM. Отличный выбор для новичков в игровом мире и повседневных задач. Стильный дизайн и хорошая цена."
@@ -1047,7 +1047,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Мощный игровой ноутбук MSI GE Series с RTX 4070, процессором Intel Core i7 и 16GB RAM. Сочетание высокой производительности и стильного дизайна. Отличное решение для игр и работы."
@@ -1102,7 +1102,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "5-mischka-back.png", imgTablet: "5-mischka-back-1024.png", imgMobile: "5-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Ультрабук MSI Prestige Series для работы и бизнеса. Процессор Intel Core i7, 16GB RAM, 512GB SSD. Тонкий, лёгкий и стильный ноутбук с отличной автономностью. Идеален для профессионалов."
@@ -1163,7 +1163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровой компактный ПК MSI MPG Trident 3. Оснащен процессором Intel Core i7, видеокартой RTX 2060 SUPER, 16GB RAM и 1TB SSD. Компактный корпус с мощным железом."
@@ -1218,7 +1218,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Топовый игровой десктоп MSI Trident X с процессором Intel Core i9, видеокартой RTX 4090, 32GB RAM и 2TB SSD. Максимальная мощность для любых игр и задач."
@@ -1271,7 +1271,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Компактный игровой ПК MSI Infinite S3. Процессор Intel Core i5, видеокарта RTX 4060, 16GB RAM, 512GB SSD. Отличный выбор для игр и работы в компактном корпусе."
@@ -1324,7 +1324,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Мощный игровой ПК MSI Codex X с процессором Intel Core i7, видеокартой RTX 4070, 32GB RAM и 1TB SSD. Современный дизайн и отличная производительность."
@@ -1377,7 +1377,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровой ПК MSI Aegis RS с водяным охлаждением. Процессор Intel Core i7, RTX 4080, 32GB RAM, 2TB SSD. Высокая производительность и эффективное охлаждение."
@@ -1438,7 +1438,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "1-mischka-back.png", imgTablet: "1-mischka-back-1024.png", imgMobile: "1-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "27-дюймовый игровой монитор MSI Optix с разрешением 2K, частотой 165Hz и временем отклика 1ms. Идеален для динамичных игр и профессиональной работы."
@@ -1493,7 +1493,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Топовый игровой монитор MSI Optix с 4K разрешением, частотой 144Hz и временем отклика 1ms. Превосходное качество изображения для игр и работы."
@@ -1548,7 +1548,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "3-mischka-back.png", imgTablet: "3-mischka-back-1024.png", imgMobile: "3-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Компактный игровой монитор MSI Optix с Full HD разрешением, частотой 144Hz и временем отклика 1ms. Отличный выбор для киберспорта."
@@ -1603,7 +1603,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "4-mischka-back.png", imgTablet: "4-mischka-back-1024.png", imgMobile: "4-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Мощный игровой монитор MSI Optix с 2K разрешением, частотой 165Hz и временем отклика 1ms. Идеален для игр и работы с графикой."
@@ -1658,7 +1658,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //   back: { img: "2-mischka-back.png", imgTablet: "2-mischka-back-1024.png", imgMobile: "2-mischka-back-545.png" }
         // }
       }, 
-      // ===== ДАННЫЕ ДЛЯ ТАБОВ payPal-1, payPal-2, payPal-3 =====
+      // ===== ДАННЫЕ ДЛЯ ТАБОВ material-1, material-2, material-3 =====
       about: {
         type: "text",
         content: "Игровой монитор MSI Optix с 2K разрешением, частотой 165Hz и временем отклика 1ms. Отличное соотношение цена-качество для игр и работы."
@@ -1695,7 +1695,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const allGoods = [...products, ...customers, ...laptops, ...desktops, ...monitors];
 
   // ============================================================
-  // 6. ДОБАВЛЯЕМ ДАННЫЕ ДЛЯ ТАБОВ (payPal-1, payPal-2, payPal-3)
+  // 6. ДОБАВЛЯЕМ ДАННЫЕ ДЛЯ ТАБОВ (material-1, material-2, material-3)
   // ============================================================
   function renderTabs(product) {
     if (!product) return;
@@ -1712,10 +1712,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     container.innerHTML = '';
 
-    // payPal-1
+    // material-1
     const tab1 = document.createElement('div');
     tab1.className = 'article__infoTab';
-    tab1.dataset.target = 'payPal-1';
+    tab1.dataset.target = 'material-1';
     if (product.about) {
       const p = document.createElement('p');
       p.className = 'article__description';
@@ -1741,10 +1741,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     container.appendChild(tab1);
 
-    // payPal-2
+    // material-2
     const tab2 = document.createElement('div');
     tab2.className = 'article__infoTab is-hidden';
-    tab2.dataset.target = 'payPal-2';
+    tab2.dataset.target = 'material-2';
     if (product.details) {
       const ul = document.createElement('ul');
       ul.className = 'article__ul';
@@ -1757,10 +1757,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     container.appendChild(tab2);
 
-    // payPal-3
+    // material-3
     const tab3 = document.createElement('div');
     tab3.className = 'article__infoTab is-hidden';
-    tab3.dataset.target = 'payPal-3';
+    tab3.dataset.target = 'material-3';
     if (product.specs) {
       const table = document.createElement('table');
       table.className = 'article__specs-table';
@@ -1870,7 +1870,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function updateLocalQuantityDisplay() {
-    const qtySpan = document.getElementById('payPal-quantity');
+    const qtySpan = document.getElementById('material-quantity');
     if (qtySpan) qtySpan.textContent = localQuantity;
   }
 
@@ -1962,7 +1962,7 @@ document.addEventListener('DOMContentLoaded', function() {
       skuElement.textContent = product.sku;
     }
 
-    // ===== РЕНДЕРИМ ТАБЫ. ДЛЯ ЛЮБОГО ТОВАРА (payPal-1, payPal-2, payPal-3) =====
+    // ===== РЕНДЕРИМ ТАБЫ. ДЛЯ ЛЮБОГО ТОВАРА (material-1, material-2, material-3) =====
     renderTabs(product);
     
     syncLocalQuantityWithCart();
@@ -1975,13 +1975,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // НАВЕШИВАЕМ КНОПКИ
   // ============================================
   
-  const addBtn = document.getElementById('payPal__to-cart');
+  const addBtn = document.getElementById('material__to-cart');
   if (addBtn) addBtn.addEventListener('click', localAdd);
   
-  const removeBtn = document.getElementById('payPal__qty');
+  const removeBtn = document.getElementById('material__qty');
   if (removeBtn) removeBtn.addEventListener('click', localRemove);
   
-  const cartBtn = document.getElementById('payPal__btn');
+  const cartBtn = document.getElementById('material__btn');
   if (cartBtn) cartBtn.addEventListener('click', applyToCart);
   
   updateCartCount();
@@ -1989,9 +1989,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // ============================================
-  // 1. ТАБЫ ДЛЯ payPal 
+  // 1. ТАБЫ ДЛЯ material 
   // ============================================ 
-  function initPayPalTabs() {
+  function initmaterialTabs() {
     const tabs = document.querySelectorAll('[data-path]');
     const panels = document.querySelectorAll('[data-target]');
     
@@ -2027,7 +2027,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  initPayPalTabs();
+  initmaterialTabs();
 
 
   // ============================================
@@ -2232,39 +2232,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const descs = document.querySelector('.article__descs');
     if (!descs) return;
     
-    if (target === 'payPal-1') {
+    if (target === 'material-1') {
       descs.style.marginBottom = '146px';
-    } else if (target === 'payPal-2') {
+    } else if (target === 'material-2') {
       descs.style.marginBottom = '63px';
-    } else if (target === 'payPal-3') {
+    } else if (target === 'material-3') {
       descs.style.marginBottom = '120px';
     }
   }
 
-  function setPaginationMargin(target) {
-    const pagination = document.querySelector('.article__pagination.swiper-pagination-bullets');
-    if (!pagination) return;
-    
-    if (target === 'payPal-1') {
-      pagination.style.bottom = '-2px';
-    } else if (target === 'payPal-2') {
-      pagination.style.bottom = '71px';
-    } else if (target === 'payPal-3') {
-      pagination.style.bottom = '60px';
-    }
-  }
-
   // Вызываем при клике на таб
-  document.querySelectorAll('.payPal-tab').forEach(tab => {
+  document.querySelectorAll('.material-tab').forEach(tab => {
     tab.addEventListener('click', function() {
       const target = this.dataset.path;
       setDescsMargin(target);
-      setPaginationMargin(target); // 👈 ДОБАВЛЕНО!
     });
   });
 
   // И при загрузке страницы
-  setDescsMargin('payPal-1');
-  setPaginationMargin('payPal-1'); // 👈 ДОБАВЛЕНО!
+  setDescsMargin('material-1');
 
 }); 
