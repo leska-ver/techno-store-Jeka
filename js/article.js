@@ -169,19 +169,9 @@ document.addEventListener('DOMContentLoaded', function() {
       specs: {
         type: "table",
         content: [
-          { label: "Процессор", value: "Intel Core i7-10700F" },
-          { label: "Чипсет", value: "Intel H410" },
-          { label: "Цвет", value: "WHITE" },
-          { label: "Видеокарта", value: "NVIDIA MSI GeForce RTX 2060 SUPER 8GB" },
-          { label: "Оперативная память", value: "16GB (16GB x 1) DDR4 2666MHz" },
-          { label: "Слоты ОЗУ", value: "2 total slots (64GB Max)" },
-          { label: "SSD", value: "512GB M.2 NVMe PCIe GEN3x4" },
-          { label: "HDD", value: "2TB (2.5) 5400RPM" },
-          { label: "Клавиатура/Мышь", value: "Gaming Keyboard GK30 + Gaming Mouse GM11" },
-          { label: "Сеть", value: "Intel WGI219Vethernet (10/100/1000M)" },
-          { label: "WiFi", value: "AX200 (WiFi 6) + BT5.1" },
-          { label: "Блок питания", value: "PSU 330W" },
-          { label: "Охлаждение", value: "Fan Cooler" }
+          { label: "CPU", value: "N/A" },
+          { label: "Featured", value: "N/A" },
+          { label: "I/O Ports", value: "N/A" }
         ]
       }
       // ============================
@@ -2232,12 +2222,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const descs = document.querySelector('.article__descs');
     if (!descs) return;
     
-    if (target === 'material-1') {
-      descs.style.marginBottom = '146px';
-    } else if (target === 'material-2') {
-      descs.style.marginBottom = '63px';
-    } else if (target === 'material-3') {
-      descs.style.marginBottom = '120px';
+    const width = window.innerWidth;
+  
+    // Десктоп (>1024px)
+    if (width > 1024) {
+      if (target === 'material-1') {
+        descs.style.marginBottom = '158px';
+      } else if (target === 'material-2') {
+        descs.style.marginBottom = '74px';
+      } else if (target === 'material-3') {
+        descs.style.marginBottom = '75px';
+      }
+    }
+    
+    // Планшет (545px - 1024px)
+    else if (width > 545 && width <= 1024) {
+      if (target === 'material-1') {
+        descs.style.marginBottom = '30px';   // ← поменяй на свои
+      } else if (target === 'material-2') {
+        descs.style.marginBottom = '60px';    // ← поменяй на свои
+      } else if (target === 'material-3') {
+        descs.style.marginBottom = '60px';    // ← поменяй на свои
+      }
+    }
+    
+    // Мобила (<=545px)
+    else {
+      if (target === 'material-1') {
+        descs.style.marginBottom = '80px';    // ← поменяй на свои
+      } else if (target === 'material-2') {
+        descs.style.marginBottom = '40px';    // ← поменяй на свои
+      } else if (target === 'material-3') {
+        descs.style.marginBottom = '40px';    // ← поменяй на свои
+      }
     }
   }
 
@@ -2251,5 +2268,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // И при загрузке страницы
   setDescsMargin('material-1');
+
+
 
 }); 

@@ -549,7 +549,6 @@ button.acc__link {
   display: flex;
   flex-direction: column;
   flex-grow: 1; /* Занимает всё доступное пространство */
-  margin-bottom: 13px;
 }
 
 .catalog__arrowText {
@@ -785,7 +784,6 @@ button.acc__link {
 }
 
 .article__image {
-  margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -796,6 +794,7 @@ button.acc__link {
 .article .catalog__block {
   margin: 0;
   padding: 0 131px 0 0;
+  height: max-content;
 }
 
 .article .catalog__block > div:first-child {
@@ -804,7 +803,8 @@ button.acc__link {
 
 .article__review-link {
   margin-bottom: 10px;
-  font-size: 12px;
+  width: max-content;
+  font-size: clamp(10px, 2vw, 12px);
   color: var(--color-blueRibbon);
 }
 
@@ -813,14 +813,13 @@ button.acc__link {
 }
 
 .article__infoTab {
-  font-size: 18px;
+  font-size: clamp(12px, 1vw, 18px);
   font-weight: 300;
 }
 
+/*Таб-1(About Product)*/
 .article__description {
   margin-bottom: 42px;
-  font-size: 18px;
-  font-weight: 300;
   line-height: 30px;
 }
 
@@ -830,7 +829,9 @@ button.acc__link {
   margin-left: -3px;
   margin-bottom: 16px;
 }
+/* // Таб-1(About Product)*/
 
+/*Таб-2(Details)*/
 .article__ul {
   margin-bottom: 32px;
   padding: 25px 0 0 15px;
@@ -843,6 +844,32 @@ button.acc__link {
   line-height: 16px;
   list-style: disc;
 }
+/* // Таб-2(Details)*/
+
+/*Таб-3(Specs)*/
+.article__specs-table {
+  margin: 14px 0 36px;;
+  border: 1px solid var(--color-chost);
+  width: 70.7%;
+}
+
+.article__specs-table tr {
+  display: grid;
+  grid-template-columns: 1fr 65%;
+  gap: 10px;
+  padding: 10px 10px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: clamp(11px, 2vw, 14px);
+  line-height: 1;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.article__specs-table tr:nth-child(even) {
+  background-color: transparent;
+}
+/*Таб-3(Specs)*/
 
 .article__descs {
   display: flex;
@@ -861,14 +888,15 @@ button.acc__link {
 }
 
 .article__sku {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .article__more-link {
   margin-left: -119px;
-  text-transform: uppercase;
+  width: max-content;
   font-weight: 700;
   font-size: clamp(12px, 1.4vw, 14px);
+  text-transform: uppercase;
   color: var(--color-black);
 }
 
@@ -978,20 +1006,25 @@ button.acc__link {
 }
 
 .article__learn-more {
-  font-size: 12px; /* Не меняется! */
+  font-size: clamp(10px, 1vw, 12px); /* Не меняется! */
   text-decoration: underline; /* Добавляет подчеркивание */
 }
 
 .article .catalog__sub {
-  margin-left: -166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: -166px; По PerfectPixel, но у нас нет его картинки. Не удаляем!!! */
   padding: 0;
-  height: 404px;
+  height: 100%;
+  min-height: 404px;
 }
 
 .article__pagination.swiper-pagination-bullets {
+  bottom: 0;
+  margin-left: auto;
   padding-right: 65px;
-  bottom: -2px;
-  text-align: end;
+  width: max-content;
 }
 /* // Шаблон инфо о карточки(article.html) */
 
@@ -2925,7 +2958,7 @@ button.acc__link {
 
 .material .catalog__h3 {
   margin: 0 0 16px 0;
-  font-size: 32px;
+  font-size: clamp(22px, 2vw, 32px);
 }
 
 .material__container {
@@ -3669,18 +3702,25 @@ input::placeholder {
     margin: 0 16px 16px 0;
   }
 
+  .article {
+    padding: 21px 0;
+  }
+
+  .article__container {
+    padding: 36px 25px 0;
+  }  
+
+  .article__breadcrumbs {
+    margin-bottom: 10px;
+  }
+
   .article .catalog__article {
-    display: block;
+    grid-template-columns: 1fr 40%;
   }
 
   .article .catalog__item {
     width: 100%;
   } 
-  
-  .article__image {
-    margin: 0 auto;
-    width: 50%;
-  }
 
   .article .catalog__sub {
     top: 0;
@@ -3689,8 +3729,95 @@ input::placeholder {
   }
 
   .article .catalog__block {
+    padding: 0 78px 0 0;
     height: auto;
+  } 
+
+  .article__review-link {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .article__description {
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .article__colors {
+    margin: 0 0 38px 2px;
   }  
+
+  .article__colors .color__tab {
+    width: 26px;
+    height: 26px;
+  }
+
+  .article__question-text {
+    margin: 14px 0 0 2px;
+    font-size: 10px;
+  }
+
+  .article__contact-link {
+    margin-left: 5px;
+  }
+
+  /* -swiper- */
+  .article__swiper {
+    margin: -27px 0 30px -5px;
+  }
+
+  .article__Interaction {
+    margin-top: 5px;
+  }
+
+  .article .catalog__sub {
+    align-items: start;
+    height: auto;  /* ← убираем фиксированную высоту */
+    min-height: 185px; /* ← можно задать минимальную, если надо */
+  }
+
+  .article__zip {
+    margin: -20px 0 0 18%;
+    padding: 0;
+  }
+
+  .article__logo-zip {
+    margin: 0;
+    height: 22px;
+  }
+
+  .article__pagination.swiper-pagination-bullets {
+    position: relative;
+    bottom: auto;
+    margin-right: -30px;
+    padding: 15px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .article .article__pagination .swiper-pagination-bullet {
+    margin-right: 7px;
+  }
+
+  .article__divider {
+    margin-left: -5px;
+    height: 19px;
+  }
+
+  .article__bold-text {
+    font-size: 10px;
+  }
+
+  .article__promo-text {
+    width: 140px;
+  }
+  /* // -swiper- */
+
+  .article__more-link {
+    display: none;
+    margin-left: 0;    
+  }
+
 
   .header__container {
     padding: 0 22px;
@@ -4437,6 +4564,85 @@ input::placeholder {
   .delivery__img {
     margin-top: 5px;
   }
+
+  .material {
+    padding: 23px 0;
+  }
+
+  .material__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 25.5px;
+  }
+
+  .material__acc {
+    padding: 0;
+    flex: 1 1 auto;
+  }
+
+  .material .acc__item:not(:last-child) {
+    margin: 0 17px 0 0;
+  }
+
+  .material__btns {
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 0;
+  }
+
+  .material__desc {
+    margin: -3px 11px 0 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .material__desc span {
+    display: block;
+    padding-left: 5px;
+    font-size: 15px;
+  }
+
+  .material__controls {
+    grid-template-rows: 12px 12px;
+    gap: 4px;
+    margin: 0 9px 0 0;
+    padding: 5px 8px 5px 12px;
+    border-radius: 5px;
+  }
+
+  .material__qty-btn--top {
+    margin: 17px 0 0 0;
+  }
+
+  .material__qty-btn {
+    margin-bottom: 0;
+  }  
+
+  .material__qty-btn--bottom:after, .material__qty-btn--top::before {
+    top: 30%;
+    right: 13%;
+  }
+
+  .material__btn.material__btn {
+    margin-right: 0;
+    padding: 0 27px;
+    font-size: 13px;
+  }
+
+  .material__btn.btn--yellow {
+    padding: 0 30px;
+    line-height: 1;
+  } 
+
+  .material .catalog__h3 {
+    margin: 0 0 8px 0;
+  }
+
 
   .faq {
     padding: 22px 0 40px;
