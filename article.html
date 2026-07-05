@@ -264,7 +264,7 @@
           </div>
           <!-- Шаблон карточек в товарах и переход в табе -->
           <div class="material__article article material-tab">
-            <div class="article__container">
+            <div class="article__container">              
               <!-- Шаблон переходов хлебные -->
               <div class="article__breadcrumbs breadcrumbs">
                 <ul class="breadcrumbs__list">
@@ -282,6 +282,21 @@
               <!-- Та же самая карточка, что и в каталоге -->
               <div class="catalog__item">
                 <article class="catalog__article">
+                  <!-- ===== ДУБЛИКАТ ТАБОВ ДЛЯ МОБИЛЫ ===== -->
+                  <div class="material__acc acc material__acc--mobile">
+                    <ul class="acc__list">
+                      <li class="acc__item">
+                        <button class="acc__link material-tab active active-laptops" data-path="material-1">About Product</button>
+                      </li>
+                      <li class="acc__item">
+                        <button class="acc__link material-tab" data-path="material-2">Details</button>
+                      </li>
+                      <li class="acc__item">
+                        <button class="acc__link material-tab" data-path="material-3">Specs</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- // ===== ДУБЛИКАТ ТАБОВ ДЛЯ МОБИЛЫ ===== -->
                   <!-- БЕЗ ССЫЛКИ! Убрали <a> -->
                   <div class="catalog__block">
                     <div>

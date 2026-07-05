@@ -2249,7 +2249,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Мобила (<=545px)
     else {
       if (target === 'material-1') {
-        descs.style.marginBottom = '80px';    // ← поменяй на свои
+        descs.style.marginBottom = '23px';    // ← поменяй на свои
       } else if (target === 'material-2') {
         descs.style.marginBottom = '40px';    // ← поменяй на свои
       } else if (target === 'material-3') {
