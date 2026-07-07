@@ -3003,6 +3003,11 @@ button.acc__link {
   padding: 0;
 }
 
+/* По умолчанию дубликат скрыт */
+.material__acc--mobile {
+  display: none;
+}
+
 .material__controls {
   display: grid;
   grid-template-rows: 18px 18px;
@@ -4585,12 +4590,7 @@ input::placeholder {
 
   .material .acc__item:not(:last-child) {
     margin: 0 17px 0 0;
-  }
-
-  /* По умолчанию дубликат скрыт */
-  .material__acc--mobile {
-    display: none;
-  }
+  }  
 
   .material__btns {
     flex: 0 0 auto;

@@ -2222,7 +2222,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const descs = document.querySelector('.article__descs');
     if (!descs) return;
     
-    const width = window.innerWidth;
+    // const width = window.innerWidth;
+    //Добавили resize
+    const width = window.visualViewport ? window.visualViewport.width : window.innerWidth;
   
     // Десктоп (>1024px)
     if (width > 1024) {
@@ -2235,15 +2237,18 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
     
-    // Планшет (545px - 1024px)
-    else if (width > 545 && width <= 1024) {
-      if (target === 'material-1') {
-        descs.style.marginBottom = '30px';   // ← поменяй на свои
-      } else if (target === 'material-2') {
-        descs.style.marginBottom = '60px';    // ← поменяй на свои
-      } else if (target === 'material-3') {
-        descs.style.marginBottom = '60px';    // ← поменяй на свои
-      }
+    // Планшет (768px - 1024px)
+    else if (width > 768 && width <= 1024) {
+      if (target === 'material-1') descs.style.marginBottom = '30px';
+      else if (target === 'material-2') descs.style.marginBottom = '60px';
+      else if (target === 'material-3') descs.style.marginBottom = '60px';
+    }
+    
+    // ПОЛУПЛАНШЕТ / ПОЛУМОБИЛА (545px - 768px)
+    else if (width > 545 && width <= 768) {
+      if (target === 'material-1') descs.style.marginBottom = '45px';
+      else if (target === 'material-2') descs.style.marginBottom = '50px';
+      else if (target === 'material-3') descs.style.marginBottom = '50px';
     }
     
     // Мобила (<=545px)
@@ -2257,6 +2262,14 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   }
+
+  // ===== СЛУШАЕМ ИЗМЕНЕНИЕ РАЗМЕРА ЭКРАНА =====
+  window.addEventListener('resize', function() {
+    const activeTab = document.querySelector('.material-tab.active');
+    if (activeTab) {
+      setDescsMargin(activeTab.dataset.path);
+    }
+  });
 
   // Вызываем при клике на таб
   document.querySelectorAll('.material-tab').forEach(tab => {
