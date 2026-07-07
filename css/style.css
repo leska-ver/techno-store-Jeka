@@ -4915,7 +4915,7 @@ input::placeholder {
   }
 }
   
-@media (max-width: 745px) {
+@media (max-width: 645px) {
   [class*="__container"] {
     padding: 0 15px;
   }
