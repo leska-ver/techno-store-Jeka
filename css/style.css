@@ -5630,9 +5630,9 @@ input::placeholder {
     display: grid;
     grid-template-areas: "material__controls material__qty-btn--top material__qty-btn--bottom" "material__desc material__desc material__desc";
     grid-template-rows: 38px 1fr;
-    grid-template-columns: 16.5% 40% 40%;
-    gap: 11px 14px;
-    margin: 0 0 0 -15px;
+    grid-template-columns: 17% 40% 38%;
+    gap: 11px 13px;
+    margin: 0 0 0 -11px;
   }
 
   .material__controls {
@@ -5640,6 +5640,7 @@ input::placeholder {
     position: relative;
     display: flex;
     margin: 0;
+    padding: 5px 6px 5px 14px;
   }
 
   .material__quantity {
@@ -5647,13 +5648,13 @@ input::placeholder {
   } 
   
   .material__qty-btn--top::before {
-    top: -7px;
-    right: -19px;
+    top: -11px;
+    right: -15px;
   }
 
   .material__qty-btn--bottom:after {
-    top: 0;
-    right: -19px;
+    top: 6px;
+    right: -9px;
   }
 
   .material__qty-btn.material__qty-btn--top {
@@ -5682,7 +5683,12 @@ input::placeholder {
     font-size: 13px;
   }
 
+  .material .material__btn {
+    margin-left: 1px;
+  }
+
   .material__btn.btn--yellow {
+    margin: 0 0 0 -3px;
     padding: 0 31px 0 27px;
   }
 
