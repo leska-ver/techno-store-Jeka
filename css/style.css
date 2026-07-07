@@ -72,6 +72,7 @@
   --color-abbey: #4B4D4F;
   --color-merino: #F2E9DC;
   --color-mischka: #EAE8EB;
+  --color-lrv: #030303;
 }
 
 html {
@@ -465,6 +466,8 @@ button.acc__link {
 
 /* Карточка как ссылка */
 .catalog__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -533,6 +536,8 @@ button.acc__link {
 
 /* Контентный блок - РАСТЯГИВАЕТСЯ */
 .catalog__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;/*Для выравнивание карточек catalog__item*/
   justify-content: space-between;/*Для выравнивание карточек catalog__item*/
   flex-direction: column;/*Для выравнивание карточек catalog__item*/
@@ -735,6 +740,8 @@ button.acc__link {
 }
 
 .toolbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -778,6 +785,7 @@ button.acc__link {
 }
 
 .article .catalog__article { 
+  display: -ms-grid;
   display: grid;
   grid-template-columns: 1fr 46.8%;
   gap: 10px;
@@ -813,8 +821,8 @@ button.acc__link {
 }
 
 .article__infoTab {
-  font-size: clamp(12px, 1vw, 18px);
   font-weight: 300;
+  font-size: clamp(12px, 1vw, 18px);
 }
 
 /*Таб-1(About Product)*/
@@ -824,6 +832,8 @@ button.acc__link {
 }
 
 .article__colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 12px;
   margin-left: -3px;
@@ -840,7 +850,7 @@ button.acc__link {
 
 .article__ul li {
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: clamp(12px, 2vw, 14px);
   line-height: 16px;
   list-style: disc;
 }
@@ -854,6 +864,7 @@ button.acc__link {
 }
 
 .article__specs-table tr {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 10px;
@@ -872,6 +883,8 @@ button.acc__link {
 /*Таб-3(Specs)*/
 
 .article__descs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -914,6 +927,8 @@ button.acc__link {
 }
 
 .article__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 15px;
   width: 100%;
@@ -955,6 +970,7 @@ button.acc__link {
 /*-- // Слайдер --*/
 
 .article__Interaction {
+  display: -ms-grid;
   display: grid;
   gap: 6px;
   position: absolute;
@@ -1011,6 +1027,8 @@ button.acc__link {
 }
 
 .article .catalog__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2381,8 +2399,8 @@ button.acc__link {
 
 .review__btn {
   padding: 9px 25px;
-  font-size: clamp(11px, 1.8vw, 14px);
   font-weight: 600;
+  font-size: clamp(11px, 1.8vw, 14px);
 }
 
 .review__paginationswiper-pagination {
@@ -2610,8 +2628,8 @@ button.acc__link {
 
 .shop__price {
   margin: 10px 0;
-  font-size: 1.3rem;
   font-weight: 700;
+  font-size: 1.3rem;
   color: #0156ff;
 }
 
@@ -2662,6 +2680,7 @@ button.acc__link {
 
 /* Сетка внутри слайда */
 .shop__grid-inside {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
@@ -2928,7 +2947,7 @@ button.acc__link {
 
 /* ===== material-1920px ===== */
 .material {
-  padding: 38px 0;
+  padding: 38px 0 16px;
 }
 
 .material .material-tab {
@@ -2954,6 +2973,7 @@ button.acc__link {
 
 .material .catalog__block > div:first-child {
   flex-grow: 0;
+  margin: 0;
 }
 
 .material .catalog__h3 {
@@ -2962,6 +2982,8 @@ button.acc__link {
 }
 
 .material__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
 }
@@ -3009,6 +3031,7 @@ button.acc__link {
 }
 
 .material__controls {
+  display: -ms-grid;
   display: grid;
   grid-template-rows: 18px 18px;
   gap: 6px 12px;
@@ -3022,8 +3045,8 @@ button.acc__link {
 .material__quantity {
   padding-left: 4px;
   min-width: 10px;
-  font-size: 14px;
   font-weight: 600;
+  font-size: 14px;
   text-align: center;
   grid-area: material__grid_one;
 }
@@ -3035,8 +3058,8 @@ button.acc__link {
   border-radius: 0;
   border: 1px solid transparent;
   background-color: transparent;
-  font-size: 20px;
   font-weight: 600;
+  font-size: 20px;
   -webkit-transition: all var(--transition-duration);
   -ms-transition: all var(--transition-duration);
   -moz-transition: all var(--transition-duration);
@@ -3090,6 +3113,8 @@ button.acc__link {
 
 /* Кнопка Add to Cart */
 .material__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -3111,9 +3136,91 @@ button.acc__link {
 }
 
 .material__btn span {
-  color: var(--color-azureRadiance);
+  background-color: var(--color-persianRed);
 }
 /* ===== // material-1920px ===== */
+
+/* ===== performance ===== */
+.performance {
+  background-color: var(--color-lrv);
+}
+
+.performance__container {
+  padding-bottom: 9px;
+  background: url("../img/active-html/intel.jpg") calc(100% - 12px) top no-repeat;
+}
+
+.performance__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 460px;
+  color: var(--color-white);
+}
+
+/*-- Слайдер --*/
+.performance__swiper {
+  position: relative;
+  margin-top: -10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.performance__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.performance__slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.performance__slide desc {
+  font-weight: 300;
+}
+
+/* Пагинация (точки) */
+.performance__pagination {
+  position: absolute;
+  bottom: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.performance__pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  background: #ccc;
+  border-radius: 50%;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.performance__pagination .swiper-pagination-bullet-active {
+  background: #0156FF;
+  opacity: 1;
+}
+/*-- // Слайдер --*/
+
+.performance__h2 {
+  font-weight: 500;
+  font-size: clamp(32px, 2vw, 44px);
+}
+
+/* ===== // performance ===== */
 
 
 /* ===== faq-1920px ===== */
@@ -3768,7 +3875,7 @@ input::placeholder {
 
   /* -swiper- */
   .article__swiper {
-    margin: -27px 0 30px -5px;
+    margin: -27px 0 0 -5px;
   }
 
   .article__Interaction {
@@ -4571,10 +4678,12 @@ input::placeholder {
   }
 
   .material {
-    padding: 23px 0;
+    padding: 23px 0 33px;
   }
 
   .material__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -4593,8 +4702,10 @@ input::placeholder {
   }  
 
   .material__btns {
-    flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    flex: 0 0 auto;
     flex-wrap: wrap;
     gap: 6px;
     margin-top: 0;
@@ -4877,8 +4988,8 @@ input::placeholder {
   /* Контейнер для стрелки */
   .footer .arrow {
     display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;  
+    display: -ms-flexbox;
+    display: flex;  
   }
 
   /* Когда аккордеон открыт - поворачиваем стрелку */
@@ -5528,9 +5639,11 @@ input::placeholder {
 
 
   .material {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    padding: 19px 0;
+    padding: 19px 0 11px;
   }
 
   .material__container {
@@ -5550,8 +5663,10 @@ input::placeholder {
 
   /* По умолчанию дубликат открываем */
   .material__acc--mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    margin: 5px 0 0 -1px;
+    margin: 5px 0 8px -1px;
     order: 2;
   }
 
@@ -5560,6 +5675,7 @@ input::placeholder {
   }
 
   .material .material-tab {
+    margin-bottom: 0;
     line-height: .8;
   }
 
@@ -5568,6 +5684,8 @@ input::placeholder {
   }
 
   .article__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;/*Для order*/
     flex-direction: column;
   }
@@ -5577,6 +5695,8 @@ input::placeholder {
   }
 
   .article .catalog__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 4px;
   }
@@ -5617,6 +5737,34 @@ input::placeholder {
     margin: 0 0 20.5px 2px;
   }
 
+  /* material-2 */
+  .article__ul {
+    margin-bottom: 0;
+    padding: 8px 0 0 11px;
+    list-style: none;/* Убираем родные точки */
+  }
+
+  .article__ul li {
+    margin-bottom: 4px;
+    padding-left: 20px;
+    position: relative;
+    padding-left: 20px; /* Отступ для кастомной точки */
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  /* Рисуем кастомную точку */
+  .article__ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black; /* Цвет точки */
+    font-size: 18px; /* Размер точки */
+  }
+  /* // material-2 */
+
   .article__question-text {
     margin: 0 0 0 1px;
   }
@@ -5625,8 +5773,9 @@ input::placeholder {
     margin: 0;
     padding-right: 3px;
   }
-
+  
   .material__btns {
+    display: -ms-grid;
     display: grid;
     grid-template-areas: "material__controls material__qty-btn--top material__qty-btn--bottom" "material__desc material__desc material__desc";
     grid-template-rows: 38px 1fr;
@@ -5638,6 +5787,8 @@ input::placeholder {
   .material__controls {
     grid-area: material__controls;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 5px 6px 5px 14px;
@@ -5725,8 +5876,8 @@ input::placeholder {
 
   .faq__button {
     display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: -ms-flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between; /* теперь space-between будет работать */
     width: 100%; /* растягиваем кнопку на всю ширину родителя */
@@ -5735,8 +5886,8 @@ input::placeholder {
 
   .faq__button .arrow {
     display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .faq__h4 {
@@ -6027,6 +6178,7 @@ input::placeholder {
   }
 
   .footer__bottom {
+    display: -ms-grid;
     display: grid;
     grid-template-areas:
     "bottom-grid__social1 bottom-grid__social3"

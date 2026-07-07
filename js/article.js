@@ -2246,7 +2246,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // ПОЛУПЛАНШЕТ / ПОЛУМОБИЛА (545px - 768px)
     else if (width > 545 && width <= 768) {
-      if (target === 'material-1') descs.style.marginBottom = '45px';
+      if (target === 'material-1') descs.style.marginBottom = '0';
       else if (target === 'material-2') descs.style.marginBottom = '50px';
       else if (target === 'material-3') descs.style.marginBottom = '50px';
     }
@@ -2254,7 +2254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Мобила (<=545px)
     else {
       if (target === 'material-1') {
-        descs.style.marginBottom = '23px';    // ← поменяй на свои
+        descs.style.marginBottom = '29px';    // ← поменяй на свои
       } else if (target === 'material-2') {
         descs.style.marginBottom = '40px';    // ← поменяй на свои
       } else if (target === 'material-3') {
@@ -2283,5 +2283,23 @@ document.addEventListener('DOMContentLoaded', function() {
   setDescsMargin('material-1');
 
 
+  // ============================================
+  // Инициализация Swiper для блока performance (без стрелок)
+  // ============================================ 
+  const performanceSwiper = document.querySelector('.performance__swiper');
+  if (performanceSwiper && typeof Swiper !== 'undefined') {
+    new Swiper('.performance__swiper', {
+      pagination: {
+        el: '.performance__pagination',
+        clickable: true,
+      },
+      slidesPerView: 1,
+      spaceBetween: 0,
+      wrapperClass: 'performance__wrapper',
+      slideClass: 'performance__slide',
+    });
+  }
+
+  
 
 }); 
