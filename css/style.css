@@ -5645,6 +5645,7 @@ input::placeholder {
 
   .material__quantity {
     padding-left: 0;
+    /*Для нажатия на мобильнике по стрелкам none Не удалять!!!*/
     pointer-events: none;
     user-select: none;
   } 
