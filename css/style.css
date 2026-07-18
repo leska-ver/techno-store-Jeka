@@ -2947,16 +2947,16 @@ button.acc__link {
 
 /* ===== material-1920px ===== */
 .material {
-  padding: 38px 0 16px;
+  padding: 38px 0 19px;
+}
+
+.material .acc__item:not(:last-child) {
+  margin: 0 30px 0 0;
 }
 
 .material .material-tab {
   padding-bottom: 2px;
   font-size: clamp(12px, 2vw, 14px);
-}
-
-.material .acc__item:not(:last-child) {
-  margin: 0 30px 0 0;
 }
 
 .material .material__btn {
@@ -3147,7 +3147,7 @@ button.acc__link {
 
 .performance__container {
   padding-bottom: 9px;
-  background: url("../img/active-html/intel.jpg") calc(100% - 12px) top no-repeat;
+  background: url("../img/active-html/intel.jpg") calc(100% - 67px) top no-repeat;
 }
 
 .performance__block {
@@ -3156,14 +3156,14 @@ button.acc__link {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 460px;
+  padding: 131px 0 37px 0;
+  max-width: 545px;
   color: var(--color-white);
 }
 
 /*-- Слайдер --*/
 .performance__swiper {
   position: relative;
-  margin-top: -10px;
   width: 100%;
   overflow: hidden;
 }
@@ -3172,7 +3172,8 @@ button.acc__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 15px;
+  padding-left: 122px;
+  margin-bottom: 73px;
   width: 100%;
   transition: transform 0.3s ease;
 }
@@ -3194,7 +3195,7 @@ button.acc__link {
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
+  text-align: start;
   z-index: 10;
 }
 
@@ -3213,14 +3214,60 @@ button.acc__link {
   background: #0156FF;
   opacity: 1;
 }
+
+.performance__pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: -7px;
+  left: -.9px;
+}  
+
+.performance__pagination.swiper-pagination-bullets.swiper-pagination-horizontal span {
+  margin-right: 7px;
+}
 /*-- // Слайдер --*/
 
 .performance__h2 {
+  margin-bottom: 43px;
   font-weight: 500;
-  font-size: clamp(32px, 2vw, 44px);
+  font-size: clamp(32px, 3vw, 44px);
+  line-height: 57px;
 }
 
+.performance__text {
+  width: 80%;
+  line-height: 26px;
+}
+
+.performance__text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.performance__text span {
+  position: relative;
+  top: -7px;
+  font-size: clamp(8px, 3vw, 11px);
+  line-height: 22px;
+}
 /* ===== // performance ===== */
+
+/* ===== support ===== */
+.support {
+  background-color: var(--color-zircon);
+}
+
+.support__container {
+  padding-bottom: 9px;
+  background: url("../img/active-html/support.png") calc(100% - 0px) bottom no-repeat;
+}
+
+.support__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.support__link {
+  background-color: var(--color-white);
+}
+/* ===== // support ===== */
 
 
 /* ===== faq-1920px ===== */
@@ -3718,6 +3765,10 @@ input::placeholder {
 
   .delivery__img {
     margin: 0;
+  }
+
+  .performance__container {
+    background: url("../img/active-html/intel-1024.jpg") calc(100% - 75px) center no-repeat;
   }
 
   .footer__top {
@@ -4678,7 +4729,7 @@ input::placeholder {
   }
 
   .material {
-    padding: 23px 0 33px;
+    padding: 23px 0 22px;
   }
 
   .material__container {
@@ -4700,6 +4751,10 @@ input::placeholder {
   .material .acc__item:not(:last-child) {
     margin: 0 17px 0 0;
   }  
+
+  .material__article.material-tab {
+    padding-bottom: 13px;
+  }
 
   .material__btns {
     display: -webkit-box;
@@ -4757,6 +4812,45 @@ input::placeholder {
 
   .material .catalog__h3 {
     margin: 0 0 8px 0;
+  }
+
+  .performance__container {
+    padding-bottom: 61px;
+    background: url("../img/active-html/intel-1024.jpg") calc(100% - 15px) top no-repeat;
+  }
+
+  .performance__block {
+    padding: 32px 0 0;
+    width: 367px;
+  }
+
+  .performance__wrapper {
+    margin: 0;
+    padding-left: 39px;
+  }
+
+  .performance__h2 {
+    margin-bottom: 18px;
+    line-height: 42px;
+  }
+
+  .performance__text {
+    width: 92%;
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 19px;
+  }
+
+  .performance__text:not(:last-child) {
+    margin-bottom: 22px;
+  }
+
+  .performance__text span {
+    top: -2px;
+    font-size: 8px;
+  }  
+
+  .performance__pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
   }
 
 
@@ -5023,6 +5117,38 @@ input::placeholder {
 
   .footer__copy {
     margin: 4px 45px 0 0;
+  }
+}
+
+@media (max-width: 747px) {
+  .article__swiper {
+    margin: 0;
+  }
+
+  .performance {
+    padding: 0 0 27px;
+  }
+
+  .performance__container {
+    background: url("../img/active-html/intel-1024.jpg") calc(100% - 75%) top no-repeat;
+  }
+
+  .performance__block {
+    padding: 298px 0 0;
+    width: 100%;
+    max-width: 99.3%;
+  }
+
+  .performance__wrapper {
+    padding-left: 10px;
+  }
+
+  .performance__text {
+    width: 100%;
+  }
+
+  .performance__text span {
+    line-height: 15px;
   }
 }
   
@@ -5679,6 +5805,10 @@ input::placeholder {
     line-height: .8;
   }
 
+  .material__article.material-tab {
+    padding-bottom: 2px;
+  }
+
   .article {
     padding: 0;
   }
@@ -5725,7 +5855,6 @@ input::placeholder {
   }
 
   .article__swiper {
-    margin: 0;
     order: 1;
   }
 
@@ -5734,31 +5863,30 @@ input::placeholder {
   }
 
   .article__colors {
-    margin: 0 0 20.5px 2px;
+    margin: 0 0 21px 2px;
   }
 
   /* material-2 */
   .article__ul {
     margin-bottom: 0;
-    padding: 8px 0 0 11px;
-    list-style: none;/* Убираем родные точки */
+    padding: 8px 0 25px 0;
+    
   }
 
   .article__ul li {
-    margin-bottom: 4px;
-    padding-left: 20px;
     position: relative;
-    padding-left: 20px; /* Отступ для кастомной точки */
-    margin-bottom: 8px;
-    font-size: 14px;
+    margin-bottom: 4px;
+    padding-left: 11px; /* Отступ для кастомной точки */
+    font-size: 12px;
     line-height: 16px;
+    list-style: none;/* Убираем родные точки */
   }
 
   /* Рисуем кастомную точку */
   .article__ul li::before {
     content: "•";
     position: absolute;
-    left: 0;
+    left: -1px;
     top: 0;
     color: black; /* Цвет точки */
     font-size: 18px; /* Размер точки */
@@ -5848,6 +5976,14 @@ input::placeholder {
 
   .material__btn.btn--yellow svg {
     margin: 2px 7px 2px 0;
+  }
+
+  .performance__container {
+    background: url("../img/active-html/intel-1024.jpg") calc(100% - -20px) top no-repeat;
+  }
+
+  .performance__text {
+    width: 97%;
   }
 
 
