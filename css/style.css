@@ -3272,7 +3272,7 @@ button.acc__link {
   border: 1px solid var(--color-chost);
   font-weight: 500;
   font-size: clamp(12px, 1vw, 16px);
-  background: url("../img/arrow-next.png");
+  background: url("../img/arrow-next.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: right 20px center;
@@ -3281,6 +3281,26 @@ button.acc__link {
 
 .support__link:not(:last-child) {
   margin-bottom: 21px; 
+}
+
+.support__link:focus {
+  background: url("../img/arrow-next-focus.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+.support__link:hover {
+  background: url("../img/arrow-next-hover.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+.support__link:active {
+  background: url("../img/arrow-next.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  opacity: .7;
 }
 /* ===== // support-1920px ===== */
 
