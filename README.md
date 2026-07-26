@@ -72,7 +72,7 @@
 ## 4. article.html (about-desktop-1920.png)
 **Кто это:** Страница товара (MSI MPG Trident 3)
 
-**Откуда пришёл:** Можно прийти с index.html, aboutUs.html, shopping.html, details.html, specs.html
+**Откуда пришёл:** Можно прийти с index.html, aboutUs.html, shopping.html
 
 **К кому привязан:**
 - → faq.html (ссылка "Product Support" → "FAQ")
@@ -111,7 +111,7 @@
 ## 7. contact.html (contact-desktop-1920.png)
 **Кто это:** Страница товара (MSI MPG Trident 3) — ещё одна
 
-**Откуда пришёл:** Можно прийти с index.html, shopping.html, article.html, specs.html
+**Откуда пришёл:** Можно прийти с index.html, shopping.html, article.html
 
 **К кому привязан:**
 - → faq.html (ссылка "Product Support" → "FAQ")
@@ -121,13 +121,12 @@
 
 ---
 
-## 8. details.html (details-desktop-1920.png)
+## 8. details(Таб в article.html) (details-desktop-1920.png)
 **Кто это:** Детали товара
 
 **Откуда пришёл:** Можно прийти с shopping.html (категории)
 
 **К кому привязан:**
-- → specs.html (вкладка "Specifications")
 - → article.html (через "Features")
 - → contact.html (через "Features")
 - → shopping.html (через "Add to Cart" → basket.html)
@@ -155,7 +154,6 @@
 **Откуда пришёл:** Можно прийти с index.html (через раздел "Desktop PCs") или с basket.html (кнопка "Continue Shopping")
 
 **К кому привязан:**
-- → details.html (клик по товару)
 - → article.html (клик по товару MSI)
 - → contact.html (клик по другому товару)
 - → basket.html (кнопка "Add to Cart")
@@ -167,7 +165,7 @@
 ## 11. basket.html (shopping-2-desktop-1920.png)
 **Кто это:** Корзина
 
-**Откуда пришёл:** Можно прийти с ЛЮБОЙ страницы через иконку корзины в шапке. А также с shopping.html (Add to Cart), с article.html, с contact.html, с details.html
+**Откуда пришёл:** Можно прийти с ЛЮБОЙ страницы через иконку корзины в шапке. А также с shopping.html (Add to Cart), с article.html, с contact.html
 
 **К кому привязан:**
 - → checkout.html (кнопка "Proceed to Checkout")
@@ -176,13 +174,10 @@
 
 ---
 
-## 12. specs.html (specs-desktop-1920.png)
+## 12. specs(Таб в article.html) (specs-desktop-1920.png)
 **Кто это:** Характеристики товара
 
-**Откуда пришёл:** Можно прийти с details.html (вкладка "Specifications")
-
 **К кому привязан:**
-- → details.html (вкладка "Features" / "Overview")
 - → article.html (ссылка "Have a Question? Contact Us")
 - → contact.html (ссылка "Have a Question? Contact Us")
 - → basket.html (иконка корзины)
@@ -208,15 +203,12 @@
 | index.html | Стартовая, ниоткуда (или с любой по логотипу) |
 | shop.html | MSI Prestige Series |  
 | aboutUs.html | index.html, faq.html |
-| article.html | index.html, aboutUs.html, shopping.html, details.html, specs.html |
+| article.html | index.html, aboutUs.html, shopping.html|
 | account.html | index.html, register.html, faq.html |
 | checkout.html | basket.html |
-| contact.html | index.html, shopping.html, article.html, specs.html |
-| details.html | shopping.html |
 | faq.html | index.html, aboutUs.html, article.html, shopping.html |
 | shopping.html | index.html, basket.html |
 | basket.html | ЛЮБАЯ страница (иконка корзины), shopping.html, article.html, contact.html |
-| specs.html | details.html |
 | register.html | index.html, checkout.html |
 
 ---
@@ -234,11 +226,9 @@
 | `account.html` | Личный кабинет | User Account - 1 |
 | `checkout.html` | Оформление заказа | Checkout - 1 |
 | `contact.html` | Товар MSI Trident 3 | Contact Us - 1 |
-| `details.html` | Детали товара | Product - Details - 1 |
 | `faq.html` | Правила и условия | FAQ - 1 |
 | `shopping.html` | Каталог товаров | Shopping Cart - 1 |
 | `basket.html` | Корзина | Shopping Cart - 2 |
-| `specs.html` | Характеристики | Product - Specs - 1 |
 | `register.html` | Регистрация | Register - 1 |
 
 
@@ -303,10 +293,14 @@ dynamicBullets: true, Уменьшает шарики
 - article.html
 - article.js
 
-## Удалить .html
+## Удалила .html
 `details.html` | Детали товара | Product - Details - 1 | - оказался в article.html - material-1-2(article.js)
 
+## See All New Products
 
+- **Откуда:** Главная страница (`index.html`)
+- **Куда:** `msi-prestige.html`
+- **Суть:** Ссылка на каталог товаров (не на конкретный продукт)
+- **Доп. путь:** Через подвал (`footer`) также есть ссылка на `msi-prestige.html`
 
-
-
+Таким образом, `msi-prestige.html` — это полноценная страница-каталог, а не страница отдельного товара.
