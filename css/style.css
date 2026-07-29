@@ -2363,13 +2363,21 @@ button.acc__link {
   z-index: 10;
 }
 .toolbar__selects .choices[data-type*=select-one]:after {
-  content: "v";
+  content: "";
   position: absolute;
-  top: 23.5%;
-  right: 20px;
-  border-color: transparent;
-  color: var(--color-black);
-  pointer-events: none;
+  right: 15px;
+  top: 50%;
+  border-color: transparent; 
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid gray;  /* правая стенка */
+  border-bottom: 2px solid gray; /* нижняя стенка */
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.toolbar__selects .choices[data-type*=select-one].is-open::after {
+  transform: translateY(5%) rotate(-135deg); /* поворот вверх */
 }
 .toolbar__selects .choices__inner {
   font-size: 13px;
@@ -2407,6 +2415,7 @@ button.acc__link {
 }
 .shop__btn.btn {
   margin: -2px 20px 0 0;
+  outline: none;
 }
 .shop__btn.btn:not(:last-child) {
   margin-right: 5px;
