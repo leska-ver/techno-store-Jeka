@@ -48,5 +48,35 @@ document.addEventListener('DOMContentLoaded', function() {
     setActiveView('grid');
   })();
   
+
+  // Аккордион-Фильтр
+  const accordion = document.querySelectorAll('.shop__btn-accordion');
+
+  // Для каждой кнопки вешаем обработчик клика
+  accordion.forEach(accordion => {
+    accordion.addEventListener('click', function() {
+      // Ищем родительский пункт списка (li), в котором лежит эта кнопка
+      const parentItem = this.closest('.shop__group');
+      // Внутри этого родителя ищем блок с контентом
+      const content = parentItem.querySelector('.shop__accordion-content');
+
+      // Переключаем у него класс is-open (показать/скрыть)
+      content.classList.toggle('is-open');
+
+      // Переключаем класс is-open у кнопки (для поворота стрелки)
+      this.classList.toggle('is-open');  // ← исправлено!
+    });
+  });
+
+
+  // shop.js
+  const selects = document.querySelectorAll('.toolbar__sort select');
+selects.forEach(select => {
+  new Choices(select, {
+    searchEnabled: false,
+    shouldSort: false,
+    itemSelectText: '',
+  });
+});
   
 }); 

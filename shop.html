@@ -256,34 +256,161 @@
             <div class="shop__toolbar toolbar">
               <!-- Навигационные ссылки -->
               <div class="toolbar__links">
-                <a class="toolbar__link toolbar__link-back" href="msi-prestige.html">Back</a>
+                <a class="toolbar__link toolbar__link-back" href="everyday-notebooks.html">Back</a>
                 <!-- <a class="toolbar__link toolbar__link-forward" href="shop.html">Forward</a> -->
               </div>
               <div class="toolbar__count">items 1-35 of 61</div>
               <div class="toolbar__sort">
-                <label>Sort By:</label>
-                <select>...</select>
-              </div>
-              <div class="toolbar__per-page">
-                <label>Show:</label>
-                <select>...</select>
+                <div class="toolbar__selects">
+                  <form>
+                    <label for="sortSelect" class="visually-hidden">Сортировать по</label><!-- Для незрячих -->
+                    <select id="sortSelect"><!-- Без id браузер ругается -->        
+                      <option value="sort">Sort By: Position</option>
+                      <option value="sort-1">Sort By: Position-1</option>            
+                      <option value="sort-2">Sort By: Position-2</option>
+                      <option value="sort-3">Sort By: Position-3</option>        
+                    </select>
+                  </form> 
+                </div>
+                <div class="toolbar__selects">
+                  <form>
+                    <label for="showSelect" class="visually-hidden">Показывать</label><!-- Для незрячих -->
+                    <select id="showSelect"><!-- Без id браузер ругается -->         
+                      <option value="show">Show: 35 per page</option>
+                      <option value="show-102">Show: 102 per page-1</option>            
+                      <option value="show-74">Show: 74 per page-2</option>
+                      <option value="show-116">Show: 116 per page-3</option>        
+                    </select>
+                  </form>
+                </div>
+              </div>           
+              <div class="shop__catalog">
+                <div class="shop__toggle">
+                  <button class="shop__btn btn active" data-view="grid">
+                    <!-- <i></i> Сетка -->
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="0.5" y="7.81427" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="0.5" y="15.1285" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="7.81348" y="7.81427" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="7.81348" y="15.1285" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="7.81348" y="0.5" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="15.1279" y="7.81427" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="15.1279" y="15.1285" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                      <rect x="15.1279" y="0.5" width="3.57143" height="3.57143" fill="#A2A6B0" stroke="#A2A6B0"/>
+                    </svg>
+                  </button>
+                  <button class="shop__btn btn" data-view="list">
+                    <!-- <i></i> Список -->
+                    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="12.8" width="9.14286" height="2.74286" fill="#A2A6B0"/>
+                      <rect width="21.9429" height="2.74286" fill="#A2A6B0"/>
+                      <rect y="6.40002" width="16.4571" height="2.74286" fill="#A2A6B0"/>
+                    </svg> 
+                  </button>
+                </div>
               </div>
             </div>
             <div class="shop__kit">
               <div class="shop__left">
-
-              </div>
-              <div class="shop__right">
-                <div class="shop__catalog">
-                  <div class="shop__toggle">
-                    <button class="shop__btn btn active" data-view="grid">
-                      <i class="fas fa-th"></i> Сетка
-                    </button>
-                    <button class="shop__btn btn" data-view="list">
-                      <i class="fas fa-list"></i> Список
-                    </button>
+                <div class="shop__filters">
+                  <div class="shop__bar">
+                    <h3 class="shop__h3 h3">Filters</h3>
+                    <button class="shop__btn-filter btn">Clear Filter</button>
+                    <ul class="shop__accordion">
+                      <li class="shop__group">
+                        <!-- Заголовок аккордеона со стрелкой SVG -->
+                        <button class="shop__btn-accordion">
+                          <span class="shop__span">Category</span>
+                          <span class="shop__arrow">
+                            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 1.76923L3 3.76923L1 1.76923" stroke="#000000" stroke-width="1.6" stroke-linecap="round"/>
+                            </svg>
+                          </span>
+                        </button>
+                        <div class="shop__accordion-content">
+                          <ul class="shop__sublist">
+                            <li>CUSTOM PCS</li>
+                            <li>ДMSI ALL-IN-ONE PCS</li>
+                            <li>HP/COMPAQ PCS</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="shop__group">
+                        <!-- Заголовок аккордеона со стрелкой SVG -->
+                        <button class="shop__btn-accordion">
+                          <span class="shop__span">Price</span>
+                          <span class="shop__arrow">
+                            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 1.76923L3 3.76923L1 1.76923" stroke="#000000" stroke-width="1.6" stroke-linecap="round"/>
+                            </svg>
+                          </span>
+                        </button>
+                        <div class="shop__accordion-content">
+                          <ul class="shop__sublist">
+                            <li>$0.00 - $1,000.00</li>
+                            <li>$1,000.00 - $2,000.00</li>
+                            <li>$2,000.00 - $3,000.00</li>
+                            <li>$3,000.00 - $4,000.00</li>
+                            <li>$4,000.00 - $5,000.00</li>
+                            <li>$5,000.00 - $6,000.00</li>
+                            <li>$6,000.00 - $7,000.00</li>
+                            <li>$7,000.00 And Above</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="shop__group">
+                        <!-- Заголовок аккордеона со стрелкой SVG -->
+                        <button class="shop__btn-accordion color">
+                          <span class="shop__span">Color</span>
+                          <span class="shop__arrow">
+                            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 1.76923L3 3.76923L1 1.76923" stroke="#000000" stroke-width="1.6" stroke-linecap="round"/>
+                            </svg>
+                          </span>
+                        </button>
+                        <div class="shop__accordion-content color">
+                          <input class="shop__radio-black" type="radio" name="radioName">
+                          <input class="shop__radio-monza" type="radio" name="radioName" checked>
+                        </div>
+                      </li>
+                      <li class="shop__group">
+                        <!-- Заголовок аккордеона со стрелкой SVG -->
+                        <button class="shop__btn-accordion">
+                          <span class="shop__span">Filter Name</span>
+                          <span class="shop__arrow">
+                            <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 1.76923L3 3.76923L1 1.76923" stroke="#000000" stroke-width="1.6" stroke-linecap="round"/>
+                            </svg>
+                          </span>
+                        </button>
+                        <div class="shop__accordion-content">
+                          <ul class="shop__sublist">
+                            <li>Windows</li>
+                            <li>macOS</li>
+                            <li>Linux</li>
+                          </ul>
+                        </div>
+                        <button class="shop__name-margin btn">Apply Filters (2)</button>
+                      </li>
+                    </ul>
                   </div>
                 </div>
+                <div class="shop__brands">
+
+                </div>
+                <div class="shop__compare">
+
+                </div>
+                <div class="shop__wishlist">
+
+                </div>
+                <div class="shop__baner">
+
+                </div>
+              </div>
+              <div class="shop__right">
+                
                 <!-- РЕЖИМ СЕТКА (со слайдером) — ТЕПЕРЬ 4 БЛОКА -->
                 <div class="shop__block active-view" id="gridView">
                   <div class="shop__grid-swiper swiper">

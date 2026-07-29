@@ -296,11 +296,11 @@ dynamicBullets: true, Уменьшает шарики
 ## Удалила .html
 `details.html` | Детали товара | Product - Details - 1 | - оказался в article.html - material-1-2(article.js)
 
-## See All New Products
+### Главная (`index.html`)
+- **See All New Products** → `shop.html`
 
-- **Откуда:** Главная страница (`index.html`)
-- **Куда:** `msi-prestige.html`
-- **Суть:** Ссылка на каталог товаров (не на конкретный продукт)
-- **Доп. путь:** Через подвал (`footer`) также есть ссылка на `msi-prestige.html`
+### Подвал (`footer`)
+- **MSI Prestige Series** → `msi-prestige.html`
 
-Таким образом, `msi-prestige.html` — это полноценная страница-каталог, а не страница отдельного товара.
+### Проблема:
+В <option> нельзя стилизовать часть текста. Браузер игнорирует теги внутри. Только весь <option> целиком.

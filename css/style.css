@@ -73,6 +73,7 @@
   --color-merino: #F2E9DC;
   --color-mischka: #EAE8EB;
   --color-lrv: #030303;
+  --color-monza: #DB0000;
 }
 
 html {
@@ -93,7 +94,7 @@ html {
   -o-box-sizing: inherit;
   -ms-box-sizing: inherit;
   box-sizing: inherit;
-  /*outline: 1px solid red;Показывает кто скролит. Не удалять?*/
+  /*outline: 1px solid red; Показывает кто скролит. Не удалять?*/
 }
 
 html,
@@ -677,8 +678,10 @@ button.acc__link {
   display: flex;
   flex-wrap: wrap;
 }
-.breadcrumbs__item:not(:last-child) {
+.breadcrumbs__item {
   position: relative;
+}
+.breadcrumbs__item:not(:last-child) {
   margin: 0 17px 25px 0;
 }
 .breadcrumbs__item:last-child .breadcrumbs__link {/*Последний элемент - breadcrumbs__link--active*/
@@ -709,12 +712,17 @@ button.acc__link {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin: 0 108px 0 99px;
 }
 .toolbar__link {
   position: relative;
 }
 .toolbar__link-back {
-  margin: 0 0 0 25px;
+  font-weight: 600;
+}
+.toolbar__link-back::before {
+  content: "<";
+  left: -12px;
 }
 .toolbar__link-forward {
   margin: 0 25px 0 0;
@@ -722,10 +730,6 @@ button.acc__link {
 .toolbar__link::before {
   position: absolute;
   top: 1px;
-}
-.toolbar__link-back::before {
-  content: "<";
-  left: -10px;
 }
 .toolbar__link-forward::before {
   content: ">";
@@ -2199,14 +2203,184 @@ button.acc__link {
   padding: 0 0 0 0;
 }
 .shop__h2 {
-  margin-top: 5px;
+  margin: 5px 0 26px;
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.54px;
 }
+.shop__toolbar {
+  margin-bottom: 1px;
+}
+.shop__kit {
+  display: grid;
+  grid-template-columns: 230px 80%;
+  gap: 20px;
+}
+/* shop__left */
+.shop__bar {
+  margin-left: -5px;
+  padding: 12px 14px 10px 8px;
+  background-color: var(--color-zircon);
+}
+.shop__h3 {
+  margin: 0 0 9px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.shop__btn-filter {
+  margin-left: 7px;
+  padding: 8px 0;
+  border: 2px solid var(--color-grayChateau);
+  width: 94%;
+  color: var(--color-grayChateau);
+  background-color: transparent;  
+}
+.shop__btn-filter:focus {
+  border: 2px solid var(--color-grayChateau);
+  color: var(--color-white);
+  background-color: var(--color-grayChateau);
+}
+.shop__btn-filter:hover {
+  border: 2px solid var(--color-black);
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+.shop__btn-filter:not(:last-child) {
+  margin-bottom: 32px;
+}
+.shop__group:not(:last-child) {
+  margin-bottom: 19px;
+}
+.shop__btn-accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+.shop__btn-accordion:hover {
+  background-color: #e0e0e0;
+}
+.shop__btn-accordion.color {  
+  margin: 0 0 10px 0;
+}
+/* Контейнер для стрелки */
+.shop__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+  width: 16px;  /* Фиксируем размер, чтобы стрелка не прыгала */
+  height: 16px;
+  transition: transform 0.3s ease;  /* Плавный поворот */
+}
+/* SVG внутри стрелки */
+.shop__arrow svg {
+  display: block;
+}
+/* Скрываем содержимое аккордеона по умолчанию */
+.shop__accordion-content {
+  display: none;
+}
+/* Показываем когда открыто */
+.shop__accordion-content.is-open {
+  display: block;
+}
+.shop__accordion-content input[type="radio"] {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.shop__accordion-content input[type="radio"]:checked {
+  outline: 2px solid var(--color-blueRibbon);
+  outline-offset: 2px;
+}
+.shop__radio-black {
+  background-color: var(--color-black);
+}
+.shop__radio-monza {
+  background-color: var(--color-monza);
+}
+/* Когда аккордеон открыт - поворачиваем стрелку */
+.shop__btn-accordion.is-open .shop__arrow {
+  transform: rotate(180deg);/* Поворачиваем на 180, потому что твоя стрелка смотрит вниз */
+}
+.shop__accordion-content.color {  
+  margin: 0 0 30px 6px;
+}
+.shop__accordion-content.color input:not(:last-child) {  
+  margin: 0 6px 0 0;
+}
+.shop__name-margin {
+  margin: 14px 0 0 7px;
+  width: 94%;
+}
+.shop__sublist {
+  padding: 15px 6px;
+}
+.shop__sublist li {
+  font-size: 13px;
+  line-height: 11px;
+}
+.shop__sublist li:not(:last-child) {
+  margin-bottom: 16px;
+}  
+/* // shop__left */
+
+/* shop__right */
+.shop__right {
+  margin-top: 23px;
+}
 .shop__right .swiper-button-prev, .shop__right .swiper-button-next {
   display: none;
 }
+.toolbar__count {
+  font-size: clamp(12px, 2vw, 13px);
+}
+.toolbar__sort {  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 23px 0 auto;
+}
+.toolbar__selects select {
+  padding: 11px 0;
+  border-radius: 2px;
+  border: 2px solid var(--color-grayChateau);
+  font-size: 13px;
+  color: var(--color-chost);
+}
+.toolbar__selects .choices {
+  z-index: 10;
+}
+.toolbar__selects .choices[data-type*=select-one]:after {
+  content: "v";
+  position: absolute;
+  top: 23.5%;
+  right: 20px;
+  border-color: transparent;
+  color: var(--color-black);
+  pointer-events: none;
+}
+.toolbar__selects .choices__inner {
+  font-size: 13px;
+  background-color: transparent;
+}
+.toolbar__selects .choices__list--single {
+  padding: 13px 26px 9px 30px;
+  color: var(--color-grayChateau);
+}
+
+
 .shop__catalog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2215,45 +2389,47 @@ button.acc__link {
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
-  margin-bottom: 32px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #eef2f8;
 }
 .shop__toggle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 12px;
-  padding: 6px;
-  border-radius: 60px;
-  background: #f0f2f5;
 }
 .shop__btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 24px;
+  padding: 0;
   border: 2px solid transparent; /* ← всегда есть, но невидим */
-  border-radius: 40px;
-  font-weight: 500;
-  font-size: 14px;
-  background: transparent;
+  background-color: transparent;
   transition: 0.25s;
-  color: #4a5568;
 }
 .shop__btn.btn {
-  margin: 0;
+  margin: -2px 20px 0 0;
 }
-.shop__btn i {
-  font-size: 1.1rem;
+.shop__btn.btn:not(:last-child) {
+  margin-right: 5px;
 }
-.shop__btn.active {
-  color: #0156ff;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+.shop__btn.btn:focus, .shop__btn.btn:hover {
+  border: 2px solid transparent; /* ← всегда есть, но невидим */
+  background-color: transparent;
 }
-.shop__btn:hover {
-  border-color: blue; /* ← при ховере меняется только цвет */
+.shop__btn.active rect {
+  fill: var(--color-black);
+  stroke: var(--color-black);
+}
+.shop__btn.btn:focus rect {
+  border: 2px solid transparent; /* ← всегда есть, но невидим */
+  background-color: transparent;
+  fill: var(--color-black);
+  stroke: var(--color-black);
+}
+.shop__btn.btn:hover rect {
+  border: 2px solid transparent; /* ← всегда есть, но невидим */
+  background-color: transparent;
+  fill: var(--color-blueRibbon);
+  stroke: var(--color-blueRibbon);
 }
 /* Карточки */
 .shop__grid-card {
