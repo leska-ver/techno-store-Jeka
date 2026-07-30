@@ -81,10 +81,10 @@
   z-index: 2;
   opacity: 0;
   -webkit-transition: background .4s ease-in-out;
-    -ms-transition: background .4s ease-in-out;
-    -moz-transition: background .4s ease-in-out;
-    -o-transition: background .4s ease-in-out;
-    transition: background .4s ease-in-out;
+  -ms-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  -o-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
 }
 
 .tags-left__input:checked+span:before {
@@ -139,7 +139,7 @@
 }
 
 /*Активное состояние кнопок*/
-.sofas-active, .customPCS-active, .compaqPCS-active, .msi-allPCS-active {
+.customPCS-active, .compaqPCS-active, .msi-allPCS-active {
   display:inline-flex;
 }
 
