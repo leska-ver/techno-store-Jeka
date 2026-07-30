@@ -1,0 +1,148 @@
+:root {
+  --color-white: #fff;
+  --color-mineShaft: #333;/*Макета цвет black*/
+  --color-purpleHeart: #7033ac;/*primary_shade*/
+  --color-mediumPurple: #a65cf0;/*primary*/
+  --color-mauve: #c998fb;/*primary_light*/
+  --color-blueChalk: #ebd1ff;/*pink_violet*/
+  --color-magnolia: #f8efff;/*pink_light*/
+  --color-wildSand: #f6f6f6;/*grey_light*/
+  --color-dustyGray: #999;/*grey_shade*/
+  --color-snowFlurry: #daffd1;
+}
+
+.tags-left__label {
+  position: relative;
+  display: none;/*Для full*/
+  margin-bottom: 12px;
+  width: max-content;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-doveGray);
+}
+
+.tags-left__label span {
+  position: relative;
+  padding-left: 32px;
+}
+
+.tags-left__label span::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-dustyGray);
+  border-radius: 2px;
+  -webkit-transition: .4s ease-in-out;
+	-ms-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.tags-left__label span::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 7px;
+  height: 13px;
+  border-right: 2px solid var(--color-white);
+  border-bottom: 2px solid var(--color-white);
+  opacity: 0;
+  transform: rotate(45deg);
+  -webkit-transition: .1s ease-in-out;
+	-ms-transition: .1s ease-in-out;
+	-moz-transition: .1s ease-in-out;
+	-o-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+/*Для full*/
+/*Для тегов левой стороны*/
+.tags-left__label_furniture:nth-child(-n+10) {
+  display: block;
+}
+
+.full .tags-left__label {
+  display: block;
+}
+/* // Для full*/
+
+.tags-left__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: background .4s ease-in-out;
+    -ms-transition: background .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out;
+    -o-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
+}
+
+.tags-left__input:checked+span:before {
+  background-color: var(--color-mediumPurple);
+}
+
+.tags-left__input:focus ~ span:before {/*Саши стили через ~ */
+  background-color: var(--color-mauve);
+}
+
+.tags-left__input:hover ~ span:before {
+  background-color: var(--color-purpleHeart);
+}
+
+.tags-left__input:active ~ span:before {
+  background-color: var(--color-blueChalk);
+}
+
+.tags-left__input:checked+span::after {
+  opacity: 1;
+}
+
+.tags-right__h2 {
+  display: inline-block;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tags-right__catalog {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tags-right__tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 18px;
+  margin-bottom: 10px;
+  padding: 4px 7px 7px 10px;
+  border-radius: 3px; 
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-doveGray);
+}
+
+.tags-catalog {
+  display: none;
+  background-color: var(--color-snowFlurry);    
+}
+
+/*Активное состояние кнопок*/
+.sofas-active, .customPCS-active, .compaqPCS-active, .msi-allPCS-active {
+  display:inline-flex;
+}
+
+
+
+

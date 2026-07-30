@@ -21,6 +21,7 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-2.css">
   </head>
   <body>
     <div class="wrapper">
@@ -328,11 +329,26 @@
                             </svg>
                           </span>
                         </button>
-                        <div class="shop__accordion-content">
+                        <div class="shop__accordion-content is-open">
                           <ul class="shop__sublist">
-                            <li>CUSTOM PCS</li>
-                            <li>ДMSI ALL-IN-ONE PCS</li>
-                            <li>HP/COMPAQ PCS</li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_furniture" data-filter="custom-tag" for="custom-tag">
+                                <input class="tags-left__input customPCS-js" id="custom-tag" type="checkbox" name="custom-tag" aria-label="CUSTOM PCS" checked="checked">
+                                <span>CUSTOM PCS</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_furniture" data-filter="msi-al-tag" for="msi-al-tag">
+                                <input class="tags-left__input msi-allPCS-js" id="msi-al-tag" type="checkbox" name="msi-al-tag" aria-label="MSI ALL-IN-ONE PCS">
+                                <span>MSI ALL-IN-ONE PCS</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_furniture" data-filter="compaq-tag" for="compaq-tag">
+                                <input class="tags-left__input compaqPCS-js" id="compaq-tag" type="checkbox" name="compaq-tag" aria-label="HP/COMPAQ PCS" checked="checked">
+                                <span>HP/COMPAQ PCS</span>
+                              </label>
+                            </li>
                           </ul>
                         </div>
                       </li>
@@ -346,7 +362,7 @@
                             </svg>
                           </span>
                         </button>
-                        <div class="shop__accordion-content">
+                        <div class="shop__accordion-content is-open">
                           <ul class="shop__sublist">
                             <li>$0.00 - $1,000.00</li>
                             <li>$1,000.00 - $2,000.00</li>
@@ -369,7 +385,7 @@
                             </svg>
                           </span>
                         </button>
-                        <div class="shop__accordion-content color">
+                        <div class="shop__accordion-content color is-open">
                           <input class="shop__radio-black" type="radio" name="radioName">
                           <input class="shop__radio-monza" type="radio" name="radioName" checked>
                         </div>
@@ -410,6 +426,29 @@
                 </div>
               </div>
               <div class="shop__right">
+                <div class="shop__tags tags-right">
+                  <!-- <h2 class="tags-right__h2 h2">Каталог</h2> -->
+                  <div class="tags-right__catalog">
+                    <div class="tags-right__tag tags-catalog customPCS-tag customPCS-active">
+                      <span>CUSTOM PCS</span>
+                      <button class="tags-right__tag-btn customPCS-btn" aria-label="закрыть тег CUSTOM PCS">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog msi-allPCS-tag">
+                      <span>MSI ALL-IN-ONE PCS</span>
+                      <button class="tags-right__tag-btn msi-allPCS-btn" aria-label="закрыть тег MSI ALL-IN-ONE PCS">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog compaqPCS-tag compaqPCS-active">
+                      <span>HP/COMPAQ PCS</span>
+                      <button class="tags-right__tag-btn compaqPCS-btn" aria-label="закрыть тег HP/COMPAQ PCS">
+                        x
+                      </button>
+                    </div>
+                  </div>
+                </div>  
                 
                 <!-- РЕЖИМ СЕТКА (со слайдером) — ТЕПЕРЬ 4 БЛОКА -->
                 <div class="shop__block active-view" id="gridView">

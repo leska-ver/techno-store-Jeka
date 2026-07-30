@@ -304,3 +304,6 @@ dynamicBullets: true, Уменьшает шарики
 
 ### Проблема:
 В <option> нельзя стилизовать часть текста. Браузер игнорирует теги внутри. Только весь <option> целиком.
+
+### Теги (Tags) Кастомный чекбокс
+https://codepen.io/editor/tmeebphp-the-sans/pen/019fb3ea-0414-7dd1-8b1b-dd6346a509d8 → `shop.html`

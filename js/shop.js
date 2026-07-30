@@ -71,12 +71,96 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // shop.js
   const selects = document.querySelectorAll('.toolbar__sort select');
-selects.forEach(select => {
-  new Choices(select, {
-    searchEnabled: false,
-    shouldSort: false,
-    itemSelectText: '',
+  selects.forEach(select => {
+    new Choices(select, {
+      searchEnabled: false,
+      shouldSort: false,
+      itemSelectText: '',
+    });
   });
-});
   
+
+  // -- Теги (tags) Кастомный чекбокс --
+  // -- Тег - CustomPCS //
+  const categoryCustomPCS = document.querySelectorAll(".customPCS-js");
+  const TagsCustomPCS = document.querySelectorAll(".customPCS-tag");
+  const BtnCustomPCS = document.querySelectorAll(".customPCS-btn");
+
+  categoryCustomPCS.forEach(function(customPCS) {
+    customPCS.addEventListener("change", function() {
+      TagsCustomPCS.forEach(function(customPCSTag) {
+        customPCSTag.classList.toggle("customPCS-active")          
+      })
+    })
+  })
+
+  BtnCustomPCS.forEach(function(BtnsCustomPCSs) {
+    BtnsCustomPCSs.addEventListener("click", function() {
+      TagsCustomPCS.forEach(function(DeleteClassCustomPCS) {
+        DeleteClassCustomPCS.classList.remove("customPCS-active")          
+      })
+      categoryCustomPCS.forEach(function(customPCSInput) {
+        if ( customPCSInput.checked ) {
+          customPCSInput.checked = false
+        }
+      })
+    })
+  })
+  // -- //-- Тег - CustomPCS //
+
+  // -- Тег - MSI ALL-IN-ONE PCS //
+  const categoryMsiAllPCS = document.querySelectorAll(".msi-allPCS-js");
+  const TagsMsiAllPCS = document.querySelectorAll(".msi-allPCS-tag");
+  const BtnMsiAllPCS = document.querySelectorAll(".msi-allPCS-btn");
+
+  categoryMsiAllPCS.forEach(function(msiAllPCS) {
+    msiAllPCS.addEventListener("change", function() {
+      TagsMsiAllPCS.forEach(function(msiAllPCSTag) {
+        msiAllPCSTag.classList.toggle("msi-allPCS-active")          
+      })
+    })
+  })
+
+  BtnMsiAllPCS.forEach(function(BtnsMsiAllPCSs) {
+    BtnsMsiAllPCSs.addEventListener("click", function() {
+      TagsMsiAllPCS.forEach(function(DeleteClassMsiAllPCS) {
+        DeleteClassMsiAllPCS.classList.remove("msi-allPCS-active")          
+      })
+      categoryMsiAllPCS.forEach(function(msiAllPCSInput) {
+        if ( msiAllPCSInput.checked ) {
+          msiAllPCSInput.checked = false
+        }
+      })
+    })
+  })
+  // -- //-- Тег - MSI ALL-IN-ONE PCS //
+
+  // -- Тег - HP/COMPAQ PCS //
+  const categoryCompaqPCS = document.querySelectorAll(".compaqPCS-js");
+  const TagsCompaqPCS = document.querySelectorAll(".compaqPCS-tag");
+  const BtnCompaqPCS = document.querySelectorAll(".compaqPCS-btn");
+
+  categoryCompaqPCS.forEach(function(compaqPCS) {
+    compaqPCS.addEventListener("change", function() {
+      TagsCompaqPCS.forEach(function(compaqPCSTag) {
+        compaqPCSTag.classList.toggle("compaqPCS-active")          
+      })
+    })
+  })
+
+  BtnCompaqPCS.forEach(function(BtnsCompaqPCSs) {
+    BtnsCompaqPCSs.addEventListener("click", function() {
+      TagsCompaqPCS.forEach(function(DeleteClassCompaqPCS) {
+        DeleteClassCompaqPCS.classList.remove("compaqPCS-active")          
+      })
+      categoryCompaqPCS.forEach(function(compaqPCSInput) {
+        if ( compaqPCSInput.checked ) {
+          compaqPCSInput.checked = false
+        }
+      })
+    })
+  })
+  // -- //-- Тег - HP/COMPAQ PCS //
+  
+
 }); 
