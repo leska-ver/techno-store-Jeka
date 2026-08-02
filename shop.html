@@ -332,19 +332,19 @@
                         <div class="shop__accordion-content is-open">
                           <ul class="shop__sublist">
                             <li>
-                              <label class="tags-left__label tags-left__label_furniture" data-filter="custom-tag" for="custom-tag">
+                              <label class="tags-left__label tags-left__label_category" data-filter="custom-tag" for="custom-tag">
                                 <input class="tags-left__input customPCS-js" id="custom-tag" type="checkbox" name="custom-tag" aria-label="CUSTOM PCS" checked="checked">
                                 <span>CUSTOM PCS</span>
                               </label>
                             </li>
                             <li>
-                              <label class="tags-left__label tags-left__label_furniture" data-filter="msi-al-tag" for="msi-al-tag">
+                              <label class="tags-left__label tags-left__label_category" data-filter="msi-al-tag" for="msi-al-tag">
                                 <input class="tags-left__input msi-allPCS-js" id="msi-al-tag" type="checkbox" name="msi-al-tag" aria-label="MSI ALL-IN-ONE PCS">
                                 <span>MSI ALL-IN-ONE PCS</span>
                               </label>
                             </li>
                             <li>
-                              <label class="tags-left__label tags-left__label_furniture" data-filter="compaq-tag" for="compaq-tag">
+                              <label class="tags-left__label tags-left__label_category" data-filter="compaq-tag" for="compaq-tag">
                                 <input class="tags-left__input compaqPCS-js" id="compaq-tag" type="checkbox" name="compaq-tag" aria-label="HP/COMPAQ PCS" checked="checked">
                                 <span>HP/COMPAQ PCS</span>
                               </label>
@@ -354,7 +354,7 @@
                       </li>
                       <li class="shop__group">
                         <!-- Заголовок аккордеона со стрелкой SVG -->
-                        <button class="shop__btn-accordion">
+                        <button class="shop__btn-accordion price-margin">
                           <span class="shop__span">Price</span>
                           <span class="shop__arrow">
                             <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -364,14 +364,54 @@
                         </button>
                         <div class="shop__accordion-content is-open">
                           <ul class="shop__sublist">
-                            <li>$0.00 - $1,000.00</li>
-                            <li>$1,000.00 - $2,000.00</li>
-                            <li>$2,000.00 - $3,000.00</li>
-                            <li>$3,000.00 - $4,000.00</li>
-                            <li>$4,000.00 - $5,000.00</li>
-                            <li>$5,000.00 - $6,000.00</li>
-                            <li>$6,000.00 - $7,000.00</li>
-                            <li>$7,000.00 And Above</li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceOne-tag" for="priceOne-tag">
+                                <input class="tags-left__input priceOne-js" id="priceOne-tag" type="checkbox" name="priceOne-tag" aria-label="тег Ценик $0.00 - $1,000.00">
+                                <span>$0.00 - $1,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceTwo-tag" for="priceTwo-tag">
+                                <input class="tags-left__input priceTwo-js" id="priceTwo-tag" type="checkbox" name="priceTwo-tag" aria-label="тег Ценик $1,000.00 - $2,000.00">
+                                <span>$1,000.00 - $2,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceThree-tag" for="priceThree-tag">
+                                <input class="tags-left__input priceThree-js" id="priceThree-tag" type="checkbox" name="priceThree-tag" aria-label="тег Ценик $2,000.00 - $3,000.00">
+                                <span>$2,000.00 - $3,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceFour-tag" for="priceFour-tag">
+                                <input class="tags-left__input priceFour-js" id="priceFour-tag" type="checkbox" name="priceFour-tag" aria-label="тег Ценик $3,000.00 - $4,000.00">
+                                <span>$3,000.00 - $4,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceFive-tag" for="priceFive-tag">
+                                <input class="tags-left__input priceFive-js" id="priceFive-tag" type="checkbox" name="priceFive-tag" aria-label="тег Ценик $4,000.00 - $5,000.00">
+                                <span>$4,000.00 - $5,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceSix-tag" for="priceSix-tag">
+                                <input class="tags-left__input priceSix-js" id="priceSix-tag" type="checkbox" name="priceSix-tag" aria-label="тег Ценик $5,000.00 - $6,000.00">
+                                <span>$5,000.00 - $6,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceSeven-tag" for="priceSeven-tag">
+                                <input class="tags-left__input priceSeven-js" id="priceSeven-tag" type="checkbox" name="priceSeven-tag" aria-label="тег Ценик $6,000.00 - $7,000.00">
+                                <span>$6,000.00 - $7,000.00</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="priceEight-tag" for="priceEight-tag">
+                                <input class="tags-left__input priceEight-js" id="priceEight-tag" type="checkbox" name="priceEight-tag" aria-label="тег Ценик $7,000.00 And Above">
+                                <span>$7,000.00 And Above</span>
+                              </label>
+                            </li>
                           </ul>
                         </div>
                       </li>
@@ -402,9 +442,24 @@
                         </button>
                         <div class="shop__accordion-content">
                           <ul class="shop__sublist">
-                            <li>Windows</li>
-                            <li>macOS</li>
-                            <li>Linux</li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="windows-tag" for="windows-tag">
+                                <input class="tags-left__input windows-js" id="windows-tag" type="checkbox" name="windows-tag" aria-label="тег Ценик Windows">
+                                <span>Windows</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="macOS-tag" for="macOS-tag">
+                                <input class="tags-left__input macOS-js" id="macOS-tag" type="checkbox" name="macOS-tag" aria-label="тег Ценик macOS">
+                                <span>macOS</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="tags-left__label tags-left__label_category" data-filter="linux-tag" for="linux-tag">
+                                <input class="tags-left__input linux-js" id="linux-tag" type="checkbox" name="linux-tag" aria-label="тег Ценик Linux">
+                                <span>Linux</span>
+                              </label>
+                            </li>
                           </ul>
                         </div>
                         <button class="shop__name-margin btn">Apply Filters (2)</button>
@@ -430,22 +485,96 @@
                   <!-- <h2 class="tags-right__h2 h2">Каталог</h2> -->
                   <div class="tags-right__catalog">
                     <div class="tags-right__tag tags-catalog customPCS-tag customPCS-active">
-                      <span>CUSTOM PCS</span>
+                      <span>CUSTOM PCS <span class="count">(24)</span></span>
                       <button class="tags-right__tag-btn customPCS-btn" aria-label="закрыть тег CUSTOM PCS">
                         x
                       </button>
                     </div>
                     <div class="tags-right__tag tags-catalog msi-allPCS-tag">
-                      <span>MSI ALL-IN-ONE PCS</span>
+                      <span>MSI ALL-IN-ONE PCS <span class="count">(45)</span></span>
                       <button class="tags-right__tag-btn msi-allPCS-btn" aria-label="закрыть тег MSI ALL-IN-ONE PCS">
                         x
                       </button>
                     </div>
                     <div class="tags-right__tag tags-catalog compaqPCS-tag compaqPCS-active">
-                      <span>HP/COMPAQ PCS</span>
+                      <span>HP/COMPAQ PCS <span class="count">(24)</span></span>
                       <button class="tags-right__tag-btn compaqPCS-btn" aria-label="закрыть тег HP/COMPAQ PCS">
                         x
                       </button>
+                    </div>
+                    <!-- Каталог - Price -->
+                    <div class="tags-right__tag tags-catalog priceOne-tag">
+                      <span>$0.00 - $1,000.00 <span class="count">(19)</span></span>
+                      <button class="tags-right__tag-btn priceOne-btn" aria-label="закрыть тег Ценик $0.00 - $1,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceTwo-tag">
+                      <span>$1,000.00 - $2,000.00 <span class="count">(21)</span></span>
+                      <button class="tags-right__tag-btn priceTwo-btn" aria-label="закрыть тег Ценик $1,000.00 - $2,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceThree-tag">
+                      <span>$2,000.00 - $3,000.00 <span class="count">(9)</span></span>
+                      <button class="tags-right__tag-btn priceThree-btn" aria-label="закрыть тег Ценик $2,000.00 - $3,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceFour-tag">
+                      <span>$3,000.00 - $4,000.00 <span class="count">(6)</span></span>
+                      <button class="tags-right__tag-btn priceFour-btn" aria-label="закрыть тег Ценик $3,000.00 - $4,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceFive-tag">
+                      <span>$4,000.00 - $5,000.00 <span class="count">(3)</span></span>
+                      <button class="tags-right__tag-btn priceFive-btn" aria-label="закрыть тег Ценик $4,000.00 - $5,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceSix-tag">
+                      <span>$5,000.00 - $6,000.00 <span class="count">(1)</span></span>
+                      <button class="tags-right__tag-btn priceSix-btn" aria-label="закрыть тег Ценик $5,000.00 - $6,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceSeven-tag">
+                      <span>$5,000.00 - $6,000.00 <span class="count">(1)</span></span>
+                      <button class="tags-right__tag-btn priceSeven-btn" aria-label="закрыть тег Ценик $5,000.00 - $6,000.00">
+                        x
+                      </button>
+                    </div>
+                    <div class="tags-right__tag tags-catalog priceEight-tag">
+                      <span>$7,000.00 And Above <span class="count">(1)</span></span>
+                      <button class="tags-right__tag-btn priceEight-btn" aria-label="закрыть тег Ценик $7,000.00 And Above">
+                        x
+                      </button>
+                    </div>
+                    <!-- // Каталог - Price -->
+                    <!-- Каталог - Filter Name -->
+                    <div class="tags-right__tag tags-catalog windows-tag">
+                      <span>Windows <span class="count">(33)</span></span>
+                      <button class="tags-right__tag-btn windows-btn" aria-label="закрыть тег Windows">
+                        x
+                      </button>
+                    </div> 
+                    <div class="tags-right__tag tags-catalog macOS-tag">
+                      <span>macOS <span class="count">(3)</span></span>
+                      <button class="tags-right__tag-btn macOS-btn" aria-label="закрыть тег macOS">
+                        x
+                      </button>
+                    </div> 
+                    <div class="tags-right__tag tags-catalog linux-tag">
+                      <span>Linux <span class="count">(1)</span></span>
+                      <button class="tags-right__tag-btn linux-btn" aria-label="закрыть тег Linux">
+                        x
+                      </button>
+                    </div> 
+                    <!-- // Каталог - Filter Name --> 
+                    <!-- Всё выключает -->
+                    <div class="tags-right__tag tags-catalog clear-active">
+                      <span>Clear All</span>
                     </div>
                   </div>
                 </div>  

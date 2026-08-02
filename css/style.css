@@ -55,7 +55,7 @@
   --color-selectiveYellow: #ffb800;
   --color-chelseaCucumber: #78a962;
   --color-doveGray: #666;
-  --color-chost: #cacdd8;
+  --color-ghost: #cacdd8;
   --color-grayChateau: #a2a6b0;
   --color-silverChalice: #acacac;
   --color-zircon: #f5f7ff;
@@ -808,7 +808,7 @@ button.acc__link {
 /*Таб-3(Specs)*/
 .article__specs-table {
   margin: 14px 0 36px;;
-  border: 1px solid var(--color-chost);
+  border: 1px solid var(--color-ghost);
   width: 70.7%;
 }
 .article__specs-table tr {
@@ -1190,7 +1190,7 @@ button.acc__link {
   -moz--gap: 12px;
   gap: 12px;
   padding: 15px;
-  border-bottom: 1px solid var(--color-chost);
+  border-bottom: 1px solid var(--color-ghost);
 }
 .dropdown__block:last-child {
   border-bottom: none;
@@ -1525,7 +1525,7 @@ button.acc__link {
   right: 0;
   display: none;
   border-radius: 8px;
-  border: 1px solid var(--color-chost);
+  border: 1px solid var(--color-ghost);
   max-width: 200px;
   max-height: 400px;
   background: white;
@@ -1542,7 +1542,7 @@ button.acc__link {
   display: flex;
   align-items: center;
   padding: 12px 16px;
-  border-bottom: 1px solid var(--color-chost);
+  border-bottom: 1px solid var(--color-ghost);
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -2214,7 +2214,7 @@ button.acc__link {
 .shop__kit {
   display: grid;
   grid-template-columns: 230px 80%;
-  gap: 20px;
+  gap: 7px;
 }
 /* shop__left */
 .shop__bar {
@@ -2250,7 +2250,7 @@ button.acc__link {
   margin-bottom: 32px;
 }
 .shop__group:not(:last-child) {
-  margin-bottom: 19px;
+  margin-bottom: 9px;
 }
 .shop__btn-accordion {
   display: flex;
@@ -2264,8 +2264,11 @@ button.acc__link {
 .shop__btn-accordion:hover {
   background-color: #e0e0e0;
 }
+.shop__btn-accordion.price-margin {/*Price*/
+  margin-bottom: 5px;
+}
 .shop__btn-accordion.color {  
-  margin: 0 0 10px 0;
+  margin: 18px 0 12px 0;
 }
 /* Контейнер для стрелки */
 .shop__arrow {
@@ -2321,7 +2324,7 @@ button.acc__link {
   width: 94%;
 }
 .shop__sublist {
-  padding: 15px 6px;
+  padding: 13px 6px;
 }
 .shop__sublist li {
   font-size: 13px;
@@ -2334,7 +2337,7 @@ button.acc__link {
 
 /* shop__right */
 .shop__right {
-  margin-top: 23px;
+  margin: 4px 0 0 0;
 }
 .shop__right .swiper-button-prev, .shop__right .swiper-button-next {
   display: none;
@@ -2357,7 +2360,7 @@ button.acc__link {
   border-radius: 2px;
   border: 2px solid var(--color-grayChateau);
   font-size: 13px;
-  color: var(--color-chost);
+  color: var(--color-ghost);
 }
 .toolbar__selects .choices {
   z-index: 10;
@@ -3046,7 +3049,7 @@ button.acc__link {
   justify-content: space-between;
   padding: 20px 25px 18px 30px;
   border-radius: 6px;
-  border: 1px solid var(--color-chost);
+  border: 1px solid var(--color-ghost);
   font-weight: 500;
   font-size: clamp(12px, 1vw, 16px);
 }
@@ -3891,7 +3894,7 @@ input::placeholder {
     display: block;
     padding: 11px 12px 11px 37px;  /* слева отступ под лупу */
     border-radius: 30px;
-    border: 1px solid var(--color-chost);
+    border: 1px solid var(--color-ghost);
     width: 100%;
     font-size: 13px;
     background-color: var(--color-white);
