@@ -1003,6 +1003,87 @@ button.acc__link {
 }
 /* // Кнопки цветные Таба */
 
+/* ===== Теги Фильтра(шаблон) shop.html ===== */
+.tags-left__label {
+  position: relative;
+  display: none;/*Для full*/
+  margin-bottom: 12px;
+  width: max-content;
+  /* outline: none; */
+}
+/*Для full*/
+/*Для тегов левой стороны*/
+.tags-left__label_category:nth-child(-n+10) {
+  display: block;
+}
+.full .tags-left__label {
+  display: block;
+}
+/* // Для full*/
+.tags-left__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+}
+.tags-left__input + span {
+  outline: none; /* убираем стандартный outline */
+  -webkit-transition: color .4s ease-in-out;
+  -ms-transition: color .4s ease-in-out;
+  -moz-transition: color .4s ease-in-out;
+  -o-transition: color .4s ease-in-out;
+  transition: color .4s ease-in-out;
+}
+/* Фокус на самом чекбоксе (скрытом) — но он невидимый, поэтому не важно */
+.tags-left__input:focus + span {
+  color: var(--color-mojo);
+}
+.tags-left__input:hover + span {
+  outline: none; /* убираем стандартный outline */
+  color: var(--color-blueRibbon);
+}
+.tags-right__h2 {
+  display: inline-block;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.tags-right__catalog {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tags-right__tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  padding: 8px 14px 7px 12px;
+  border-radius: 2px; 
+  border: 1px solid var(--color-ghost);
+  line-height: 18px;
+  color: var(--color-doveGray);
+}
+.tags-catalog {
+  display: none;    
+}
+/*Активное состояние кнопок*/
+.customPCS-active, .compaqPCS-active, .msi-allPCS-active, .priceOne-active, .priceTwo-active, .priceThree-active, .priceFour-active, .priceFive-active, .priceSix-active, .priceSeven-active, .priceEight-active, .windows-active, .macOS-active, .linux-active, .clear-active {
+  display:inline-flex;
+}
+.tags-right__tag-btn { /*Выключатель x*/
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: var(--color-mojo);
+  color: var(--color-white);
+}
+/* ===== // Теги Фильтра(шаблон) shop.html ===== */
+
 
 /* ===== ШАПКА header-1920 ===== */
 .header {
@@ -2256,26 +2337,48 @@ button.acc__link {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 2px;
+  padding-bottom: 3px;
   border: none;
   width: 100%;
   font-size: 14px;
   cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.shop__btn-accordion:focus {
+  outline: none;
+  color: var(--color-white);
+  background-color: var(--color-mojo);
 }
 .shop__btn-accordion:hover {
-  background-color: #e0e0e0;
+  color: var(--color-white);
+  background-color: var(--color-grayChateau);
+}
+.shop__btn-accordion svg path {
+  -webkit-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.shop__btn-accordion:focus svg path, .shop__btn-accordion:hover svg path {
+  stroke: var(--color-white);
 }
 .shop__btn-accordion.price-margin {/*Price*/
   margin-bottom: 5px;
 }
 .shop__btn-accordion.color {  
-  margin: 18px 0 12px 0;
+  margin: -3px 0 12px 0;
 }
 /* Контейнер для стрелки */
 .shop__arrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3px;
   width: 16px;  /* Фиксируем размер, чтобы стрелка не прыгала */
   height: 16px;
   transition: transform 0.3s ease;  /* Плавный поворот */
@@ -2355,6 +2458,9 @@ button.acc__link {
   gap: 12px;
   margin: 0 23px 0 auto;
 }
+.toolbar__selects {
+  min-width: 185px;
+}
 .toolbar__selects select {
   padding: 11px 0;
   border-radius: 2px;
@@ -2387,7 +2493,7 @@ button.acc__link {
   background-color: transparent;
 }
 .toolbar__selects .choices__list--single {
-  padding: 13px 26px 9px 30px;
+  padding: 13px 0px 9px 17px;
   color: var(--color-grayChateau);
 }
 
@@ -2473,7 +2579,7 @@ button.acc__link {
   background: #fafcff;
   height: 200px;  /* фиксированная высота для всех картинок */
 }
-.shop__img img {
+.shop__img img {/* Не удалять! */
   display: block;
   max-width: 100%;
   max-height: 100%;
