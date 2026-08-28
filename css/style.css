@@ -2445,6 +2445,9 @@ button.acc__link {
 .shop__right .swiper-button-prev, .shop__right .swiper-button-next {
   display: none;
 }
+.shop__tags {
+  height: 45px;/*Чтобы от отсуствия tags-right__catalog не прыгало*/
+}
 .toolbar__count {
   font-size: clamp(12px, 2vw, 13px);
 }
@@ -2655,6 +2658,9 @@ button.acc__link {
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   align-items: stretch;  /* выравнивание карточек по высоте */
+}
+.shop__list {
+  margin-top: -25px;
 }
 /* Список внутри слайда */
 .shop__list-inside {

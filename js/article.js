@@ -1680,9 +1680,3615 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   // ============================================
+  // БАЗА ДАННЫХ ТОВАРОВ shop.html(.catalog__link)
+  // ============================================
+  const shop = [
+    {
+      id: "shop-1",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-2",
+      title: "Тёмно серый ноут",
+      link: "Be review this product",
+      img: "2.png",
+      sku: "SHOP-002",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-3",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "3.png",
+      sku: "SHOP-003",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          side: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-4",
+      title: "Тёмно серый ноут",
+      link: "Be review this product",
+      img: "4.png",
+      sku: "SHOP-004",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "4.png", imgTablet: "4-768.png", imgMobile: "4-375.png" },
+          side: { img: "13.png", imgTablet: "13-768.png", imgMobile: "13-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-5",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "5.png",
+      sku: "SHOP-005",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "5.png", imgTablet: "5-768.png", imgMobile: "5-375.png" },
+          side: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          back: { img: "10.png", imgTablet: "10-768.png", imgMobile: "10-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-6",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "6.png",
+      sku: "SHOP-006",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "6.png", imgTablet: "6-768.png", imgMobile: "6-375.png" },
+          side: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          back: { img: "10.png", imgTablet: "10-768.png", imgMobile: "10-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-7",
+      title: "Белый ноут",
+      link: "Be review this product",
+      img: "7.png",
+      sku: "SHOP-007",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "7.png", imgTablet: "7-768.png", imgMobile: "7-375.png" },
+          side: { img: "11.png", imgTablet: "11-768.png", imgMobile: "11-375.png" },
+          back: { img: "10.png", imgTablet: "10-768.png", imgMobile: "10-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-8",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "8.png",
+      sku: "SHOP-008",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "8.png", imgTablet: "8.png", imgMobile: "8.png" },
+          side: { img: "13.png", imgTablet: "13.png", imgMobile: "13.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-9",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-10",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-11",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-12",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-13",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-14",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-15",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-16",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-17",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-18",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-19",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-20",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-21",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-22",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-23",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-24",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-25",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-26",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-27",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-28",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-29",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-30",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-31",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-32",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-33",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-34",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-35",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-36",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-37",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-38",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-39",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-40",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-41",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-42",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-43",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-44",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-45",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-46",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-47",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-48",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-49",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-50",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-51",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-52",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-53",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-54",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-55",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-56",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-57",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-58",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-59",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-60",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-61",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-62",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-63",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-64",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-65",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-66",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-67",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-68",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-69",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-70",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-71",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-72",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-73",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-74",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-75",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-76",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-77",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-78",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-79",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    },
+    {
+      id: "shop-80",
+      title: "Серый ноут",
+      link: "Be review this product",
+      img: "1.png",
+      sku: "SHOP-001",
+      questionText: "Have a Question?",
+      contactText: "Contact Us",
+      desc: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...",
+      colors: {
+        abbey: {
+          front: { img: "1.png", imgTablet: "1-768.png", imgMobile: "1-375.png" },
+          side: { img: "3.png", imgTablet: "3-768.png", imgMobile: "3-375.png" },
+          back: { img: "2.png", imgTablet: "2-768.png", imgMobile: "2-375.png" }
+        }
+      },
+      about: {
+        type: "text",
+        content: "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On..."
+      },
+      details: {
+        type: "list",
+        content: [
+          "Процессор: Intel Celeron QC N3160",
+          "Оперативная память: 4GB DDR3",
+          "Графика: Intel HD Graphics",
+          "Экран: 15.6 дюймов, мультитач",
+          "Тип: Моноблок",
+          "Операционная система: Windows 10",
+          "Вес: 2.5 кг"
+        ]
+      },
+      specs: {
+        type: "table",
+        content: [
+          { label: "Процессор", value: "Intel Celeron QC N3160" },
+          { label: "ОЗУ", value: "4GB DDR3" },
+          { label: "Графика", value: "Intel HD Graphics" },
+          { label: "Экран", value: "15.6 дюймов (сенсорный)" },
+          { label: "Тип", value: "Моноблок" },
+          { label: "ОС", value: "Windows 10" },
+          { label: "Вес", value: "2.5 кг" }
+        ]
+      }
+    }
+  ];
+
+  // ============================================
   // ОБЪЕДИНЯЕМ ВСЕ ТОВАРЫ В ОДИН МАССИВ
   // ============================================
-  const allGoods = [...products, ...customers, ...laptops, ...desktops, ...monitors];
+  const allGoods = [...products, ...customers, ...laptops, ...desktops, ...monitors, ...shop];
 
   // ============================================================
   // 6. ДОБАВЛЯЕМ ДАННЫЕ ДЛЯ ТАБОВ (material-1, material-2, material-3)
@@ -1769,7 +5375,6 @@ document.addEventListener('DOMContentLoaded', function() {
     container.appendChild(tab3);
   }
   
-
   // ============================================
   // ОПРЕДЕЛЕНИЕ СЕКЦИИ И ХЛЕБНЫХ КРОШЕК
   // ============================================
@@ -1915,9 +5520,9 @@ document.addEventListener('DOMContentLoaded', function() {
     else if (product.id.startsWith('laptops')) imgFolder = 'laptops';
     else if (product.id.startsWith('desktops')) imgFolder = 'desktops';
     else if (product.id.startsWith('monitors')) imgFolder = 'monitors';
-    else imgFolder = 'catalog/products';
+    else if (product.id.startsWith('shop')) imgFolder = 'shop/grid-list'; // ← для shop товаров
     
-    const imgElement = document.getElementById('article-img');
+    const imgElement = document.getElementById('article__image');
     if (imgElement) {
       imgElement.src = `./img/${imgFolder}/${product.img}`;
     }
@@ -2069,6 +5674,7 @@ document.addEventListener('DOMContentLoaded', function() {
       else if (product.id.startsWith('laptops')) imgFolder = 'laptops';
       else if (product.id.startsWith('desktops')) imgFolder = 'desktops';
       else if (product.id.startsWith('monitors')) imgFolder = 'monitors';
+      else if (product.id.startsWith('shop')) imgFolder = 'shop/grid-list';
       
       // ========== СЧИТАЕМ КОЛИЧЕСТВО ДОСТУПНЫХ РАКУРСОВ ==========
       let visibleCount = 0;
